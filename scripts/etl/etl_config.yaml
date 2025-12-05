@@ -1,0 +1,23 @@
+# ETL Configuration File
+# Agricultural Supply Chain Data Warehouse
+
+database:
+  host: localhost
+  port: 5432
+  database: agri_dw
+  user: postgres
+  password: postgres  # Change this to your actual password
+  
+etl:
+  batch_size: 1000
+  max_retries: 3
+  retry_delay_seconds: 5
+  
+logging:
+  level: INFO
+  log_file: etl_pipeline.log
+  
+data_quality:
+  enabled: true
+  null_threshold_pct: 5
+  duplicate_threshold_pct: 1

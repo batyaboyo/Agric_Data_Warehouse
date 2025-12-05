@@ -1,0 +1,55 @@
+# Python Dependencies for Agricultural Supply Chain Data Warehouse
+# Install with: pip install -r requirements.txt
+
+# Data Generation and Manipulation
+pandas==2.1.4
+numpy==1.26.2
+faker==20.1.0
+
+# Database Connectivity
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+
+# Kafka Integration
+kafka-python==2.0.2
+confluent-kafka==2.3.0
+
+# Blockchain (Hyperledger Fabric SDK)
+# Note: Hyperledger Fabric Python SDK requires manual installation
+# See: https://github.com/hyperledger/fabric-sdk-py
+
+# Identity Management (Keycloak)
+python-keycloak==3.8.0
+
+# API Development
+fastapi==0.105.0
+uvicorn==0.25.0
+pydantic==2.5.2
+
+# Configuration Management
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Logging and Monitoring
+loguru==0.7.2
+
+# Data Validation
+great-expectations==0.18.8
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+requests==2.31.0
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Code Quality
+black==23.12.1
+flake8==6.1.0
+mypy==1.7.1
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.3

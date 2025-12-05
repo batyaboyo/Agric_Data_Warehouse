@@ -1,0 +1,163 @@
+@startuml System Architecture - Blockchain Agricultural Data Warehouse
+
+!define RECTANGLE class
+
+' External Systems and Data Sources
+package "Data Sources" {
+  [Mobile App\n(Farmer Registration)] as mobile
+  [POS Terminals\n(Market Transactions)] as pos
+  [External APIs\n(Market Prices, Weather)] as api
+  [Government Systems\n(Subsidy Programs)] as gov
+}
+
+' Identity Management
+package "Identity & Access Management" {
+  database "Keycloak\nIdentity Provider" as keycloak {
+    [Realm: AgriSupplyChain]
+    [Users & Roles]
+    [OAuth2/OIDC]
+  }
+}
+
+' Blockchain Layer
+package "Blockchain Layer" {
+  node "Hyperledger Fabric Network" as fabric {
+    [Peer 0\n(Farmer Org)] as peer0
+    [Peer 1\n(Market Org)] as peer1
+    [Orderer] as orderer
+    [Channel:\nagri-channel] as channel
+    database "Ledger" as ledger
+    [Chaincode:\nAgriSupply] as chaincode
+  }
+}
+
+' Streaming Layer
+package "Streaming & Message Queue" {
+  node "Apache Kafka" as kafka {
+    queue "farmers-topic" as topic1
+    queue "transactions-topic" as topic2
+    queue "pricing-topic" as topic3
+    queue "harvest-topic" as topic4
+  }
+  [Zookeeper] as zk
+}
+
+' Data Warehouse Layer
+package "Data Warehouse" {
+  database "PostgreSQL" as postgres {
+    folder "Staging Schema" {
+      [stg_farmers]
+      [stg_transactions]
+      [stg_products]
+      [stg_markets]
+    }
+    folder "DW Schema" {
+      [dim_farmer]
+      [dim_product]
+      [dim_market]
+      [dim_buyer]
+      [dim_date]
+      [fact_transaction]
+      [fact_harvest]
+      [fact_pricing]
+    }
+    folder "Audit Schema" {
+      [audit_logs]
+      [etl_metadata]
+    }
+  }
+}
+
+' ETL & Processing
+package "ETL & Processing" {
+  [Python ETL Scripts] as etl
+  [Data Quality Checks] as dq
+  [SCD Type 2 Processor] as scd
+  [Kafka Consumers] as consumers
+  [Kafka Producers] as producers
+}
+
+' Analytics & Reporting
+package "Analytics & Reporting" {
+  [Power BI\nDashboards] as powerbi
+  [SQL Analytics\nQueries] as sql_analytics
+  [Data Export\nServices] as export
+}
+
+' Application Layer
+package "Application Services" {
+  [Blockchain Client\n(Python SDK)] as bc_client
+  [REST API\n(FastAPI)] as api_service
+  [Authentication\nService] as auth
+}
+
+' Data Flow Relationships
+
+mobile --> keycloak : "Authenticate"
+pos --> keycloak : "Authenticate"
+
+mobile --> producers : "Send farmer data"
+pos --> producers : "Send transaction data"
+api --> producers : "Send market/weather data"
+gov --> producers : "Send subsidy data"
+
+producers --> topic1
+producers --> topic2
+producers --> topic3
+producers --> topic4
+
+topic1 --> consumers
+topic2 --> consumers
+topic3 --> consumers
+topic4 --> consumers
+
+consumers --> postgres : "Load to staging"
+
+pos --> bc_client : "Record transaction"
+bc_client --> chaincode : "Submit transaction"
+chaincode --> ledger : "Write to ledger"
+chaincode --> channel
+
+peer0 --> ledger
+peer1 --> ledger
+orderer --> channel
+
+etl --> postgres : "Staging → DW"
+etl --> dq : "Quality checks"
+etl --> scd : "SCD processing"
+
+postgres --> powerbi : "Query data"
+postgres --> sql_analytics : "Ad-hoc queries"
+postgres --> export : "Export datasets"
+
+keycloak --> auth : "Token validation"
+auth --> api_service : "Secure endpoints"
+api_service --> postgres : "Query DW"
+api_service --> bc_client : "Query blockchain"
+
+' Notes
+note right of fabric
+  Immutable transaction ledger
+  Decentralized trust
+  Smart contract execution
+end note
+
+note right of kafka
+  Real-time data streaming
+  Decoupled architecture
+  Fault tolerance
+end note
+
+note right of postgres
+  OLAP optimized
+  Historical analysis
+  Complex queries
+end note
+
+note right of keycloak
+  Digital farmer identity
+  Linked to blockchain wallet
+  SSO for all services
+end note
+
+@enduml

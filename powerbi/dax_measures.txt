@@ -1,0 +1,355 @@
+-- ============================================================
+-- DAX Measures for Power BI
+-- Agricultural Supply Chain Data Warehouse
+-- ============================================================
+-- Copy these measures into Power BI Desktop
+-- ============================================================
+
+-- ============================================================
+-- REVENUE METRICS
+-- ============================================================
+
+Total Revenue = SUM(fact_transaction[total_amount])
+
+Total Revenue YTD = 
+TOTALYTD([Total Revenue], dim_date[full_date])
+
+Revenue Previous Year = 
+CALCULATE(
+    [Total Revenue],
+    SAMEPERIODLASTYEAR(dim_date[full_date])
+)
+
+Revenue YoY Growth % = 
+DIVIDE(
+    [Total Revenue] - [Revenue Previous Year],
+    [Revenue Previous Year],
+    0
+) * 100
+
+Revenue MTD = 
+TOTALMTD([Total Revenue], dim_date[full_date])
+
+Revenue QTD = 
+TOTALQTD([Total Revenue], dim_date[full_date])
+
+Revenue Last Month = 
+CALCULATE(
+    [Total Revenue],
+    PREVIOUSMONTH(dim_date[full_date])
+)
+
+Revenue MoM Growth % = 
+DIVIDE(
+    [Total Revenue] - [Revenue Last Month],
+    [Revenue Last Month],
+    0
+) * 100
+
+Average Transaction Value = 
+AVERAGE(fact_transaction[total_amount])
+
+-- ============================================================
+-- VOLUME METRICS
+-- ============================================================
+
+Total Quantity (kg) = SUM(fact_transaction[quantity_kg])
+
+Total Transactions = COUNT(fact_transaction[transaction_id])
+
+Average Price per kg = 
+DIVIDE(
+    [Total Revenue],
+    [Total Quantity (kg)],
+    0
+)
+
+Average Quantity per Transaction = 
+AVERAGE(fact_transaction[quantity_kg])
+
+-- ============================================================
+-- FARMER METRICS
+-- ============================================================
+
+Active Farmers = 
+DISTINCTCOUNT(fact_transaction[farmer_key])
+
+Total Registered Farmers = 
+COUNTROWS(
+    FILTER(
+        dim_farmer,
+        dim_farmer[is_current] = TRUE
+    )
+)
+
+New Farmers This Month = 
+CALCULATE(
+    DISTINCTCOUNT(dim_farmer[farmer_id]),
+    FILTER(
+        dim_farmer,
+        dim_farmer[registration_date] >= STARTOFMONTH(TODAY()) &&
+        dim_farmer[registration_date] <= TODAY() &&
+        dim_farmer[is_current] = TRUE
+    )
+)
+
+Average Revenue per Farmer = 
+DIVIDE(
+    [Total Revenue],
+    [Active Farmers],
+    0
+)
+
+Average Transactions per Farmer = 
+DIVIDE(
+    [Total Transactions],
+    [Active Farmers],
+    0
+)
+
+-- ============================================================
+-- MARKET METRICS
+-- ============================================================
+
+Active Markets = 
+DISTINCTCOUNT(fact_transaction[market_key])
+
+Market Share % = 
+DIVIDE(
+    [Total Revenue],
+    CALCULATE(
+        [Total Revenue],
+        ALL(dim_market)
+    ),
+    0
+) * 100
+
+Top Market by Revenue = 
+FIRSTNONBLANK(
+    TOPN(
+        1,
+        VALUES(dim_market[market_name]),
+        [Total Revenue],
+        DESC
+    ),
+    1
+)
+
+-- ============================================================
+-- PRODUCT METRICS
+-- ============================================================
+
+Active Products = 
+DISTINCTCOUNT(fact_transaction[product_key])
+
+Top Product by Revenue = 
+FIRSTNONBLANK(
+    TOPN(
+        1,
+        VALUES(dim_product[product_name]),
+        [Total Revenue],
+        DESC
+    ),
+    1
+)
+
+Product Revenue Rank = 
+RANKX(
+    ALL(dim_product[product_name]),
+    [Total Revenue],
+    ,
+    DESC,
+    DENSE
+)
+
+-- ============================================================
+-- QUALITY METRICS
+-- ============================================================
+
+Premium Quality % = 
+DIVIDE(
+    CALCULATE(
+        [Total Quantity (kg)],
+        dim_quality[quality_grade] = "A"
+    ),
+    [Total Quantity (kg)],
+    0
+) * 100
+
+Standard Quality % = 
+DIVIDE(
+    CALCULATE(
+        [Total Quantity (kg)],
+        dim_quality[quality_grade] = "B"
+    ),
+    [Total Quantity (kg)],
+    0
+) * 100
+
+Below Standard Quality % = 
+DIVIDE(
+    CALCULATE(
+        [Total Quantity (kg)],
+        dim_quality[quality_grade] = "C"
+    ),
+    [Total Quantity (kg)],
+    0
+) * 100
+
+Average Quality Score = 
+AVERAGEX(
+    fact_transaction,
+    RELATED(dim_quality[quality_score])
+)
+
+-- ============================================================
+-- PAYMENT METRICS
+-- ============================================================
+
+Mobile Money Revenue = 
+CALCULATE(
+    [Total Revenue],
+    dim_payment_method[payment_method] = "Mobile Money"
+)
+
+Mobile Money % = 
+DIVIDE(
+    [Mobile Money Revenue],
+    [Total Revenue],
+    0
+) * 100
+
+Cash Revenue = 
+CALCULATE(
+    [Total Revenue],
+    dim_payment_method[payment_method] = "Cash"
+)
+
+Digital Payment % = 
+DIVIDE(
+    CALCULATE(
+        [Total Revenue],
+        dim_payment_method[is_digital] = TRUE
+    ),
+    [Total Revenue],
+    0
+) * 100
+
+Payment Success Rate % = 
+DIVIDE(
+    CALCULATE(
+        [Total Transactions],
+        fact_transaction[payment_status] = "Paid"
+    ),
+    [Total Transactions],
+    0
+) * 100
+
+-- ============================================================
+-- BLOCKCHAIN METRICS
+-- ============================================================
+
+Blockchain Verification Rate % = 
+DIVIDE(
+    CALCULATE(
+        [Total Transactions],
+        NOT(ISBLANK(fact_transaction[blockchain_hash]))
+    ),
+    [Total Transactions],
+    0
+) * 100
+
+Verified Transactions = 
+CALCULATE(
+    [Total Transactions],
+    NOT(ISBLANK(fact_transaction[blockchain_hash]))
+)
+
+Unverified Transactions = 
+CALCULATE(
+    [Total Transactions],
+    ISBLANK(fact_transaction[blockchain_hash])
+)
+
+-- ============================================================
+-- REGIONAL METRICS
+-- ============================================================
+
+Central Region Revenue = 
+CALCULATE(
+    [Total Revenue],
+    dim_farmer[region] = "Central"
+)
+
+Eastern Region Revenue = 
+CALCULATE(
+    [Total Revenue],
+    dim_farmer[region] = "Eastern"
+)
+
+Northern Region Revenue = 
+CALCULATE(
+    [Total Revenue],
+    dim_farmer[region] = "Northern"
+)
+
+Western Region Revenue = 
+CALCULATE(
+    [Total Revenue],
+    dim_farmer[region] = "Western"
+)
+
+-- ============================================================
+-- COMPARATIVE METRICS
+-- ============================================================
+
+Revenue vs Target = 
+VAR TargetRevenue = 1000000000  -- 1 Billion UGX target
+RETURN
+DIVIDE(
+    [Total Revenue],
+    TargetRevenue,
+    0
+) * 100
+
+Revenue vs Budget % = 
+VAR Budget = 1000000000
+RETURN
+DIVIDE(
+    [Total Revenue] - Budget,
+    Budget,
+    0
+) * 100
+
+-- ============================================================
+-- TREND INDICATORS
+-- ============================================================
+
+Revenue Trend Indicator = 
+IF(
+    [Revenue MoM Growth %] > 0,
+    "▲ Increasing",
+    IF(
+        [Revenue MoM Growth %] < 0,
+        "▼ Decreasing",
+        "■ Stable"
+    )
+)
+
+-- ============================================================
+-- CALCULATED COLUMNS (Use sparingly - prefer measures)
+-- ============================================================
+
+-- These should be created in Power BI on the respective tables
+
+-- On fact_transaction table:
+-- Transaction Month = FORMAT(fact_transaction[transaction_timestamp], "YYYY-MM")
+-- Transaction Year = YEAR(fact_transaction[transaction_timestamp])
+-- Transaction Quarter = "Q" & QUARTER(fact_transaction[transaction_timestamp])
+
+-- On dim_farmer table:
+-- Farmer Age = DATEDIFF(dim_farmer[date_of_birth], TODAY(), YEAR)
+
+-- ============================================================
+-- END OF DAX MEASURES
+-- ============================================================

@@ -1,0 +1,313 @@
+@startuml Star Schema - Agricultural Supply Chain Data Warehouse
+
+' Dimension Tables
+
+entity "DimFarmer" as dim_farmer {
+  * farmer_key : BIGSERIAL <<PK>>
+  --
+  * farmer_id : VARCHAR(20) <<NK>>
+  * national_id : VARCHAR(14)
+  * first_name : VARCHAR(50)
+  * last_name : VARCHAR(50)
+  * full_name : VARCHAR(100)
+  * gender : CHAR(1)
+  * date_of_birth : DATE
+  * age_group : VARCHAR(20)
+  * phone_number : VARCHAR(15)
+  * district : VARCHAR(50)
+  * subcounty : VARCHAR(50)
+  * village : VARCHAR(50)
+  * region : VARCHAR(30)
+  * gps_latitude : DECIMAL(10,8)
+  * gps_longitude : DECIMAL(11,8)
+  * farm_size_acres : DECIMAL(8,2)
+  * farm_size_category : VARCHAR(20)
+  * primary_crop : VARCHAR(50)
+  * cooperative_id : VARCHAR(20)
+  * cooperative_name : VARCHAR(100)
+  * blockchain_wallet : VARCHAR(64)
+  * registration_date : DATE
+  --
+  ' SCD Type 2 Attributes
+  * effective_date : DATE
+  * end_date : DATE
+  * is_current : BOOLEAN
+  * version : INTEGER
+}
+
+entity "DimProduct" as dim_product {
+  * product_key : BIGSERIAL <<PK>>
+  --
+  * product_id : VARCHAR(20) <<NK>>
+  * product_name : VARCHAR(50)
+  * category : VARCHAR(30)
+  * category_group : VARCHAR(30)
+  * variety : VARCHAR(50)
+  * unit_of_measure : VARCHAR(10)
+  * season : VARCHAR(20)
+  * avg_growing_days : INTEGER
+  * growing_period_category : VARCHAR(20)
+  * is_perishable : BOOLEAN
+  * perishability_category : VARCHAR(20)
+  --
+  ' SCD Type 2 Attributes
+  * effective_date : DATE
+  * end_date : DATE
+  * is_current : BOOLEAN
+  * version : INTEGER
+}
+
+entity "DimMarket" as dim_market {
+  * market_key : BIGSERIAL <<PK>>
+  --
+  * market_id : VARCHAR(20) <<NK>>
+  * market_name : VARCHAR(100)
+  * market_type : VARCHAR(30)
+  * district : VARCHAR(50)
+  * subcounty : VARCHAR(50)
+  * region : VARCHAR(30)
+  * gps_latitude : DECIMAL(10,8)
+  * gps_longitude : DECIMAL(11,8)
+  * operating_days : VARCHAR(50)
+  * capacity_kg : DECIMAL(12,2)
+  * capacity_category : VARCHAR(20)
+  * is_active : BOOLEAN
+  --
+  ' SCD Type 2 Attributes
+  * effective_date : DATE
+  * end_date : DATE
+  * is_current : BOOLEAN
+  * version : INTEGER
+}
+
+entity "DimBuyer" as dim_buyer {
+  * buyer_key : BIGSERIAL <<PK>>
+  --
+  * buyer_id : VARCHAR(20) <<NK>>
+  * buyer_name : VARCHAR(100)
+  * buyer_type : VARCHAR(30)
+  * buyer_category : VARCHAR(30)
+  * contact_person : VARCHAR(100)
+  * phone_number : VARCHAR(15)
+  * email : VARCHAR(100)
+  * district : VARCHAR(50)
+  * region : VARCHAR(30)
+  * registration_number : VARCHAR(30)
+  * blockchain_wallet : VARCHAR(64)
+  * is_active : BOOLEAN
+  --
+  ' SCD Type 2 Attributes
+  * effective_date : DATE
+  * end_date : DATE
+  * is_current : BOOLEAN
+  * version : INTEGER
+}
+
+entity "DimDate" as dim_date {
+  * date_key : INTEGER <<PK>>
+  --
+  * full_date : DATE <<UK>>
+  * day_of_week : INTEGER
+  * day_name : VARCHAR(10)
+  * day_of_month : INTEGER
+  * day_of_year : INTEGER
+  * week_of_year : INTEGER
+  * month : INTEGER
+  * month_name : VARCHAR(10)
+  * quarter : INTEGER
+  * quarter_name : VARCHAR(2)
+  * year : INTEGER
+  * is_weekend : BOOLEAN
+  * is_holiday : BOOLEAN
+  * holiday_name : VARCHAR(50)
+  * season : VARCHAR(20)
+  * fiscal_year : INTEGER
+  * fiscal_quarter : INTEGER
+  * fiscal_month : INTEGER
+}
+
+entity "DimLocation" as dim_location {
+  * location_key : BIGSERIAL <<PK>>
+  --
+  * district : VARCHAR(50)
+  * subcounty : VARCHAR(50)
+  * region : VARCHAR(30)
+  * zone : VARCHAR(30)
+  * gps_latitude : DECIMAL(10,8)
+  * gps_longitude : DECIMAL(11,8)
+  * population : INTEGER
+  * urban_rural : VARCHAR(10)
+  * market_access_score : DECIMAL(3,2)
+}
+
+entity "DimPaymentMethod" as dim_payment {
+  * payment_key : BIGSERIAL <<PK>>
+  --
+  * payment_method : VARCHAR(20) <<UK>>
+  * payment_category : VARCHAR(30)
+  * is_digital : BOOLEAN
+  * transaction_fee_pct : DECIMAL(5,2)
+  * settlement_days : INTEGER
+}
+
+entity "DimQuality" as dim_quality {
+  * quality_key : BIGSERIAL <<PK>>
+  --
+  * quality_grade : CHAR(1) <<UK>>
+  * quality_description : VARCHAR(50)
+  * quality_score : INTEGER
+  * price_premium_pct : DECIMAL(5,2)
+}
+
+' Fact Tables
+
+entity "FactTransaction" as fact_transaction {
+  * transaction_key : BIGSERIAL <<PK>>
+  --
+  ' Foreign Keys to Dimensions
+  * farmer_key : BIGINT <<FK>>
+  * buyer_key : BIGINT <<FK>>
+  * product_key : BIGINT <<FK>>
+  * market_key : BIGINT <<FK>>
+  * date_key : INTEGER <<FK>>
+  * payment_key : BIGINT <<FK>>
+  * quality_key : BIGINT <<FK>>
+  --
+  ' Degenerate Dimensions
+  * transaction_id : VARCHAR(30)
+  * blockchain_hash : VARCHAR(64)
+  * payment_status : VARCHAR(20)
+  --
+  ' Measures
+  * quantity_kg : DECIMAL(10,2)
+  * unit_price : DECIMAL(10,2)
+  * total_amount : DECIMAL(12,2)
+  * transaction_count : INTEGER
+  * payment_fee : DECIMAL(10,2)
+  * net_amount : DECIMAL(12,2)
+  --
+  * transaction_timestamp : TIMESTAMP
+  * created_at : TIMESTAMP
+}
+
+entity "FactHarvest" as fact_harvest {
+  * harvest_key : BIGSERIAL <<PK>>
+  --
+  ' Foreign Keys to Dimensions
+  * farmer_key : BIGINT <<FK>>
+  * product_key : BIGINT <<FK>>
+  * planting_date_key : INTEGER <<FK>>
+  * harvest_date_key : INTEGER <<FK>>
+  * location_key : BIGINT <<FK>>
+  --
+  ' Degenerate Dimensions
+  * harvest_id : VARCHAR(30)
+  * quality_assessment : VARCHAR(20)
+  * storage_method : VARCHAR(50)
+  * season : VARCHAR(20)
+  --
+  ' Measures
+  * quantity_kg : DECIMAL(10,2)
+  * post_harvest_loss_kg : DECIMAL(10,2)
+  * post_harvest_loss_pct : DECIMAL(5,2)
+  * net_quantity_kg : DECIMAL(10,2)
+  * growing_days : INTEGER
+  * harvest_count : INTEGER
+  --
+  * created_at : TIMESTAMP
+}
+
+entity "FactPricing" as fact_pricing {
+  * pricing_key : BIGSERIAL <<PK>>
+  --
+  ' Foreign Keys to Dimensions
+  * product_key : BIGINT <<FK>>
+  * market_key : BIGINT <<FK>>
+  * date_key : INTEGER <<FK>>
+  --
+  ' Degenerate Dimensions
+  * price_id : VARCHAR(30)
+  * price_trend : VARCHAR(10)
+  * source : VARCHAR(50)
+  --
+  ' Measures
+  * wholesale_price : DECIMAL(10,2)
+  * retail_price : DECIMAL(10,2)
+  * price_spread : DECIMAL(10,2)
+  * price_spread_pct : DECIMAL(5,2)
+  * price_change_pct : DECIMAL(5,2)
+  * price_volatility_index : DECIMAL(5,2)
+  --
+  * created_at : TIMESTAMP
+}
+
+entity "FactSubsidy" as fact_subsidy {
+  * subsidy_key : BIGSERIAL <<PK>>
+  --
+  ' Foreign Keys to Dimensions
+  * farmer_key : BIGINT <<FK>>
+  * date_key : INTEGER <<FK>>
+  --
+  ' Degenerate Dimensions
+  * farmer_subsidy_id : VARCHAR(30)
+  * subsidy_id : VARCHAR(30)
+  * program_name : VARCHAR(100)
+  * subsidy_type : VARCHAR(50)
+  * verification_status : VARCHAR(20)
+  --
+  ' Measures
+  * amount_value : DECIMAL(10,2)
+  * subsidy_count : INTEGER
+  --
+  * distribution_date : DATE
+  * created_at : TIMESTAMP
+}
+
+' Relationships - Star Schema Pattern
+
+dim_farmer ||--o{ fact_transaction : "farmer_key"
+dim_buyer ||--o{ fact_transaction : "buyer_key"
+dim_product ||--o{ fact_transaction : "product_key"
+dim_market ||--o{ fact_transaction : "market_key"
+dim_date ||--o{ fact_transaction : "date_key"
+dim_payment ||--o{ fact_transaction : "payment_key"
+dim_quality ||--o{ fact_transaction : "quality_key"
+
+dim_farmer ||--o{ fact_harvest : "farmer_key"
+dim_product ||--o{ fact_harvest : "product_key"
+dim_date ||--o{ fact_harvest : "planting_date_key"
+dim_date ||--o{ fact_harvest : "harvest_date_key"
+dim_location ||--o{ fact_harvest : "location_key"
+
+dim_product ||--o{ fact_pricing : "product_key"
+dim_market ||--o{ fact_pricing : "market_key"
+dim_date ||--o{ fact_pricing : "date_key"
+
+dim_farmer ||--o{ fact_subsidy : "farmer_key"
+dim_date ||--o{ fact_subsidy : "date_key"
+
+note right of fact_transaction
+  Grain: One row per transaction
+  Measures: quantity, price, amount
+  Updates: Insert only (immutable)
+end note
+
+note right of fact_harvest
+  Grain: One row per harvest event
+  Measures: quantity, losses
+  Updates: Insert only
+end note
+
+note right of fact_pricing
+  Grain: One row per product/market/day
+  Measures: prices, spreads
+  Updates: Daily snapshot
+end note
+
+note right of dim_farmer
+  SCD Type 2: Track historical changes
+  Natural Key: farmer_id
+  Surrogate Key: farmer_key
+end note
+
+@enduml
