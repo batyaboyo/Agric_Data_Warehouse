@@ -1,132 +1,37 @@
-@startuml ETL Flow - Agricultural Data Warehouse
+@startuml
+title ETL Flow - High Level
 
-|Data Sources|
+|Sources|
 start
-:Farmer Registration\n(Mobile App);
-:Market Transactions\n(POS Terminal);
-:External APIs\n(Prices, Weather);
-:Government Data\n(Subsidies);
+:Mobile Apps & IoT Devices;
 
-|Kafka Producers|
-:Transform to JSON;
-:Add metadata\n(timestamp, source);
-:Publish to Kafka topics;
+|Ingestion Layer|
+:Kafka Producers;
+:Kafka Topics;
 
-|Kafka|
-partition "Parallel Streams" {
-  :farmers-topic;
-  :transactions-topic;
-  :pricing-topic;
-  :harvest-topic;
-}
+|Staging Area|
+:Load Raw Data to Staging;
 
-|Kafka Consumers|
-:Consume messages;
-:Deserialize JSON;
-:Validate schema;
-
-|Staging Layer|
-:Insert into staging tables;
-note right
-  stg_farmers
-  stg_transactions
-  stg_products
-  stg_markets
-  stg_pricing
-end note
-
-|Data Quality|
-:Run quality checks;
-if (Data valid?) then (yes)
-  :Mark as validated;
-else (no)
-  :Log errors;
-  :Send to error queue;
+|Transformation & Quality|
+:Clean & Validate Data;
+if (Valid?) then (Yes)
+  :Transform Data;
+else (No)
+  :Log Error & Stop;
   stop
 endif
 
-|Blockchain Recording|
-fork
-  :Record transaction\non Hyperledger Fabric;
-  :Get blockchain hash;
-  :Update staging with hash;
-fork again
-  :Continue ETL process;
-end fork
-
-|Dimension Processing|
-:Load DimDate\n(if not exists);
-:Load DimLocation\n(if not exists);
-
-partition "SCD Type 2 Processing" {
-  :Check for changes\nin DimFarmer;
-  if (Farmer changed?) then (yes)
-    :Expire old record\n(set end_date, is_current=false);
-    :Insert new record\n(new version);
-  else (no)
-    :No action;
-  endif
-  
-  :Check for changes\nin DimProduct;
-  if (Product changed?) then (yes)
-    :Expire old record;
-    :Insert new record;
-  else (no)
-    :No action;
-  endif
-  
-  :Check for changes\nin DimMarket;
-  :Check for changes\nin DimBuyer;
-}
-
-|Fact Processing|
-:Lookup dimension keys\n(farmer_key, product_key, etc.);
-:Calculate measures\n(total_amount, net_amount);
-:Insert into FactTransaction;
-:Insert into FactHarvest;
-:Insert into FactPricing;
-
-|Audit & Logging|
-:Log ETL metrics;
-note right
-  - Rows processed
-  - Rows inserted
-  - Rows rejected
-  - Execution time
-  - Data quality score
-end note
-:Update ETL metadata;
+|Blockchain Integration|
+:Record Critical Transactions;
+:Store Hash in Data Warehouse;
 
 |Data Warehouse|
-:Data available for\nanalytical queries;
+:Update Dimensions (SCD Type 2);
+:Load Fact Tables;
 
 |Analytics|
-fork
-  :Power BI\nrefresh datasets;
-fork again
-  :SQL Analytics\nqueries;
-fork again
-  :Export to CSV\nfor reporting;
-end fork
-
+:Power BI Dashboards;
+:Ad-hoc SQL Queries;
 stop
-
-note right of "Staging Layer"
-  Temporary storage
-  Raw data format
-  Minimal transformation
-end note
-
-note right of "Dimension Processing"
-  SCD Type 2 for history
-  Surrogate keys
-  Conformed dimensions
-end note
-
-note right of "Fact Processing"
-  Grain: One row per transaction
-  Additive measures
-  Foreign keys to dimensions
-end note
 
 @enduml
