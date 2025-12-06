@@ -6,7 +6,7 @@ database:
   port: 5432
   database: agri_dw
   user: postgres
-  password: postgres  # Change this to your actual password
+  password: Batyax  # Change this to your actual password
   
 etl:
   batch_size: 1000

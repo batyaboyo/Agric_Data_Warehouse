@@ -1,0 +1,501 @@
+buyer_id,buyer_name,buyer_type,contact_person,phone_number,email,district,registration_number,blockchain_wallet,is_active,loaded_at
+BYR00001,"Lane, Delacruz and Garrison Foods",Retailer,Susan Johnson,0702522223,susan.johnson@yahoo.com,Gulu,REG/2011/9979,0x0cba03d6df517f6d98df2f7bc269495d91ab0075,True,2025-12-06 15:51:22
+BYR00002,"Williams, Hernandez and Holmes Trading",Exporter,Stephanie Lloyd,0700200667,stephanie.lloyd@yahoo.com,Jinja,REG/2015/9731,0xb8fe40792396516ee68cdf23e11f5e79b06b448b,True,2025-12-06 15:51:22
+BYR00003,Roberson-Martin Foods,Exporter,Caitlyn Dixon,0753985126,caitlyn.dixon@yahoo.com,Rukungiri,REG/2018/6490,0x261b37d8a52aa83f29ed026063395c65241daed5,True,2025-12-06 15:51:22
+BYR00004,Taylor and Sons Trading,Retailer,Joseph Wheeler,0701787969,joseph.wheeler@gmail.com,Rukungiri,REG/2012/4203,0x43e6f9d82e73452c986dd9d829d72c119fe21d73,True,2025-12-06 15:51:22
+BYR00005,Galvan and Sons Limited,Retailer,David Lindsey,0753919280,david.lindsey@yahoo.com,Bushenyi,REG/2021/5809,0x8af1ab03949d2acb8a8d1fbd2377960bf7f90537,True,2025-12-06 15:51:22
+BYR00006,"Figueroa, Martinez and Wagner Agro",Wholesaler,Crystal Baker,0700245070,crystal.baker@yahoo.com,Lira,REG/2013/4060,0x15f581dc712465ed001761be329688c93419fa86,True,2025-12-06 15:51:22
+BYR00007,"Smith, Price and Dixon Agro",Processor,Amy Nichols,0754465036,amy.nichols@gmail.com,Kapchorwa,REG/2022/9945,0x600bf676f9a094da7ada96820bc0230ac618ca15,True,2025-12-06 15:51:22
+BYR00008,"Dominguez, Aguilar and Davis Limited",Wholesaler,Christopher Goodwin,0770199873,christopher.goodwin@yahoo.com,Kabarole,REG/2020/7806,0xd60124dd97fd14c92c15db290fefdb550e2bfc4c,True,2025-12-06 15:51:22
+BYR00009,Pacheco-Long Limited,Processor,Nancy Garcia,0704528916,nancy.garcia@yahoo.com,Bushenyi,REG/2018/7759,0xa28f09073167a318acaf649d98afad9bdfd39cf5,True,2025-12-06 15:51:22
+BYR00010,White-Kelley Trading,Wholesaler,Lisa Weiss,0770181626,lisa.weiss@yahoo.com,Fort Portal,REG/2012/9242,0x182a0a5cf7719ad2ad903405525042d8a7de64cc,True,2025-12-06 15:51:22
+BYR00011,South Michael Farmers Coop,Cooperative,Jeff Holt,0702929964,jeff.holt@hotmail.com,Mukono,REG/2023/9175,0x7676228262176cd0b9c77671fabb4ce3de0f82d8,True,2025-12-06 15:51:22
+BYR00012,Clark Ltd Limited,Exporter,Derek Jackson,0752892922,derek.jackson@hotmail.com,Moroto,REG/2021/9200,0xc7e94e903b2293c72f993dafc3b3053cdd4f0262,True,2025-12-06 15:51:22
+BYR00013,Brown PLC Limited,Retailer,Brittney Campbell,0752394655,brittney.campbell@gmail.com,Kisoro,REG/2014/4891,0x41b28295c7c733e9ebb4fcb8c198e2e13098f0bc,True,2025-12-06 15:51:22
+BYR00014,North Michaelport Farmers Coop,Cooperative,Gabriel Carter,0754960676,gabriel.carter@hotmail.com,Tororo,REG/2019/8930,0x6471e7c0d0a21d6119d865e6aa8d15cd477529b3,True,2025-12-06 15:51:22
+BYR00015,Schwartz LLC Foods,Retailer,John Adams,0704604169,john.adams@yahoo.com,Soroti,REG/2023/9698,0x9e6be3190e23bde9b94aebe27c0581b13e5cba05,True,2025-12-06 15:51:22
+BYR00016,"Navarro, Vasquez and Ortiz Agro",Wholesaler,Barry Wright,0700673647,barry.wright@hotmail.com,Kitgum,REG/2020/5370,0xb60f8b417b00098df28548c1c3d85853da78b376,True,2025-12-06 15:51:22
+BYR00017,Bailey-Bell Limited,Wholesaler,Alyssa Luna,0751186923,alyssa.luna@yahoo.com,Kapchorwa,REG/2020/7455,0xdc8be2049941b41ada64ae7ba8857cfd8aebd10a,True,2025-12-06 15:51:22
+BYR00018,Smith-Ortega Limited,Processor,Jeffrey Keller,0753578319,jeffrey.keller@hotmail.com,Soroti,REG/2022/2980,0xd39ad7ce6bbcc51665e49327477f9b706bb7ffa9,True,2025-12-06 15:51:22
+BYR00019,"Humphrey, Morton and Brown Agro",Exporter,Amy Romero,0770378293,amy.romero@hotmail.com,Ntungamo,REG/2017/1122,0x044995b664de1c45c58908eee431683f4c4c3839,True,2025-12-06 15:51:22
+BYR00020,Debraland Farmers Coop,Cooperative,Victoria Murphy,0771569415,victoria.murphy@yahoo.com,Masindi,REG/2010/2179,0x5b63759c26719fe600c0d06cb4d7cbcbb61d2070,True,2025-12-06 15:51:22
+BYR00021,North Phillipton Farmers Coop,Cooperative,Mrs. Bridget Thomas,0701972468,mrs..bridget.thomas@hotmail.com,Ntungamo,REG/2022/6786,0x039b8a31202597829a9a7bcee366f665212f33da,True,2025-12-06 15:51:22
+BYR00022,West Kimberlyburgh Farmers Coop,Cooperative,Eric Castillo,0753146954,eric.castillo@hotmail.com,Hoima,REG/2017/4864,0x74b76e6be2ab542756f1313d44bfedd4d7133437,True,2025-12-06 15:51:22
+BYR00023,Contreras-Bowers Limited,Wholesaler,Marie Chandler,0752143063,marie.chandler@yahoo.com,Masindi,REG/2014/1277,0xa63f4ef0771d3a554f4cf0de5a514b7f6e323628,True,2025-12-06 15:51:22
+BYR00024,New Ronaldborough Farmers Coop,Cooperative,Mr. Joseph Parrish,0770373070,mr..joseph.parrish@hotmail.com,Jinja,REG/2019/3943,0x410d7b4a7c6b35c61d10641f3e715b56678f228f,True,2025-12-06 15:51:22
+BYR00025,Owens-Brown Agro,Processor,Victor Perez,0750600278,victor.perez@hotmail.com,Kasese,REG/2010/7030,0xad4e654dbe6cb36d1101a141d7f16cec094ef2d1,True,2025-12-06 15:51:22
+BYR00026,Lake Patricia Farmers Coop,Cooperative,Patricia Palmer,0750156718,patricia.palmer@hotmail.com,Pallisa,REG/2020/3627,0xcce5561e9cd148e86550d9ecd5379a26c63c1817,True,2025-12-06 15:51:22
+BYR00027,Montgomery Ltd Limited,Processor,Jason Brown,0754419602,jason.brown@hotmail.com,Rukungiri,REG/2016/5522,0x479892182148abc82b243c418659120e747c14b7,True,2025-12-06 15:51:22
+BYR00028,"Taylor, Moore and Boyer Trading",Wholesaler,Gabriel Mccall MD,0751440494,gabriel.mccall.md@yahoo.com,Masaka,REG/2014/2194,0x027e3a28f9d0be78948fb19e0464d766075386d2,True,2025-12-06 15:51:22
+BYR00029,West Michaelside Farmers Coop,Cooperative,Nathan Gonzalez,0754738515,nathan.gonzalez@gmail.com,Apac,REG/2020/5806,0x05c0b7f1802f2c583cc6eeed442e608347d68735,True,2025-12-06 15:51:22
+BYR00030,"Alexander, Watson and Riggs Trading",Exporter,Samantha Garza,0703618766,samantha.garza@gmail.com,Bundibugyo,REG/2013/6273,0x9f8d33d2feafa82cf6442798b13d4862f7893e36,True,2025-12-06 15:51:22
+BYR00031,Harris-Morris Limited,Retailer,Tara Jones,0771892582,tara.jones@yahoo.com,Fort Portal,REG/2018/2580,0x65fffdaf7fd034a8f1895a57ef04306d4ba31bcb,True,2025-12-06 15:51:22
+BYR00032,"Davenport, Clark and Perez Agro",Wholesaler,Maureen Johnson,0702365072,maureen.johnson@gmail.com,Kampala,REG/2013/4798,0xaba5101c72bfc91e8ca8a6811407c8868efc0fe0,True,2025-12-06 15:51:22
+BYR00033,"Livingston, Webster and Graves Agro",Processor,Dr. Kathryn Alvarado MD,0771275448,dr..kathryn.alvarado.md@yahoo.com,Kumi,REG/2014/3826,0x3b379070c826a5a5dabe5b8a7f8dd616e3cdd99c,True,2025-12-06 15:51:22
+BYR00034,Amandamouth Farmers Coop,Cooperative,Lynn Sullivan,0770467701,lynn.sullivan@gmail.com,Ntungamo,REG/2018/5136,0xd59cd5bce6511d4c49522bfcffcefc1adc8fa655,True,2025-12-06 15:51:22
+BYR00035,Lake Summerberg Farmers Coop,Cooperative,Mary Lee,0753542336,mary.lee@yahoo.com,Ntungamo,REG/2010/4155,0x28239ca551d52f6899ac5af0e4f2ea07e5d58d19,True,2025-12-06 15:51:22
+BYR00036,Paul PLC Trading,Processor,Nathan Powers,0750829824,nathan.powers@hotmail.com,Hoima,REG/2021/3651,0x97eb7f80b675eb787cc246879fb29201d7dafdce,True,2025-12-06 15:51:22
+BYR00037,"Taylor, Hughes and Maddox Limited",Processor,Benjamin Smith,0750339946,benjamin.smith@gmail.com,Katakwi,REG/2016/5924,0xf50acd7a11098d83575daadec1d51511dea9d64b,True,2025-12-06 15:51:22
+BYR00038,Murphymouth Farmers Coop,Cooperative,Douglas Castillo,0751553556,douglas.castillo@yahoo.com,Bundibugyo,REG/2011/9085,0xaf7834d6ad76853f8cf015604c95a28f04a0335a,True,2025-12-06 15:51:22
+BYR00039,Schaefer PLC Foods,Wholesaler,Taylor Sharp,0701220265,taylor.sharp@gmail.com,Pallisa,REG/2015/6571,0x20224bd3b5bc4ab83d0cfd245f15ff25636539f0,True,2025-12-06 15:51:22
+BYR00040,"Pittman, Mendez and Hood Trading",Processor,Amber Santana,0770408139,amber.santana@yahoo.com,Apac,REG/2011/3547,0x3f058d8f97d123f32a9972a068f4da5a7d439202,True,2025-12-06 15:51:22
+BYR00041,East Yvonne Farmers Coop,Cooperative,Cynthia Hernandez,0753801176,cynthia.hernandez@gmail.com,Masindi,REG/2018/4092,0xc5fcd8d40b22ce29da0c530ebe6ce703965c7fa1,True,2025-12-06 15:51:22
+BYR00042,"Olson, Morton and Richards Trading",Retailer,Shelley Carr,0701231408,shelley.carr@gmail.com,Bushenyi,REG/2016/7547,0x416f5ed33a74a659b72e359fe684f80ef623436e,True,2025-12-06 15:51:22
+BYR00043,North Aaronmouth Farmers Coop,Cooperative,Jennifer Walker,0700285290,jennifer.walker@yahoo.com,Kitgum,REG/2022/8111,0xf1ec8ef453bc20d99a61b19701b0c104007b68bd,True,2025-12-06 15:51:22
+BYR00044,Farmer LLC Agro,Processor,Thomas Acosta,0702114939,thomas.acosta@gmail.com,Moroto,REG/2021/5883,0x1451994945967bc49fcc322ed8f341df5f01669b,True,2025-12-06 15:51:22
+BYR00045,"Hill, Gray and Boone Agro",Retailer,Kathleen Welch,0754453964,kathleen.welch@gmail.com,Kitgum,REG/2016/9846,0xdeed0e2025cae14e12976ed1365e77ef1287109d,True,2025-12-06 15:51:22
+BYR00046,"Johnson, Edwards and Flores Agro",Exporter,Shannon Mayer DDS,0702219903,shannon.mayer.dds@hotmail.com,Moroto,REG/2022/8310,0x2b02a168cdcdc8f023114e1cf0307ef99b3cc13d,True,2025-12-06 15:51:22
+BYR00047,Robinson Inc Foods,Exporter,Dominique Beard,0701406148,dominique.beard@hotmail.com,Kitgum,REG/2023/2316,0x5f291417ebf78f75c2b6d4dd241ea46bcf919be8,True,2025-12-06 15:51:22
+BYR00048,Daniel Inc Trading,Retailer,Ryan Griffith,0750283377,ryan.griffith@yahoo.com,Gulu,REG/2021/7574,0x9a193c0cbff8064d25e6ad75f4521bfc45755b32,True,2025-12-06 15:51:22
+BYR00049,Carroll-Lewis Agro,Retailer,Sandra Orr,0752293087,sandra.orr@hotmail.com,Sironko,REG/2022/5910,0xbac1ffda37557939e90eecb40a6a0caeb59c67b2,True,2025-12-06 15:51:22
+BYR00050,Leon Group Foods,Wholesaler,Steven Salinas,0701479254,steven.salinas@gmail.com,Kampala,REG/2017/2858,0x4a72cdcf46a993ad38331012a40bcc859a68f2d2,True,2025-12-06 15:51:22
+BYR00051,Kirby-Lee Trading,Wholesaler,Jerry Bryan,0752465150,jerry.bryan@hotmail.com,Kumi,REG/2021/5203,0xe22e5f95cbfcead788e5bb5fe2dcdc428f2f1fe9,True,2025-12-06 15:51:22
+BYR00052,Garrett-Saunders Foods,Retailer,Amanda Waters,0703265995,amanda.waters@yahoo.com,Kamuli,REG/2011/7074,0xd5ee0d3d1453e93e8040d595f9102e036440b22d,True,2025-12-06 15:51:22
+BYR00053,North Tonya Farmers Coop,Cooperative,Brooke Li,0770741894,brooke.li@gmail.com,Kasese,REG/2023/6839,0x35956edf59b6709e26dd713801969d141efe45fa,True,2025-12-06 15:51:22
+BYR00054,"Ford, Barajas and Garcia Agro",Wholesaler,Amanda George,0704567273,amanda.george@yahoo.com,Soroti,REG/2010/1472,0x9861c4f3f61719454dbddd16d78d37b56a433564,True,2025-12-06 15:51:22
+BYR00055,Cook-Daniel Foods,Exporter,Stephanie Smith,0703731506,stephanie.smith@yahoo.com,Moroto,REG/2017/5741,0xc1bce963aa6fb3e908933c958cb891177440fdc6,True,2025-12-06 15:51:22
+BYR00056,Port William Farmers Coop,Cooperative,Sydney Garrett,0704981349,sydney.garrett@gmail.com,Tororo,REG/2012/1031,0x5bb507ae0e4c539a5d69ff4934835982821cad5c,True,2025-12-06 15:51:22
+BYR00057,"Brown, Torres and Wells Limited",Exporter,William Spence,0754764220,william.spence@hotmail.com,Sironko,REG/2017/9022,0x8f336359a10bf9c38d473dceb2ef03a431a6bb59,True,2025-12-06 15:51:22
+BYR00058,"Montgomery, Gonzalez and Lewis Agro",Exporter,Christine Brooks,0750786173,christine.brooks@hotmail.com,Mayuge,REG/2018/1833,0x937dc396ad5ddfd4e3dbeb57477ad2b7a28df2ad,True,2025-12-06 15:51:22
+BYR00059,Colon-Ramirez Trading,Wholesaler,Jack Castro,0703881950,jack.castro@yahoo.com,Arua,REG/2016/1077,0x88df529a5540fb682175cf0e28fe21b0361261b0,True,2025-12-06 15:51:22
+BYR00060,Diazberg Farmers Coop,Cooperative,Mary Valencia,0700950041,mary.valencia@yahoo.com,Sironko,REG/2020/4019,0x48766572d1ff791feb40ec9c88d749c856172966,True,2025-12-06 15:51:22
+BYR00061,"Miranda, Williams and Walters Foods",Wholesaler,Emily Brooks,0701718327,emily.brooks@yahoo.com,Fort Portal,REG/2019/7465,0x3b39e3dd0c26ea99695f6a12fbc28daaf4bd05f9,True,2025-12-06 15:51:22
+BYR00062,North Lisashire Farmers Coop,Cooperative,Henry Vega,0704655995,henry.vega@yahoo.com,Moroto,REG/2020/7879,0xc874cd3c21877985e98b3cd7cc65744cc277b0cf,True,2025-12-06 15:51:22
+BYR00063,"Jacobs, Hudson and Bartlett Agro",Wholesaler,Juan Fernandez,0702962603,juan.fernandez@gmail.com,Rukungiri,REG/2010/2218,0xeb7921537754756f6a7adc3fa8f3c8d58e8be07f,True,2025-12-06 15:51:22
+BYR00064,Brianchester Farmers Coop,Cooperative,Gregory Moody,0702469485,gregory.moody@hotmail.com,Kapchorwa,REG/2019/8346,0x5956b0d6730a6e2984086b7cbfe387e9e7394884,True,2025-12-06 15:51:22
+BYR00065,Sandoval-Jordan Limited,Retailer,Kristen Lewis,0700410390,kristen.lewis@yahoo.com,Ntungamo,REG/2019/4413,0x5bbbb6d65a0a83fdc4456eb4a07a98b6baf0fe15,True,2025-12-06 15:51:22
+BYR00066,Mason-Sosa Foods,Exporter,Melissa Green,0770634229,melissa.green@hotmail.com,Kabarole,REG/2017/4628,0x2b3afe09b7a87e7513f06b78c8e1aed00e3d5ba0,True,2025-12-06 15:51:22
+BYR00067,"Watson, Woodward and Pollard Limited",Retailer,Beverly Cabrera,0704402464,beverly.cabrera@hotmail.com,Sironko,REG/2018/1167,0x7bb99a686589a360152f6a09214fe925d12a5200,True,2025-12-06 15:51:22
+BYR00068,Weaver-Walker Trading,Processor,John Crane,0751744232,john.crane@gmail.com,Kitgum,REG/2017/8953,0xc5c749d1a4d53fb0dae4d0a76a3cfcaac7fbd630,True,2025-12-06 15:51:22
+BYR00069,Gill Inc Trading,Exporter,Mary Martinez,0770450359,mary.martinez@hotmail.com,Kisoro,REG/2023/2844,0x577b33d1858b75501b4007e565c32782094ebfca,True,2025-12-06 15:51:22
+BYR00070,"Andrews, Robinson and Smith Foods",Wholesaler,Lynn Melton,0700795624,lynn.melton@gmail.com,Kumi,REG/2012/3970,0x1fee67ad2616ee3b62f362c4f8902c93bcf2d5f5,True,2025-12-06 15:51:22
+BYR00071,"Mcgrath, Bishop and Baker Limited",Retailer,Madeline Fitzgerald,0704531032,madeline.fitzgerald@hotmail.com,Iganga,REG/2020/7523,0xd17c052f3bc2e948c18f65f8ae3ee341437917bb,True,2025-12-06 15:51:22
+BYR00072,"Robinson, Wilson and Clark Trading",Processor,John Hill,0754114008,john.hill@hotmail.com,Arua,REG/2020/6826,0xdbe81649cc08c03648f16c81c6c8797e69ef4d7a,True,2025-12-06 15:51:22
+BYR00073,Ashley-Perez Foods,Exporter,Christopher Morgan,0700236897,christopher.morgan@yahoo.com,Apac,REG/2016/9464,0xb3b1af4e9877b0661c8430a6138c2af0a4771401,True,2025-12-06 15:51:22
+BYR00074,Young-Joseph Trading,Exporter,Christopher Woods,0752307501,christopher.woods@yahoo.com,Arua,REG/2010/6039,0xfb3060d3993724abb2a27c03338ac6e5090f7cbb,True,2025-12-06 15:51:22
+BYR00075,"Chambers, Davis and Chambers Trading",Wholesaler,Evan Baker,0700246968,evan.baker@gmail.com,Bundibugyo,REG/2023/3398,0x6c8bc0a93a13cd051593b1b097665dcd0f87b09f,True,2025-12-06 15:51:22
+BYR00076,Kelly-Cook Foods,Wholesaler,Daniel Johnson,0750676486,daniel.johnson@yahoo.com,Katakwi,REG/2013/7757,0x226ec35ac3794c6c49b05b97c537d74736702a9b,True,2025-12-06 15:51:22
+BYR00077,Jones and Sons Agro,Exporter,John Jones IV,0770286347,john.jones.iv@yahoo.com,Soroti,REG/2015/1425,0xbb289dbbf2380bd25bc8c76c9f646df89a271a61,True,2025-12-06 15:51:22
+BYR00078,Lake Alexberg Farmers Coop,Cooperative,Jonathan Day,0703839022,jonathan.day@gmail.com,Arua,REG/2016/6218,0xdaddb3601d0259692e8dd903f118cedcbc687fe0,True,2025-12-06 15:51:22
+BYR00079,"Schwartz, Patel and Park Foods",Wholesaler,Andrew Johnson,0703929659,andrew.johnson@hotmail.com,Apac,REG/2018/3620,0xb207143f0fabcf728a436b36fcb6b7efdfc44084,True,2025-12-06 15:51:22
+BYR00080,"Vasquez, Holder and Higgins Trading",Wholesaler,Ashley Munoz,0752404257,ashley.munoz@gmail.com,Kumi,REG/2017/1952,0xe41c7e60e1cecae749854d68b77d0d2644fef894,True,2025-12-06 15:51:22
+BYR00081,Burns-Mcpherson Agro,Processor,Mitchell Thompson,0703968258,mitchell.thompson@yahoo.com,Kabale,REG/2013/9426,0x4fbad22acdf7ec7d50887bc1e70acea02f262e29,True,2025-12-06 15:51:22
+BYR00082,Thornton-Bennett Limited,Wholesaler,Jacob Mendoza,0702923073,jacob.mendoza@gmail.com,Rukungiri,REG/2021/3228,0xab50e203d556b07332d9409f3284b9ae5c43332a,True,2025-12-06 15:51:22
+BYR00083,East Jackport Farmers Coop,Cooperative,John Evans,0754310657,john.evans@gmail.com,Pallisa,REG/2010/4929,0xf36256f48f20041fab1d0b764096a2dce92ce3ae,True,2025-12-06 15:51:22
+BYR00084,Davidmouth Farmers Coop,Cooperative,Jeanne Pratt,0771412663,jeanne.pratt@gmail.com,Wakiso,REG/2014/5660,0x88ffd96fb6e69babd667f088997019eccce7a96f,True,2025-12-06 15:51:22
+BYR00085,Cook-Howell Foods,Retailer,Monique Delacruz,0701239887,monique.delacruz@gmail.com,Kasese,REG/2020/8346,0xf9f4f31d194184f3fc9ccbaaafc3dfd81bb85e7d,True,2025-12-06 15:51:22
+BYR00086,"Anderson, Hines and Hill Foods",Exporter,Miss Amber Johnston,0703287783,miss.amber.johnston@gmail.com,Kabale,REG/2017/1174,0xd20d95cbb04446448bae6b3182466a5c499019fb,True,2025-12-06 15:51:22
+BYR00087,Flores-James Limited,Wholesaler,William Vargas,0703477000,william.vargas@gmail.com,Kampala,REG/2020/6361,0xcc1d7fa857eb8537c48bf993bf92687b83214033,True,2025-12-06 15:51:22
+BYR00088,Weiss-Palmer Trading,Retailer,April Sullivan,0753500364,april.sullivan@yahoo.com,Kamuli,REG/2018/1609,0xbf5e37c670d898ac87f7a9bd185a312b5e989014,True,2025-12-06 15:51:22
+BYR00089,George-Estrada Agro,Wholesaler,Johnny Castro,0700171863,johnny.castro@yahoo.com,Apac,REG/2020/1806,0x0086f015f82b166ce2c4baee912c5a5995a0e732,True,2025-12-06 15:51:22
+BYR00090,Mendoza-Scott Trading,Wholesaler,Mary Mathews,0704940572,mary.mathews@hotmail.com,Katakwi,REG/2014/3878,0xc8a596c9d1028f275d12b7d60b5aba70764c72a7,True,2025-12-06 15:51:22
+BYR00091,New James Farmers Coop,Cooperative,Patrick Lee,0704877265,patrick.lee@yahoo.com,Arua,REG/2021/6514,0xe7d8c9f0bd191afbfa24a4ba3e6b5c3c48ebbb1a,True,2025-12-06 15:51:22
+BYR00092,"Delgado, Gardner and Snyder Agro",Exporter,David Ferguson,0701949057,david.ferguson@gmail.com,Bushenyi,REG/2022/1859,0x10f6701286365917ee69e8bcc438ef7cb84497cf,True,2025-12-06 15:51:22
+BYR00093,Brown Inc Limited,Retailer,Joy Becker,0701184874,joy.becker@hotmail.com,Mbale,REG/2021/3382,0x21ae1959b5ed6c499c7f137824564f24f9dfb72e,True,2025-12-06 15:51:22
+BYR00094,"Schwartz, Zuniga and Ross Trading",Exporter,Kristen Wells,0770272433,kristen.wells@gmail.com,Kasese,REG/2011/1820,0x06742e0c6c32f47ab83a50f1318d4f45396e9591,True,2025-12-06 15:51:22
+BYR00095,Sullivan-Rhodes Agro,Exporter,James Washington,0704174050,james.washington@yahoo.com,Iganga,REG/2011/1586,0x90d224ad41e19091c4a8cff7bd3552c809305f8b,True,2025-12-06 15:51:22
+BYR00096,"Zimmerman, Lindsey and Dudley Limited",Retailer,Ricky Green,0703225516,ricky.green@gmail.com,Nebbi,REG/2011/6760,0xd7b7523f7b63bb2100a85d1e1e5b4f285099c2fe,True,2025-12-06 15:51:22
+BYR00097,"Wright, Lucero and Nguyen Agro",Wholesaler,Stephen Paul,0701195512,stephen.paul@gmail.com,Kapchorwa,REG/2023/7953,0xd548e9c114759d530026329ca05497a7b5b3c69a,True,2025-12-06 15:51:22
+BYR00098,"Dillon, Young and Carter Trading",Exporter,Scott Mitchell,0702375693,scott.mitchell@gmail.com,Mbarara,REG/2012/8618,0x5683a29e7d6b039b49644066cb855e64fe3ea060,True,2025-12-06 15:51:22
+BYR00099,"Young, Kelly and Thomas Limited",Exporter,Brandi Bowers,0704157205,brandi.bowers@yahoo.com,Kitgum,REG/2022/1935,0xe871631896ed2975d9bed139c418ca3fba2e78e5,True,2025-12-06 15:51:22
+BYR00100,Thompson LLC Limited,Processor,Tony Davila,0751712003,tony.davila@hotmail.com,Kabarole,REG/2014/7201,0x5f63bc4276ef547aedc1fb3118e6829f461e0b68,True,2025-12-06 15:51:22
+BYR00101,Petersenfort Farmers Coop,Cooperative,Jason Collins,0703188095,jason.collins@yahoo.com,Gulu,REG/2011/6588,0xd654c63275d600b1c2ad1fc5318bdc1c3fe91fa5,True,2025-12-06 15:51:22
+BYR00102,Larson and Sons Foods,Wholesaler,Jonathan Perez,0701950894,jonathan.perez@gmail.com,Bushenyi,REG/2017/7355,0xbc23fcd4a29cbcdbe635a6a0e5dcf4e39867d400,True,2025-12-06 15:51:22
+BYR00103,"Harris, Myers and Vasquez Limited",Retailer,Justin Mann,0753228020,justin.mann@hotmail.com,Rukungiri,REG/2018/5660,0x05d61c9288fcc0bf21f290711d7d90c80dd165aa,True,2025-12-06 15:51:22
+BYR00104,Port Christopherstad Farmers Coop,Cooperative,Joshua Gonzales,0753854544,joshua.gonzales@hotmail.com,Bushenyi,REG/2022/8995,0xdf6182361c941564f4e6ef573c0d9e1d802806ee,True,2025-12-06 15:51:22
+BYR00105,Henderson-Mcintyre Limited,Wholesaler,Ann Reed DDS,0753870545,ann.reed.dds@yahoo.com,Soroti,REG/2021/2559,0xa6a9a3d4a48763dd15c36637e6c531a23f20f579,True,2025-12-06 15:51:22
+BYR00106,Lee Group Limited,Processor,Harold Conway,0752999005,harold.conway@gmail.com,Sironko,REG/2011/5316,0x7784c0fb7c36d2d31c0df38b5d2bf39fb90791a8,True,2025-12-06 15:51:22
+BYR00107,Rodriguez-Daugherty Trading,Wholesaler,Ashley Wilson,0752418440,ashley.wilson@hotmail.com,Kitgum,REG/2022/4203,0x7fb6dae4009dd4619fe4aedae60b96d570727882,True,2025-12-06 15:51:22
+BYR00108,Wilcox Inc Agro,Exporter,Jennifer Summers,0703118871,jennifer.summers@gmail.com,Kampala,REG/2017/6526,0xa0b8a4c3a33f0569644732ffd885fe4781c1cf41,True,2025-12-06 15:51:22
+BYR00109,"Bryan, Rodriguez and Hicks Limited",Processor,Kristina Schwartz,0751567104,kristina.schwartz@yahoo.com,Kumi,REG/2011/7984,0xbeb5f3d08dc0129c224b93c673e8ded6e036da3c,True,2025-12-06 15:51:22
+BYR00110,Armstrong-Alvarado Foods,Retailer,Amanda Simon,0752368976,amanda.simon@hotmail.com,Bushenyi,REG/2011/4094,0x010dcfbdf6e7e52fd7f53b216800ac8ba29686cd,True,2025-12-06 15:51:22
+BYR00111,"Sanchez, Erickson and Moore Limited",Wholesaler,Alexander Jones,0700778535,alexander.jones@hotmail.com,Iganga,REG/2019/1828,0x3a6949607248cfe6c7d2271b70d7b78839cf7c1b,True,2025-12-06 15:51:22
+BYR00112,Patterson-Brown Trading,Retailer,Sharon Landry,0751482541,sharon.landry@gmail.com,Mukono,REG/2018/5933,0xb6036bff8e2abd0ceedcf88e2c488c8fed74aa27,True,2025-12-06 15:51:22
+BYR00113,Bowen Inc Limited,Exporter,Kevin Rogers,0771591744,kevin.rogers@hotmail.com,Mbarara,REG/2016/6180,0x9a938fc08a5c70695329fbfc9e6668d37ee9ad34,True,2025-12-06 15:51:22
+BYR00114,Stevensburgh Farmers Coop,Cooperative,Gina Jackson,0754352570,gina.jackson@yahoo.com,Sironko,REG/2012/3738,0xe14e45bfa6904448e701e8c33b9930681fff89d1,True,2025-12-06 15:51:22
+BYR00115,"Davis, Brewer and Rodriguez Trading",Retailer,Karen Morrow,0700544047,karen.morrow@gmail.com,Fort Portal,REG/2011/9519,0x51d6b04f42c38854e0a911abbca224a000e719e8,True,2025-12-06 15:51:22
+BYR00116,"Nash, Cortez and Butler Limited",Wholesaler,Jennifer Hernandez,0702564834,jennifer.hernandez@gmail.com,Tororo,REG/2023/8853,0x6d58572fd57e1f026dd231a35fa2bdf0b986565c,True,2025-12-06 15:51:22
+BYR00117,Murphybury Farmers Coop,Cooperative,Jamie Garcia,0770846967,jamie.garcia@yahoo.com,Iganga,REG/2014/4709,0xc45ad1de7e153a17c4184d286dc87f4d4c7992ae,True,2025-12-06 15:51:22
+BYR00118,West Sherishire Farmers Coop,Cooperative,Katherine Jordan,0771509372,katherine.jordan@gmail.com,Kumi,REG/2016/8102,0xe067b2addc61768952ada29ff6918fac32815f58,True,2025-12-06 15:51:22
+BYR00119,New James Farmers Coop,Cooperative,Laura Patterson,0700243969,laura.patterson@yahoo.com,Hoima,REG/2020/6392,0xf9014f34aacd24be66fbd0a6b13b378507374216,True,2025-12-06 15:51:22
+BYR00120,"Lopez, Jimenez and Mcdowell Foods",Exporter,Anthony Shaw,0770480512,anthony.shaw@yahoo.com,Sironko,REG/2013/3292,0xe272646d12b9204e060482c543ae3598786e88a9,True,2025-12-06 15:51:22
+BYR00121,Johnsonberg Farmers Coop,Cooperative,Lindsey Nguyen,0771644958,lindsey.nguyen@yahoo.com,Kasese,REG/2019/5640,0xe01a808e7acef3a2ab3ff1139e27e330f41d3f2d,True,2025-12-06 15:51:22
+BYR00122,Carter-Hays Foods,Retailer,Tammy Poole,0701685372,tammy.poole@yahoo.com,Pallisa,REG/2017/4814,0xd32421b519d9dae6d09b691ffd6c728ddf1bcd2b,True,2025-12-06 15:51:22
+BYR00123,"Hensley, Scott and Ferrell Limited",Wholesaler,William Manning,0704682601,william.manning@hotmail.com,Kasese,REG/2019/9286,0xe2b67031857c1311cdec08fc613f155170b64219,True,2025-12-06 15:51:22
+BYR00124,Petty-Frank Trading,Wholesaler,Kelly Lopez,0701908358,kelly.lopez@gmail.com,Kumi,REG/2021/5905,0xe159df43de22233d4b7e78df2c83db69f1e65ddb,True,2025-12-06 15:51:22
+BYR00125,Davies and Sons Agro,Exporter,Stephen Smith,0751119036,stephen.smith@gmail.com,Bushenyi,REG/2022/2379,0x5a2131dfac8a2214a717cd1a99eb1f23f223fe12,True,2025-12-06 15:51:22
+BYR00126,Wood Inc Trading,Wholesaler,Pamela Weaver,0751286801,pamela.weaver@gmail.com,Bundibugyo,REG/2015/7604,0x69a9976e7164de8ffd490edb8011383c229b8e25,True,2025-12-06 15:51:22
+BYR00127,Roberts-Murphy Limited,Wholesaler,William Stone,0701292449,william.stone@yahoo.com,Tororo,REG/2012/2344,0xac2eb7f17666ea2d306585e48e69316a60e53f92,True,2025-12-06 15:51:22
+BYR00128,Jonathanport Farmers Coop,Cooperative,Christopher Day,0703315362,christopher.day@yahoo.com,Soroti,REG/2021/6101,0xb58afa51695164dc4fc345f5b7eabdf9ae279a78,True,2025-12-06 15:51:22
+BYR00129,Pearson-Bailey Agro,Wholesaler,Keith Huang,0752454056,keith.huang@yahoo.com,Iganga,REG/2014/3978,0xd16c08c8a641b2793d10cf4382b238b94914c964,True,2025-12-06 15:51:22
+BYR00130,Lozanochester Farmers Coop,Cooperative,Kevin Lewis,0771449395,kevin.lewis@hotmail.com,Apac,REG/2016/6582,0xf4057d4e903b37a110d553c7aebbe0c36fdfc3ad,True,2025-12-06 15:51:22
+BYR00131,Rowe-Powell Trading,Retailer,Adam Warren,0753920526,adam.warren@hotmail.com,Kitgum,REG/2017/3467,0xea83e1b8b0b10f1286b244cb3aa3cd154d16aa13,True,2025-12-06 15:51:22
+BYR00132,Garner Inc Limited,Processor,Ashley Cooper,0771774803,ashley.cooper@hotmail.com,Iganga,REG/2021/2325,0x53389a3c724fa280a9379a6374e2334e010254e5,True,2025-12-06 15:51:22
+BYR00133,Hill-Golden Limited,Processor,Connie Hall,0703860934,connie.hall@hotmail.com,Kabarole,REG/2018/4327,0x14956c0968d5d715025c4514e6092e770da6eada,True,2025-12-06 15:51:22
+BYR00134,"Johnson, Martinez and Cervantes Trading",Retailer,Patrick Brown,0754402854,patrick.brown@hotmail.com,Kasese,REG/2023/4606,0x6d49ef0270f8ed2003a666291c73ae238f7b6ae6,True,2025-12-06 15:51:22
+BYR00135,Young-Jenkins Trading,Wholesaler,John Knight,0770115874,john.knight@gmail.com,Kisoro,REG/2014/9366,0xe0a9e3bebdd197985a6934c5e4d16302f9bc759f,True,2025-12-06 15:51:22
+BYR00136,Berryfurt Farmers Coop,Cooperative,Kenneth Foley,0702613873,kenneth.foley@gmail.com,Moroto,REG/2010/1628,0x353786ecbe29d286983c2151bed0e206f9b720b6,True,2025-12-06 15:51:22
+BYR00137,Dixon-Burke Agro,Wholesaler,Lisa Myers,0700984021,lisa.myers@gmail.com,Nebbi,REG/2016/8977,0x019b7da3c2582a3e4598f98bf7f0bf871821149c,True,2025-12-06 15:51:22
+BYR00138,Valentine PLC Agro,Retailer,Travis Lambert,0771109530,travis.lambert@hotmail.com,Mayuge,REG/2011/4901,0xcbcc6ef659907e12b0be8e47086eacdc155a6705,True,2025-12-06 15:51:22
+BYR00139,"Hernandez, Smith and Simmons Foods",Wholesaler,Tracey Ramirez,0703748905,tracey.ramirez@gmail.com,Kabale,REG/2019/7335,0xd35ea768e55b4ba69e749ea675fab67110e79648,True,2025-12-06 15:51:22
+BYR00140,Dianefort Farmers Coop,Cooperative,Sherry Winters,0751728208,sherry.winters@yahoo.com,Mayuge,REG/2014/7776,0xc8d84a7e08b80c1270d00a56312ec4bde0f1662d,True,2025-12-06 15:51:22
+BYR00141,Webb-Hahn Limited,Processor,Deborah Miller,0703173435,deborah.miller@yahoo.com,Hoima,REG/2023/7454,0x75a4a10959b64cf34642ae4c3fbac29a47bf297e,True,2025-12-06 15:51:22
+BYR00142,Byrd-Barr Foods,Processor,Angel Fletcher,0751242978,angel.fletcher@gmail.com,Kisoro,REG/2016/3558,0x91a81cc32ee443985d43fd04a534ff3612cb25e6,True,2025-12-06 15:51:22
+BYR00143,Austinbury Farmers Coop,Cooperative,Melvin Turner,0704426970,melvin.turner@hotmail.com,Jinja,REG/2021/4098,0x3ecd59f5285bd1ae39bab9cf09c888375a43554a,True,2025-12-06 15:51:22
+BYR00144,Port John Farmers Coop,Cooperative,Hannah Russell,0754182666,hannah.russell@hotmail.com,Masindi,REG/2022/7309,0xb817f9795379e0325819c972838d546b0d7b934a,True,2025-12-06 15:51:22
+BYR00145,Burns Group Trading,Retailer,Kaitlyn Sims,0752939187,kaitlyn.sims@yahoo.com,Lira,REG/2016/6019,0xd4b6b82cf4432f3d0cd5c8534167abefdec94274,True,2025-12-06 15:51:22
+BYR00146,Cooper-Brooks Foods,Retailer,Kevin Ball,0751805026,kevin.ball@hotmail.com,Mukono,REG/2011/2279,0x220fff231af07ca4ba0e8ad16e6a126f4da4e346,True,2025-12-06 15:51:22
+BYR00147,Bryant Ltd Foods,Retailer,Jesse Mcdaniel,0704457745,jesse.mcdaniel@yahoo.com,Rukungiri,REG/2011/5723,0x3fd7bd72816d22b8a937f4cc38e5cacc41aeff70,True,2025-12-06 15:51:22
+BYR00148,Williamborough Farmers Coop,Cooperative,Jill Porter,0702364414,jill.porter@gmail.com,Moroto,REG/2015/7601,0x9fa5f1cb705f9ba76fe2ef5ea69fd50cadf73e91,True,2025-12-06 15:51:22
+BYR00149,"Palmer, Brooks and Davenport Limited",Exporter,Gregory Clark DDS,0750694005,gregory.clark.dds@hotmail.com,Kitgum,REG/2013/8640,0x6423a687d4f8322d0c0fc1bd4f7479dbcfda1533,True,2025-12-06 15:51:22
+BYR00150,Deborahstad Farmers Coop,Cooperative,Lance Kim,0704555493,lance.kim@hotmail.com,Bushenyi,REG/2019/4806,0x57a1d0e01f67f419bcd6cc5557cf604c3b3db884,True,2025-12-06 15:51:22
+BYR00151,Schmidt-Hart Limited,Processor,Julia Turner,0770679125,julia.turner@yahoo.com,Kapchorwa,REG/2011/2062,0x6cf1172145104ed9080edd121a82a24016d97a36,True,2025-12-06 15:51:22
+BYR00152,Lake Larryfurt Farmers Coop,Cooperative,Caitlin Lam,0750653063,caitlin.lam@yahoo.com,Mbale,REG/2019/8658,0x0a06d8e69b60be63de9a1e27cae424543b529882,True,2025-12-06 15:51:22
+BYR00153,"Scott, Taylor and Brown Limited",Wholesaler,Hunter Burton,0750172877,hunter.burton@yahoo.com,Jinja,REG/2018/1231,0xe4f6694c4e466d12367d549fc817be8290100e68,True,2025-12-06 15:51:22
+BYR00154,Bowen-Robertson Agro,Processor,Edward Smith,0703326268,edward.smith@gmail.com,Apac,REG/2019/1883,0x136e008d11d96d10b4f0df79ec223c4b8079653a,True,2025-12-06 15:51:22
+BYR00155,Smith LLC Foods,Exporter,Heather Padilla,0771708100,heather.padilla@hotmail.com,Kabarole,REG/2018/9838,0xcc3f4cfd5bc8a2702c59782ea129423f947357bd,True,2025-12-06 15:51:22
+BYR00156,"Bradshaw, Murphy and Garcia Agro",Exporter,Tonya Carr,0702652123,tonya.carr@yahoo.com,Gulu,REG/2011/4288,0x74bdb7f21d32e8657caebfeb40b92e85450027f3,True,2025-12-06 15:51:22
+BYR00157,Baxter-Young Agro,Processor,Cole Taylor,0701752843,cole.taylor@gmail.com,Mbarara,REG/2020/7772,0x7aa268bc525a7331bef3da8cf0e35e823e263bc6,True,2025-12-06 15:51:22
+BYR00158,Rose Group Agro,Retailer,Catherine Smith,0771631549,catherine.smith@yahoo.com,Mbale,REG/2014/1075,0x0501777554ec9984fcf9f7a8d10f87368898449a,True,2025-12-06 15:51:22
+BYR00159,Woodward-Morrison Trading,Retailer,Angela Yang,0750742616,angela.yang@hotmail.com,Kumi,REG/2017/4869,0xa4b00630f85ef986e783a569fbfcf4f1c32be55b,True,2025-12-06 15:51:22
+BYR00160,"Nguyen, Pena and Stewart Trading",Wholesaler,Bobby Estrada,0701595959,bobby.estrada@yahoo.com,Arua,REG/2013/7948,0x1c9542a12af28aaad38e4e82fbe92543c76c6771,True,2025-12-06 15:51:22
+BYR00161,West Davidburgh Farmers Coop,Cooperative,Miguel Lang,0752128975,miguel.lang@hotmail.com,Hoima,REG/2021/3245,0x0508f628cff50c12eac1db2d7a5e3675cb524a99,True,2025-12-06 15:51:22
+BYR00162,Harris-Lowe Trading,Retailer,Anthony Peters,0703239984,anthony.peters@hotmail.com,Masindi,REG/2016/8548,0xcb490a59e981c21da97aa4be7870b3134b420d0b,True,2025-12-06 15:51:22
+BYR00163,Hoover PLC Agro,Exporter,Danielle Hopkins,0751741816,danielle.hopkins@gmail.com,Masindi,REG/2021/4897,0xd65b2c2bf772bb84ff4de3d7858257793c5a3732,True,2025-12-06 15:51:22
+BYR00164,Ross-West Agro,Wholesaler,Erika Odonnell,0703357973,erika.odonnell@yahoo.com,Pallisa,REG/2011/3580,0x46d9bce7180b3f7d3193b3cf6304eee70740a3f7,True,2025-12-06 15:51:22
+BYR00165,Ashley LLC Agro,Wholesaler,Valerie Santos,0701169631,valerie.santos@hotmail.com,Bundibugyo,REG/2012/3114,0x4651b483c71c1ae865755310ce44cba778512511,True,2025-12-06 15:51:22
+BYR00166,Jones Ltd Trading,Exporter,Sheila Lucas,0751915800,sheila.lucas@yahoo.com,Mbarara,REG/2020/7061,0x74c377eb6161a16797fcbddf94e3ecb128c72e14,True,2025-12-06 15:51:22
+BYR00167,"Bender, Wong and Johnson Limited",Processor,Ann Clark,0754809146,ann.clark@yahoo.com,Kapchorwa,REG/2018/8348,0x5e91b46009f0c1ad99f59089ef6aede6f357ef23,True,2025-12-06 15:51:22
+BYR00168,Danielview Farmers Coop,Cooperative,Christopher Hernandez,0702537299,christopher.hernandez@gmail.com,Kitgum,REG/2017/1167,0xdd9c34198aa01cf87202de29516c6a14c90c36be,True,2025-12-06 15:51:22
+BYR00169,Green-Daniels Foods,Processor,David Brooks,0703854043,david.brooks@hotmail.com,Rukungiri,REG/2019/6926,0x0ddbfe8efc71d50b9f54815e9b5601137076a534,True,2025-12-06 15:51:22
+BYR00170,Harmon-Bender Foods,Exporter,Juan Alvarez,0754995636,juan.alvarez@gmail.com,Kasese,REG/2011/6111,0x264d2a8ee659021745f1cf595e0ae46ac72ebdde,True,2025-12-06 15:51:22
+BYR00171,"Jones, Foley and Miller Trading",Wholesaler,Mike Smith,0700360321,mike.smith@gmail.com,Bushenyi,REG/2010/8688,0x65eb4f736f1823bd9369e7a6092be2b83e4c2e16,True,2025-12-06 15:51:22
+BYR00172,Miller LLC Limited,Processor,Sarah Smith,0771370890,sarah.smith@gmail.com,Sironko,REG/2018/2605,0xe8be0d50de3dc90bc4062f451651753110658503,True,2025-12-06 15:51:22
+BYR00173,"Sims, Jones and Powell Foods",Processor,Dennis Pugh,0701187361,dennis.pugh@yahoo.com,Wakiso,REG/2016/9158,0x4aac279cd235287d7cc6bb4c007027e404eae13f,True,2025-12-06 15:51:22
+BYR00174,"Johnson, Harris and Ballard Agro",Wholesaler,Deborah Miranda,0700707429,deborah.miranda@hotmail.com,Kisoro,REG/2020/6033,0x05318b8a3906d489b1549772cd3872c2b55ac3b2,True,2025-12-06 15:51:22
+BYR00175,North Andrew Farmers Coop,Cooperative,Jacob Stokes,0771810385,jacob.stokes@hotmail.com,Nebbi,REG/2014/6346,0xbd38ded9a643bab0726737b27e4c514b96c4640b,True,2025-12-06 15:51:22
+BYR00176,Scott PLC Agro,Wholesaler,Ruth Dunn,0703412805,ruth.dunn@hotmail.com,Kumi,REG/2012/2521,0x8a09964ca4db161941a222edf663736deb9a6e90,True,2025-12-06 15:51:22
+BYR00177,Price-Singh Agro,Wholesaler,Susan Vazquez,0753970751,susan.vazquez@gmail.com,Rukungiri,REG/2022/7032,0x5e0ba32daec6027d05555bed7dfc52b7f55b9b1a,True,2025-12-06 15:51:22
+BYR00178,North Jasonview Farmers Coop,Cooperative,Bruce Davis,0750629001,bruce.davis@hotmail.com,Nebbi,REG/2011/8562,0x235fbb711d01d3f7ab855b687ff05450965df0da,True,2025-12-06 15:51:22
+BYR00179,Port Norma Farmers Coop,Cooperative,Anita Hendrix,0702329440,anita.hendrix@hotmail.com,Kasese,REG/2019/9857,0x6d35b96e253528540f10b5f84855204bfb5ae4ec,True,2025-12-06 15:51:22
+BYR00180,Carter and Sons Trading,Processor,Darius Wright,0754731160,darius.wright@hotmail.com,Gulu,REG/2017/5203,0x2921281c7dc3682f69dae8213fc26a0d97f0f901,True,2025-12-06 15:51:22
+BYR00181,"Walter, Hansen and Wilson Agro",Exporter,Paul Acosta,0702827528,paul.acosta@hotmail.com,Kampala,REG/2023/8367,0x1c5b32f3c569b9408298318eaec7624984fce42d,True,2025-12-06 15:51:22
+BYR00182,Ellison Ltd Limited,Exporter,Shawn Wong,0751728968,shawn.wong@yahoo.com,Mbale,REG/2012/6416,0x2d8eae38598f594b2f83769c94b278f8b5987104,True,2025-12-06 15:51:22
+BYR00183,Teresamouth Farmers Coop,Cooperative,Kara Christensen,0771991359,kara.christensen@yahoo.com,Jinja,REG/2017/6229,0x68c6a901df1ac51078a8c08380e532cd4015fab1,True,2025-12-06 15:51:22
+BYR00184,Kennedy-Fowler Trading,Processor,Clinton Bennett,0704377700,clinton.bennett@hotmail.com,Katakwi,REG/2019/6400,0xf15e101f22a9f5e4c52e7bf8cf12c0eaa9933175,True,2025-12-06 15:51:22
+BYR00185,Walker-Holder Foods,Processor,Christopher Riley,0751529125,christopher.riley@hotmail.com,Gulu,REG/2016/2323,0x8d5c029e99558bcf176c5a83b812c30750df8631,True,2025-12-06 15:51:22
+BYR00186,Lee-Hanson Foods,Exporter,Lisa Hunter,0771146978,lisa.hunter@yahoo.com,Jinja,REG/2013/7768,0xe7fab38205c8367f3fbb9f31f122af97614b9d1c,True,2025-12-06 15:51:22
+BYR00187,Contreras-Silva Agro,Retailer,Perry Grant,0771668159,perry.grant@gmail.com,Soroti,REG/2010/1137,0xe25d0f5af757310f54ec0dfc3166a72cc78b7dd2,True,2025-12-06 15:51:22
+BYR00188,Garcia-Parks Agro,Exporter,Steve Duncan,0702260289,steve.duncan@gmail.com,Katakwi,REG/2014/7435,0x65a55677dc931900065c31cdaf90475be1f664ed,True,2025-12-06 15:51:22
+BYR00189,Conley Group Foods,Wholesaler,Cristian Barker,0750545512,cristian.barker@yahoo.com,Kabarole,REG/2018/3191,0x53b8d66ea935df0614e0f6b277ba75228e6961d0,True,2025-12-06 15:51:22
+BYR00190,"Wilson, Jones and Carpenter Foods",Exporter,Evelyn Beasley,0703346869,evelyn.beasley@gmail.com,Fort Portal,REG/2011/2853,0x5b1054f8ea0d3ed875d50549442f8b1254efdca2,True,2025-12-06 15:51:22
+BYR00191,Jenningston Farmers Coop,Cooperative,Natalie Jones,0754420059,natalie.jones@gmail.com,Tororo,REG/2017/3125,0xaaab7a0483c3e5b1efaafbe53a37753aaa08c906,True,2025-12-06 15:51:22
+BYR00192,Brown-White Limited,Retailer,Christine Jackson,0701553790,christine.jackson@gmail.com,Kamuli,REG/2015/2565,0x3ed96a1d8e6418dda2a6dfe5b615b1bedd858419,True,2025-12-06 15:51:22
+BYR00193,Markhaven Farmers Coop,Cooperative,Aaron Lopez,0700331352,aaron.lopez@yahoo.com,Apac,REG/2018/7671,0x78bc93d68be59112f9deac4a9a46e282d53703e0,True,2025-12-06 15:51:22
+BYR00194,Gardner and Sons Trading,Exporter,Luis Collins,0700235065,luis.collins@gmail.com,Arua,REG/2019/7254,0x378c08760d5c30ab3d4abe9c9eafb15f3b10fa72,True,2025-12-06 15:51:22
+BYR00195,"Jones, Blankenship and Rose Limited",Retailer,Cristina Goodwin,0704902661,cristina.goodwin@gmail.com,Jinja,REG/2023/2370,0xc6ebf626aada489231ecfd547f31344ae4caa48a,True,2025-12-06 15:51:22
+BYR00196,Boyer PLC Trading,Exporter,Desiree Lee,0703206180,desiree.lee@hotmail.com,Tororo,REG/2019/3921,0x84db4c5db863c09001012a6cecc5fb10be844642,True,2025-12-06 15:51:22
+BYR00197,Rossside Farmers Coop,Cooperative,Tim Brown,0754505118,tim.brown@yahoo.com,Kisoro,REG/2010/5018,0xa487b29212cf762ad599609929b90bac4f216542,True,2025-12-06 15:51:22
+BYR00198,"Gillespie, Perez and Flynn Trading",Processor,Jamie Warner,0700292343,jamie.warner@hotmail.com,Nebbi,REG/2023/4982,0x71885793c61e03c7b66fbd3a46e0763f4a44e414,True,2025-12-06 15:51:22
+BYR00199,Riley LLC Foods,Retailer,Matthew Williams,0701232251,matthew.williams@yahoo.com,Katakwi,REG/2010/7525,0x7795c14cdefee06cefcc5ca698f105342f992958,True,2025-12-06 15:51:22
+BYR00200,New Jason Farmers Coop,Cooperative,Terri Downs,0754991785,terri.downs@hotmail.com,Lira,REG/2021/9360,0xc183a8b078b14e02aad836e2a823ea2a13493017,True,2025-12-06 15:51:22
+BYR00201,Simmons-Brown Foods,Wholesaler,Elizabeth Oconnell,0702650356,elizabeth.oconnell@hotmail.com,Fort Portal,REG/2023/4049,0x154e1e6be77a2c7636f5cc4e8b65c8df8288eda0,True,2025-12-06 15:51:22
+BYR00202,Trujillohaven Farmers Coop,Cooperative,Ashley Frank,0700860408,ashley.frank@gmail.com,Bundibugyo,REG/2016/6729,0x71fd5c4cc154a480e95b330f1c0e2f4b1245edda,True,2025-12-06 15:51:22
+BYR00203,North Amyberg Farmers Coop,Cooperative,Katherine Harrell,0770278617,katherine.harrell@hotmail.com,Kampala,REG/2010/4449,0xcd8ae865ac222810bab60352e3e3a60b4d177e99,True,2025-12-06 15:51:22
+BYR00204,Long-Clayton Trading,Processor,Steven Foster,0751963700,steven.foster@hotmail.com,Pallisa,REG/2016/2765,0x9b03165221687e9013cb72b52892cc4a3b55069d,True,2025-12-06 15:51:22
+BYR00205,Green-Lopez Limited,Processor,Michael Kim,0752523920,michael.kim@gmail.com,Kamuli,REG/2015/1202,0xe1e938f245f27c5b52a3ff441b134963f7c228a9,True,2025-12-06 15:51:22
+BYR00206,Baileymouth Farmers Coop,Cooperative,Sarah Bauer,0770814385,sarah.bauer@yahoo.com,Kampala,REG/2016/8020,0x708282b8d96d633921ea8839ecb1d71b25aa46fb,True,2025-12-06 15:51:22
+BYR00207,Sandraville Farmers Coop,Cooperative,William Davidson,0703512760,william.davidson@gmail.com,Masaka,REG/2017/9684,0x30aee624c2f9f6e8ef5a6106ef29feb62dd13bee,True,2025-12-06 15:51:22
+BYR00208,"Phillips, White and Mitchell Foods",Processor,James Gross,0701308714,james.gross@hotmail.com,Kabarole,REG/2018/8454,0x16ecabaa5b91a49df4d6483ca3deab9bbde7eab8,True,2025-12-06 15:51:22
+BYR00209,North Ronald Farmers Coop,Cooperative,Allen Lewis,0704501656,allen.lewis@yahoo.com,Arua,REG/2013/8482,0xac34eb7bdffe3b8d5783916d2877ea96cd6d2ecd,True,2025-12-06 15:51:22
+BYR00210,Williams-Patterson Limited,Exporter,Becky Moore,0771904027,becky.moore@yahoo.com,Pallisa,REG/2015/7810,0xcfa146327525f24ed3066638bfaaa6e0b0d2cd32,True,2025-12-06 15:51:22
+BYR00211,East Williamchester Farmers Coop,Cooperative,Elijah Singh,0702477477,elijah.singh@gmail.com,Kitgum,REG/2011/8576,0x1ceb85ec40903fd428450f016135150ce8801862,True,2025-12-06 15:51:22
+BYR00212,East Tracyport Farmers Coop,Cooperative,Sean Jordan,0751904563,sean.jordan@gmail.com,Rukungiri,REG/2023/2607,0x7403d28ce95d82d804e2f12f570ea160978f54b5,True,2025-12-06 15:51:22
+BYR00213,White-Cunningham Trading,Processor,Valerie Cox,0752764988,valerie.cox@gmail.com,Kamuli,REG/2020/8242,0x8511539c43e977fc34135ee5c128e6f23d476362,True,2025-12-06 15:51:22
+BYR00214,New Douglas Farmers Coop,Cooperative,Olivia Pratt,0750633719,olivia.pratt@hotmail.com,Tororo,REG/2010/3227,0xb16b0d846541477a1068b010ce99a7b78d43c120,True,2025-12-06 15:51:22
+BYR00215,Travis PLC Trading,Wholesaler,Sarah Church PhD,0701966820,sarah.church.phd@gmail.com,Moroto,REG/2014/8251,0x0192748f8835b28610ca0a989006006b0248f8d8,True,2025-12-06 15:51:22
+BYR00216,Miller Group Trading,Processor,Tonya Parker,0771582939,tonya.parker@yahoo.com,Kampala,REG/2010/6294,0xab49580087715d35614907db8283384dffde017e,True,2025-12-06 15:51:22
+BYR00217,Lopez-Willis Agro,Exporter,Dennis Wright,0754784601,dennis.wright@gmail.com,Moroto,REG/2020/7214,0xf28b6a98327e4c129aa7508e5f3125c551d05e19,True,2025-12-06 15:51:22
+BYR00218,Graham LLC Limited,Processor,David Wolfe,0753917548,david.wolfe@hotmail.com,Mukono,REG/2022/9221,0xf37d4cdff7142b011ea1d847daa734766c76a28d,True,2025-12-06 15:51:22
+BYR00219,Kramerberg Farmers Coop,Cooperative,Morgan Rodriguez,0702984472,morgan.rodriguez@gmail.com,Mayuge,REG/2022/5350,0x588fa698b3a238c884399629043fda2503e674d3,True,2025-12-06 15:51:22
+BYR00220,Kirk Ltd Agro,Wholesaler,Thomas Taylor,0754901149,thomas.taylor@hotmail.com,Ntungamo,REG/2014/3894,0xeeb7eec13cc23ca38e747da965694422e0560e0f,True,2025-12-06 15:51:22
+BYR00221,Robinson Inc Agro,Retailer,Jennifer Hodges,0701244708,jennifer.hodges@yahoo.com,Apac,REG/2015/5941,0x65622ee5c549b436e0086c27e39adb1303b0904b,True,2025-12-06 15:51:22
+BYR00222,"Nichols, Jordan and Cox Agro",Processor,Natalie Lee,0701538162,natalie.lee@yahoo.com,Kamuli,REG/2021/6638,0x31d8adf2185ba307c8badee160e9ed9c9d2684ca,True,2025-12-06 15:51:22
+BYR00223,"Thomas, Turner and French Foods",Processor,Richard Carpenter,0701515124,richard.carpenter@gmail.com,Mukono,REG/2020/2683,0xbe44e3a461321cf77c91d901b901d18473bb71d2,True,2025-12-06 15:51:22
+BYR00224,Edwards Ltd Limited,Exporter,Brian Orozco,0770740783,brian.orozco@hotmail.com,Katakwi,REG/2020/6747,0x4fc4c6c0f07fb833a43bf24f53a66b53c3fc3860,True,2025-12-06 15:51:22
+BYR00225,Evans Group Foods,Wholesaler,Nichole Anderson,0751895577,nichole.anderson@gmail.com,Hoima,REG/2020/2499,0xa5087db2d6d17a7bc9c3fab56c92617e4f8c3c21,True,2025-12-06 15:51:22
+BYR00226,Kelly PLC Limited,Processor,Earl Cummings,0704713460,earl.cummings@hotmail.com,Hoima,REG/2015/4643,0xedcf092ce3997f789c5292b193846d10695784b3,True,2025-12-06 15:51:22
+BYR00227,Bailey and Sons Limited,Processor,Christine Matthews,0751603893,christine.matthews@gmail.com,Iganga,REG/2022/1272,0xde070f5f65d3c8c64f82ed6635455090055011e5,True,2025-12-06 15:51:22
+BYR00228,"Pierce, Bailey and Wilcox Foods",Retailer,Mackenzie Campbell,0752349127,mackenzie.campbell@hotmail.com,Soroti,REG/2014/5763,0xbf19ee8fca157394a79fcc0e3e88deed84099de5,True,2025-12-06 15:51:22
+BYR00229,Thompson-Terrell Foods,Wholesaler,Brenda Wu,0701604069,brenda.wu@gmail.com,Mukono,REG/2014/1412,0xc6a2c6029faca57b8314b931d5b2b1e84677154d,True,2025-12-06 15:51:22
+BYR00230,"Kennedy, Mcintosh and Perez Trading",Processor,Christopher Rodriguez,0701464174,christopher.rodriguez@gmail.com,Nebbi,REG/2012/8011,0x9e72296b8ef96e7d6eb14aa43cfb01aa327f5817,True,2025-12-06 15:51:22
+BYR00231,Sandoval and Sons Trading,Exporter,Gina Walters,0703548396,gina.walters@gmail.com,Kasese,REG/2016/9498,0xc555b145cfe887b61670a89f76318c56eda6c156,True,2025-12-06 15:51:22
+BYR00232,Brown LLC Limited,Retailer,Lisa Haas,0752204800,lisa.haas@hotmail.com,Katakwi,REG/2010/7045,0xf97b9abff6825a07c2283e6b03851582521f189b,True,2025-12-06 15:51:22
+BYR00233,South Crystalberg Farmers Coop,Cooperative,Heather Grant,0702692641,heather.grant@hotmail.com,Tororo,REG/2022/7813,0x697ab2f0a758949408ec86e049fddf566f804fa4,True,2025-12-06 15:51:22
+BYR00234,Leonard LLC Agro,Retailer,Rebecca Santos,0771554319,rebecca.santos@gmail.com,Hoima,REG/2015/7211,0x8e85d218e55739891c9a9a1e08cf3a016465e178,True,2025-12-06 15:51:22
+BYR00235,Trujillo-Sloan Foods,Exporter,Nathan Holt,0754828494,nathan.holt@gmail.com,Apac,REG/2013/2811,0x136cb6448cb45990afc1c84d7a2c12fe25ac3bd6,True,2025-12-06 15:51:22
+BYR00236,Warren Inc Trading,Exporter,Jimmy Gallagher,0700502058,jimmy.gallagher@gmail.com,Soroti,REG/2010/6698,0xe1f05e11bdcd7db182c2e0dd128f4347274ff8c9,True,2025-12-06 15:51:22
+BYR00237,Solomon LLC Agro,Wholesaler,Christopher Wright,0754181304,christopher.wright@hotmail.com,Mbale,REG/2014/7710,0x2e5994266d1839cd39e0bafe39bdaaccc0114544,True,2025-12-06 15:51:22
+BYR00238,Campos PLC Foods,Processor,Kathleen Harrison,0700145471,kathleen.harrison@yahoo.com,Lira,REG/2023/4728,0x32162106249e1f5554b99b67f74f36f89054d535,True,2025-12-06 15:51:22
+BYR00239,Ramos-Graves Trading,Retailer,Charles Vargas,0754495293,charles.vargas@gmail.com,Masindi,REG/2023/2313,0x0bb84938239a20241bfa649f5d35b0de81ae0857,True,2025-12-06 15:51:22
+BYR00240,Stephensonside Farmers Coop,Cooperative,Justin Baker,0701596315,justin.baker@hotmail.com,Kisoro,REG/2023/4845,0x298353edb8a643c572f7235bc22995bba3f82b8c,True,2025-12-06 15:51:22
+BYR00241,"Solomon, Best and Oneal Limited",Processor,Tara Mclaughlin,0750603280,tara.mclaughlin@gmail.com,Wakiso,REG/2016/8665,0x4afb394f4a96c69306d3255bd574b70efea0e0cd,True,2025-12-06 15:51:22
+BYR00242,Coffey-Morgan Limited,Retailer,Amanda Lawrence,0702319223,amanda.lawrence@hotmail.com,Mbarara,REG/2023/5392,0x8171ef0519898947ed1789364b7d4e221fba47b9,True,2025-12-06 15:51:22
+BYR00243,"Gonzalez, Morgan and Boyer Foods",Exporter,Isaiah Porter,0704455001,isaiah.porter@gmail.com,Mayuge,REG/2011/4939,0x5734036fd1f9987c785788a1ce041817bcdba267,True,2025-12-06 15:51:22
+BYR00244,Bishop LLC Foods,Processor,Justin Stephens,0752586863,justin.stephens@yahoo.com,Moroto,REG/2015/5099,0xd85985be326ba48791f11972ca62025e7beffc86,True,2025-12-06 15:51:22
+BYR00245,"Mcgee, Griffith and Gomez Agro",Wholesaler,Brandi Salas,0703526165,brandi.salas@gmail.com,Rukungiri,REG/2020/8273,0xbc5d4fed4163613b8814d805277bebc80e202c27,True,2025-12-06 15:51:22
+BYR00246,Anderson Group Trading,Exporter,Willie Dean,0704716009,willie.dean@gmail.com,Pallisa,REG/2019/3503,0xe2675b422ce13bcae75eecdd21112b3c7296518f,True,2025-12-06 15:51:22
+BYR00247,South Davidport Farmers Coop,Cooperative,Daniel Lopez,0753181745,daniel.lopez@hotmail.com,Kabale,REG/2014/4629,0xfe2b4bbce7102142b7893b5e66447f82de1f2a4b,True,2025-12-06 15:51:22
+BYR00248,"Torres, Rivas and Stewart Agro",Retailer,Jessica Cannon,0700962995,jessica.cannon@hotmail.com,Katakwi,REG/2022/4996,0xf0695d03066cc2ffbe6239cf41b65e797ae761af,True,2025-12-06 15:51:22
+BYR00249,Jenniferview Farmers Coop,Cooperative,Caitlin Gomez,0752689816,caitlin.gomez@hotmail.com,Pallisa,REG/2020/9274,0x05180d34b1876d91ff4a89dfe8496262fbdade51,True,2025-12-06 15:51:22
+BYR00250,Williams LLC Limited,Exporter,Joseph Dawson,0701494398,joseph.dawson@hotmail.com,Nebbi,REG/2014/6317,0x9d2e5009ba8eed5da63fbb92f704008db7b3d24d,True,2025-12-06 15:51:22
+BYR00251,"Lopez, Atkinson and Odonnell Limited",Retailer,Riley Gay,0754722082,riley.gay@gmail.com,Hoima,REG/2017/3348,0xe7f63cfc7bc62d99e01bd083b10e3dbdf46a560f,True,2025-12-06 15:51:22
+BYR00252,"Pacheco, Lee and Brown Limited",Processor,Carlos Fuentes,0754227549,carlos.fuentes@gmail.com,Ntungamo,REG/2023/8339,0xd99c4ea75f968d9796c0c9be6df613484b679506,True,2025-12-06 15:51:22
+BYR00253,"Thompson, Mason and Wyatt Foods",Wholesaler,Linda Ryan,0771878401,linda.ryan@hotmail.com,Hoima,REG/2020/2328,0x6bf60677d1e0646c1cfbb104bdcbdf1e3d9108f1,True,2025-12-06 15:51:22
+BYR00254,Jenkinsmouth Farmers Coop,Cooperative,Donna Franklin,0701230045,donna.franklin@yahoo.com,Fort Portal,REG/2010/3812,0x9ff49f87eb404c0a8b283f076d1cb79ad21b7dac,True,2025-12-06 15:51:22
+BYR00255,Koch PLC Limited,Exporter,Robert Suarez,0704979272,robert.suarez@hotmail.com,Masindi,REG/2010/9117,0xdb38a42a173d099cca94dabbda4ab7e784b791fc,True,2025-12-06 15:51:22
+BYR00256,Carr-King Foods,Retailer,Nicholas Anderson,0751884872,nicholas.anderson@hotmail.com,Lira,REG/2016/9186,0x6fb2d273872904ab42c80c8cc63cbc341d6eb5b5,True,2025-12-06 15:51:22
+BYR00257,Jones Inc Trading,Processor,Craig Frost,0752731374,craig.frost@yahoo.com,Kabale,REG/2018/7546,0xe04208cc1f70b0287520137d7c10863e0b791b9c,True,2025-12-06 15:51:22
+BYR00258,Bennett PLC Foods,Wholesaler,Shawn Bowers,0754644397,shawn.bowers@hotmail.com,Pallisa,REG/2017/4882,0x4dac5d618e9c1540c82b01ef958b638090cd420c,True,2025-12-06 15:51:22
+BYR00259,"Hamilton, Rodriguez and Anderson Foods",Retailer,Amanda Allen,0752915893,amanda.allen@yahoo.com,Gulu,REG/2020/5237,0xc2fb3570c0b1204c4188a5c2307968944401a7d8,True,2025-12-06 15:51:22
+BYR00260,North Jerome Farmers Coop,Cooperative,Ronald Brown,0771516646,ronald.brown@yahoo.com,Kisoro,REG/2017/6131,0xfcd8074f606a26aa34f60e705767d83b8b7b8691,True,2025-12-06 15:51:22
+BYR00261,Henry LLC Trading,Processor,Wayne Anderson,0751384920,wayne.anderson@gmail.com,Bundibugyo,REG/2022/4266,0xedce6d925a76fc43d6af873315c790a949da47b4,True,2025-12-06 15:51:22
+BYR00262,York Ltd Agro,Retailer,Jessica Weeks,0770886179,jessica.weeks@yahoo.com,Hoima,REG/2014/3366,0x9898e97c904fc45233583d99c78c375273ebc446,True,2025-12-06 15:51:22
+BYR00263,Wilson Ltd Agro,Processor,Dr. Christopher White,0703734611,dr..christopher.white@hotmail.com,Soroti,REG/2019/7933,0x421437b38865871c4221c94b4a19d13c122e1b34,True,2025-12-06 15:51:22
+BYR00264,Port Tommytown Farmers Coop,Cooperative,Sean Gonzalez,0750625516,sean.gonzalez@hotmail.com,Kampala,REG/2015/5661,0x0d10f73dc6594154fd64f8f89240b9f0698c6af7,True,2025-12-06 15:51:22
+BYR00265,"Myers, Mckee and Gilbert Agro",Wholesaler,Shelley Wolfe,0771798068,shelley.wolfe@gmail.com,Pallisa,REG/2017/7868,0x23a99fcbfcae70d9fba7157b13cc057f6f331ddd,True,2025-12-06 15:51:22
+BYR00266,Lawson PLC Foods,Retailer,Steven Smith,0753556150,steven.smith@hotmail.com,Kapchorwa,REG/2023/2194,0x7c6d12c46f12cf99ebd20756b896fefa3aa76fed,True,2025-12-06 15:51:22
+BYR00267,"Parker, Santiago and Zamora Limited",Wholesaler,Kristina Frost,0771883727,kristina.frost@hotmail.com,Masindi,REG/2023/4055,0xe48e0c76cc34298ba93736cc01dd46a292b86283,True,2025-12-06 15:51:22
+BYR00268,Webster-Gonzalez Agro,Retailer,Bradley Foster,0704609053,bradley.foster@gmail.com,Gulu,REG/2010/7684,0x8682d0ba7644ea1abfc72e3d370370dba9f32326,True,2025-12-06 15:51:22
+BYR00269,"Davenport, Collins and Blake Limited",Wholesaler,Jeffrey Mcneil,0700987326,jeffrey.mcneil@yahoo.com,Moroto,REG/2012/9252,0xc63f82738118e3d0b8bf144164ecb62d52d3d3e1,True,2025-12-06 15:51:22
+BYR00270,"Brown, Lyons and Griffith Agro",Processor,Lee Brown,0704743349,lee.brown@hotmail.com,Kumi,REG/2011/3808,0xedd80d13041b7d73e7939c8b2192c7357f4652ae,True,2025-12-06 15:51:22
+BYR00271,Sanchez Group Trading,Exporter,Jared Oneal,0702979252,jared.oneal@hotmail.com,Nebbi,REG/2020/6693,0xa5151e4d842ba9bef697b030d1b60647a4e11977,True,2025-12-06 15:51:22
+BYR00272,"Snyder, Hubbard and Rogers Trading",Retailer,John Burton,0703232112,john.burton@hotmail.com,Kumi,REG/2021/4370,0xadee6140ad700fe68e0aed8e5b877cefce4a68cc,True,2025-12-06 15:51:22
+BYR00273,Rice and Sons Foods,Retailer,Brady Moses,0752572117,brady.moses@gmail.com,Hoima,REG/2022/2366,0x8163851ecf2f7ff3e82917765b10c8001291e55b,True,2025-12-06 15:51:22
+BYR00274,"Bowman, Goodwin and Ross Agro",Exporter,Justin Day,0704780900,justin.day@gmail.com,Mayuge,REG/2012/1383,0x42e0d3c00340a5301d62743fb739406f42174f35,True,2025-12-06 15:51:22
+BYR00275,"Robertson, Morton and Ball Limited",Wholesaler,Jillian Blake,0750859943,jillian.blake@yahoo.com,Mukono,REG/2023/9214,0x0190f5d2ad0015a4d70f4cbefb966c550cb6db42,True,2025-12-06 15:51:22
+BYR00276,Young-Lynch Trading,Wholesaler,Stacey Walker,0752474148,stacey.walker@yahoo.com,Rukungiri,REG/2015/6072,0x99f6e38bb395052dbe8436876f937ed445d2c836,True,2025-12-06 15:51:22
+BYR00277,Sweeney LLC Agro,Exporter,Nathaniel Gomez,0754899155,nathaniel.gomez@hotmail.com,Mukono,REG/2013/1596,0x279f9541d4e44ea845a248b1f49c4aa21869e41f,True,2025-12-06 15:51:22
+BYR00278,"Howell, Garcia and Jenkins Foods",Exporter,Michelle Vasquez,0700312179,michelle.vasquez@yahoo.com,Arua,REG/2015/3833,0x7754605f95a4b0e7787b4c803440e29a021f007f,True,2025-12-06 15:51:22
+BYR00279,Wells LLC Foods,Exporter,Anthony Copeland,0754119781,anthony.copeland@yahoo.com,Mayuge,REG/2019/4108,0xc26c284ff2369c89642ef520af543195a3219322,True,2025-12-06 15:51:22
+BYR00280,Harrisburgh Farmers Coop,Cooperative,Steve Villegas,0770384336,steve.villegas@hotmail.com,Masindi,REG/2023/5982,0xa6a67fc51c6ddff01d33501de846ab5c9ac3cafa,True,2025-12-06 15:51:22
+BYR00281,Yoder Inc Foods,Wholesaler,Hailey Norris,0771750232,hailey.norris@gmail.com,Kabale,REG/2012/4297,0x461eeb76b508f89b20eeda4ac483a7da38ad1642,True,2025-12-06 15:51:22
+BYR00282,"Thomas, Chandler and Heath Agro",Exporter,Kevin Ramirez,0701619612,kevin.ramirez@hotmail.com,Kamuli,REG/2019/6289,0xc8e8a76603b720083abefdb4d75c5815bcbcfb23,True,2025-12-06 15:51:22
+BYR00283,"Burgess, Miller and Jones Foods",Wholesaler,Maria Munoz,0704515250,maria.munoz@hotmail.com,Hoima,REG/2018/4031,0x0bd0817f681f1cfc7827016733fcafb44f5dc7b9,True,2025-12-06 15:51:22
+BYR00284,Mclaughlin and Sons Limited,Exporter,Diana Miller,0701481602,diana.miller@gmail.com,Lira,REG/2016/6838,0x456ffede158d7a70359dee3090d5237cbb3ba094,True,2025-12-06 15:51:22
+BYR00285,"Porter, Turner and Thornton Trading",Retailer,Brian Munoz,0750463621,brian.munoz@gmail.com,Rukungiri,REG/2014/9601,0x2fb800f8921ba351d36d68ba0594932495a3ac39,True,2025-12-06 15:51:22
+BYR00286,Ball Group Limited,Retailer,Richard Fernandez,0703647788,richard.fernandez@yahoo.com,Arua,REG/2019/2366,0x35039536662b1f09855cd1830a216256d9ce4d40,True,2025-12-06 15:51:22
+BYR00287,Gomez PLC Trading,Wholesaler,Katherine Perkins,0752449314,katherine.perkins@hotmail.com,Kabale,REG/2020/1977,0x4fe14b2856d06a2e148b3b96238fca9c177a2d09,True,2025-12-06 15:51:22
+BYR00288,Moran Group Trading,Processor,Bryan Palmer,0703632505,bryan.palmer@gmail.com,Tororo,REG/2012/6026,0x9ea9620d664c37a9fe1d5be5fc15b724db7303c4,True,2025-12-06 15:51:22
+BYR00289,Dean Group Foods,Exporter,Gerald Miller,0704311815,gerald.miller@yahoo.com,Kisoro,REG/2011/6142,0x9da84d051e65aa4da84ec08445a755b1494ab0f4,True,2025-12-06 15:51:22
+BYR00290,Smith LLC Agro,Retailer,Susan Lawrence,0700910262,susan.lawrence@yahoo.com,Kisoro,REG/2010/3985,0x55b6fc88b7394e095366a0dcda627b635a3bee8a,True,2025-12-06 15:51:22
+BYR00291,Collins Inc Trading,Exporter,William Pena,0752684198,william.pena@yahoo.com,Mukono,REG/2013/7085,0x50b99ce3673e8b07ff17c917baf83d9877718658,True,2025-12-06 15:51:22
+BYR00292,Murphy-Jackson Agro,Processor,Kevin Morrison,0701237273,kevin.morrison@gmail.com,Apac,REG/2019/7424,0x2b4aafa5364a9d2c7ecf3f0987262f93bed63802,True,2025-12-06 15:51:22
+BYR00293,Mitchell PLC Agro,Exporter,Eric Swanson,0771396171,eric.swanson@gmail.com,Masindi,REG/2012/3295,0x4ca5580ec876375b362d45cbffaa16510abf19bf,True,2025-12-06 15:51:22
+BYR00294,Hughes PLC Trading,Wholesaler,Daniel Bates,0771673791,daniel.bates@gmail.com,Kabale,REG/2023/3825,0xcb089500d921f7cea6b3a1065c72adf755e1ba9e,True,2025-12-06 15:51:22
+BYR00295,"Perez, Spears and Wood Trading",Processor,Alex Campbell,0700443443,alex.campbell@yahoo.com,Bundibugyo,REG/2010/6925,0x65efbb58563f0324acc0c0a74e72d377a170bba3,True,2025-12-06 15:51:22
+BYR00296,Johnson Inc Agro,Processor,David Myers,0702162336,david.myers@gmail.com,Mbale,REG/2012/4735,0xd81316c8247315ef339990e12b6c2e34645b4a14,True,2025-12-06 15:51:22
+BYR00297,Johnson-Cobb Foods,Exporter,Morgan Sparks,0770972493,morgan.sparks@gmail.com,Hoima,REG/2016/6241,0xbd232dfaf024c0c7cc9b32684b69b981906ee5ad,True,2025-12-06 15:51:22
+BYR00298,Knox-Boyle Foods,Retailer,Sean Diaz,0754358641,sean.diaz@yahoo.com,Rukungiri,REG/2017/2184,0x6c12b2933f70d50733d8d8ea692f674c6057e505,True,2025-12-06 15:51:22
+BYR00299,Davidmouth Farmers Coop,Cooperative,Patricia Walker,0700569310,patricia.walker@hotmail.com,Rukungiri,REG/2020/1659,0x5d83875541067b6b7ddfc588f1d263a19970059d,True,2025-12-06 15:51:22
+BYR00300,Harmon and Sons Agro,Processor,Kristina Wolfe,0703194153,kristina.wolfe@hotmail.com,Ntungamo,REG/2014/4589,0xbd57f0da98227648dc6bcd8211473374f16b44ee,True,2025-12-06 15:51:22
+BYR00301,Collins-Burnett Agro,Processor,Michael King,0754445688,michael.king@yahoo.com,Mbale,REG/2016/1741,0xdb5b5c2b2a41f3fbad39bc1436052737f206aab8,True,2025-12-06 15:51:22
+BYR00302,Port Benjamin Farmers Coop,Cooperative,Rhonda Gentry,0703641411,rhonda.gentry@gmail.com,Kampala,REG/2014/6599,0xd617a7de3511ad197cbe0c1e4df38113bccb1ed7,True,2025-12-06 15:51:22
+BYR00303,Hall PLC Limited,Processor,Luke Lee,0750439387,luke.lee@gmail.com,Apac,REG/2017/4377,0xcac0885647d5acbece8693d078024ea52b40661b,True,2025-12-06 15:51:22
+BYR00304,"Chen, Stone and Robles Trading",Exporter,Erica Mitchell,0770354998,erica.mitchell@yahoo.com,Kisoro,REG/2016/9786,0xbcc190db668b43af866f875ad15e002f1bab4e16,True,2025-12-06 15:51:22
+BYR00305,"Mills, Burns and Edwards Trading",Processor,Matthew Russell Jr.,0753731100,matthew.russell.jr.@hotmail.com,Rukungiri,REG/2021/9844,0xc24e437098e0065853b7047cfbacc866aad452b5,True,2025-12-06 15:51:22
+BYR00306,Lewis Inc Foods,Exporter,Jake Davis,0750704826,jake.davis@hotmail.com,Mbale,REG/2014/9239,0xa17168bf6d2ef827df4b72cc89f92a3936859be1,True,2025-12-06 15:51:22
+BYR00307,"Proctor, Johnson and Smith Foods",Wholesaler,Carolyn Young,0704393151,carolyn.young@hotmail.com,Mbarara,REG/2010/9931,0x32345bcb86170e6836234a1fc388ebc8064d8800,True,2025-12-06 15:51:22
+BYR00308,Patrick Inc Agro,Exporter,Shaun Ramirez,0754286061,shaun.ramirez@yahoo.com,Iganga,REG/2017/1133,0xd0dbfa4e5a02fe87ce9701d77416bcffd15d7503,True,2025-12-06 15:51:22
+BYR00309,Andrews Inc Trading,Retailer,Ryan Sutton,0700510642,ryan.sutton@yahoo.com,Moroto,REG/2017/7287,0xd3ac4758b636960732ca6a57c84e70ad1bb5cfe7,True,2025-12-06 15:51:22
+BYR00310,Braun-Taylor Foods,Processor,Stephanie Jones,0770172355,stephanie.jones@hotmail.com,Kitgum,REG/2010/4153,0xf2e38bff047bc94ae0bdaf23a9d626978352fc02,True,2025-12-06 15:51:22
+BYR00311,Josephborough Farmers Coop,Cooperative,Lauren Rice,0754852415,lauren.rice@gmail.com,Kamuli,REG/2016/7847,0xa86e22232525a39be5ffd36f119a18341bb2f6f6,True,2025-12-06 15:51:22
+BYR00312,Benson-Shannon Agro,Exporter,Rachel Kelly,0703345835,rachel.kelly@yahoo.com,Kasese,REG/2019/2624,0x9120203674242a612bd09b18c5c7714cf4b066d2,True,2025-12-06 15:51:22
+BYR00313,Robertson-Summers Limited,Exporter,Melanie Newman,0750275076,melanie.newman@gmail.com,Pallisa,REG/2013/3277,0x64a9967e23fe20ab921ce69e9cc4090d675eecbd,True,2025-12-06 15:51:22
+BYR00314,"Salazar, Morrison and Smith Agro",Processor,Joshua Livingston,0700915958,joshua.livingston@yahoo.com,Sironko,REG/2010/6371,0x324db06727077826a48105ad079448ff9890740c,True,2025-12-06 15:51:22
+BYR00315,"Peterson, Cooper and Garcia Trading",Exporter,Adam Barker,0703692893,adam.barker@hotmail.com,Kumi,REG/2011/7281,0x91e007c64106bba9269200c10cb26929c7a7b6c0,True,2025-12-06 15:51:22
+BYR00316,Tonyaberg Farmers Coop,Cooperative,Luis James,0703147655,luis.james@gmail.com,Sironko,REG/2013/7061,0x8772ad568d57d25f07e7b3d0d22639c6cb021e1a,True,2025-12-06 15:51:22
+BYR00317,Marshall-Hale Foods,Retailer,Samantha Reynolds,0770972369,samantha.reynolds@gmail.com,Ntungamo,REG/2016/1690,0xbf77f2c7257a3d9cf8002af822244f9a7cb221e5,True,2025-12-06 15:51:22
+BYR00318,Larsen-Hanson Agro,Retailer,Samantha Hoffman,0754799687,samantha.hoffman@hotmail.com,Mbarara,REG/2020/4970,0xef71d5ca216a3456873e81981784bded5a31b6f8,True,2025-12-06 15:51:22
+BYR00319,King-Smith Foods,Wholesaler,Maureen Miller DDS,0752855788,maureen.miller.dds@hotmail.com,Mbale,REG/2023/6102,0xe9534c34d2050a58af3460eda6244626d25475c4,True,2025-12-06 15:51:22
+BYR00320,Peterson Inc Limited,Exporter,Penny Decker,0702214844,penny.decker@yahoo.com,Mbale,REG/2014/7090,0xcd018d4b24c7ee546f5a39bbbba5968a85d713e4,True,2025-12-06 15:51:22
+BYR00321,Miller-Benson Foods,Processor,Samantha Moran,0700425422,samantha.moran@gmail.com,Nebbi,REG/2018/1743,0x33910c5432c6769bac07a868d8c5c126262910c5,True,2025-12-06 15:51:22
+BYR00322,New Loretta Farmers Coop,Cooperative,Erika Steele,0704308571,erika.steele@hotmail.com,Mayuge,REG/2022/1050,0x4572de11b10bc19b8375e892869122ae1bf75a6c,True,2025-12-06 15:51:22
+BYR00323,New Lisatown Farmers Coop,Cooperative,Alex Spencer,0770782203,alex.spencer@hotmail.com,Fort Portal,REG/2020/7357,0x85d05cff4417ead294e447dec299f04c4d86d446,True,2025-12-06 15:51:22
+BYR00324,Adams Inc Trading,Processor,Kathryn Murphy,0702474865,kathryn.murphy@yahoo.com,Kasese,REG/2021/2200,0xbd936ad043801efd3333c0c5626b2a33cc6dcb82,True,2025-12-06 15:51:22
+BYR00325,Hernandez Group Agro,Exporter,Daniel Cuevas,0701484911,daniel.cuevas@yahoo.com,Masindi,REG/2018/2515,0x55d15df3b75a62f12e15dae1043c940f8e327c30,True,2025-12-06 15:51:22
+BYR00326,Powell PLC Agro,Processor,Heather Short,0701968679,heather.short@yahoo.com,Sironko,REG/2016/9816,0x782eb7bc9451080a61837d62730a300024070b24,True,2025-12-06 15:51:22
+BYR00327,West Williammouth Farmers Coop,Cooperative,Christine Washington,0704826463,christine.washington@yahoo.com,Ntungamo,REG/2021/7031,0xcc3a4ff21549f91b5ce814b52121084246cbac37,True,2025-12-06 15:51:22
+BYR00328,"Anderson, Mcdaniel and Morris Trading",Wholesaler,Erica Sims,0751211991,erica.sims@gmail.com,Arua,REG/2022/9054,0x27bd26eac6f9a57076dc2a2f751765ebdc13c7f2,True,2025-12-06 15:51:22
+BYR00329,Lawson-Howe Limited,Exporter,Amanda Davidson,0750618608,amanda.davidson@gmail.com,Kapchorwa,REG/2010/1434,0xa15522eaaa34eeaa03850ccd84a9b2338232e6e3,True,2025-12-06 15:51:22
+BYR00330,Castillo LLC Foods,Wholesaler,Traci Evans,0754665678,traci.evans@gmail.com,Kapchorwa,REG/2017/7725,0xbd390dcf6e3575f9c2cf6fa2034344295a098404,True,2025-12-06 15:51:22
+BYR00331,Morales PLC Foods,Processor,Kathryn Maxwell,0751835690,kathryn.maxwell@hotmail.com,Kasese,REG/2011/3965,0x04e7a8394d98638e62e8658f258be612d2094e3d,True,2025-12-06 15:51:22
+BYR00332,"Stewart, Johnson and Clayton Agro",Exporter,Shannon Rodriguez,0700439397,shannon.rodriguez@gmail.com,Sironko,REG/2010/8328,0x9110e95a4f08516482f5586d778a4bea85495e5b,True,2025-12-06 15:51:22
+BYR00333,"Anderson, Ramirez and Johnson Limited",Exporter,Collin Hughes,0770388517,collin.hughes@hotmail.com,Masindi,REG/2012/4659,0xe9f0fc71a3f16d7d59ab9369ac3643ee340cc3b4,True,2025-12-06 15:51:22
+BYR00334,Smith Ltd Trading,Exporter,Deborah Ingram,0701858899,deborah.ingram@gmail.com,Masindi,REG/2014/1695,0x9b40f2631e1832ff60d56820e89ddcbc1d668695,True,2025-12-06 15:51:22
+BYR00335,Gomezbury Farmers Coop,Cooperative,Mark Mitchell,0752475550,mark.mitchell@yahoo.com,Rukungiri,REG/2013/9536,0x9022901593a61dc52576f8c00f51eca9b15894cf,True,2025-12-06 15:51:22
+BYR00336,Coffeystad Farmers Coop,Cooperative,Peter Small,0752752608,peter.small@gmail.com,Bushenyi,REG/2019/4053,0x22db217650571f2ff0aec188428adebad3d7b0cd,True,2025-12-06 15:51:22
+BYR00337,Ferguson PLC Foods,Processor,Margaret Campbell,0704944971,margaret.campbell@hotmail.com,Gulu,REG/2021/5722,0x4a425bb79bfcd29d81cb605eabc2d07a671d08e3,True,2025-12-06 15:51:22
+BYR00338,Dennisborough Farmers Coop,Cooperative,Tami Simpson,0754941984,tami.simpson@yahoo.com,Iganga,REG/2016/2349,0x605fec146b3b214866d253f9942c07a082537fc9,True,2025-12-06 15:51:22
+BYR00339,"Hall, Cohen and Howard Trading",Wholesaler,David Moreno,0703509156,david.moreno@yahoo.com,Arua,REG/2010/4975,0x02ce6186ebbd91f27bca2a87bdf18e0f2adc24f2,True,2025-12-06 15:51:22
+BYR00340,Morgan-Garcia Trading,Processor,Cheryl Baker,0702876619,cheryl.baker@gmail.com,Rukungiri,REG/2016/2128,0x684343f05300d6d4264574ef174557a9cb2292d3,True,2025-12-06 15:51:22
+BYR00341,Warren PLC Limited,Retailer,Mark Barr,0753377299,mark.barr@yahoo.com,Fort Portal,REG/2023/7551,0xd87a7a088abaf6b0d09f8c5f1602182f09933ca3,True,2025-12-06 15:51:22
+BYR00342,"Morgan, Estrada and Hardy Limited",Exporter,Lori James,0753124741,lori.james@yahoo.com,Arua,REG/2018/8447,0xf9858876b4abcf37de00f86f2212065caf6eeefe,True,2025-12-06 15:51:22
+BYR00343,Beard Inc Trading,Exporter,Olivia Williams,0700519847,olivia.williams@gmail.com,Mbale,REG/2011/5830,0xf6a4fb37914ff78fbe4adb14a0f341fd70578d57,True,2025-12-06 15:51:22
+BYR00344,Derrickmouth Farmers Coop,Cooperative,Wanda Wong,0704653881,wanda.wong@gmail.com,Iganga,REG/2021/3470,0x13088a31fe34902bc521ff9506f1d72427442785,True,2025-12-06 15:51:22
+BYR00345,"Nguyen, Davies and Small Foods",Exporter,Eileen Duncan,0771536210,eileen.duncan@yahoo.com,Masaka,REG/2011/5572,0x8c5f28b563cdd2215f37d97f198d1a84f6edb2b0,True,2025-12-06 15:51:22
+BYR00346,Boone-Murphy Limited,Processor,Kara Porter,0752209269,kara.porter@yahoo.com,Mukono,REG/2012/6549,0xbbf7f07a87967a4c3b5c144b618ff0521908db25,True,2025-12-06 15:51:22
+BYR00347,Hoffman Group Trading,Retailer,Brittany Bryant,0753797713,brittany.bryant@gmail.com,Mayuge,REG/2013/3865,0x631b9e2dcc96da7f70a445807584b20f51a2c1c3,True,2025-12-06 15:51:22
+BYR00348,"Brown, Carpenter and Kline Limited",Exporter,Nicholas Chapman,0753124637,nicholas.chapman@gmail.com,Sironko,REG/2017/3314,0xa1e4f431ff587e7dc7d6b052ae35c542a92fb631,True,2025-12-06 15:51:22
+BYR00349,"Simpson, Reed and Hayes Trading",Exporter,Sharon Sanchez,0702399029,sharon.sanchez@yahoo.com,Kamuli,REG/2013/4568,0xb1aacdc33d78bff76081b88865b3d3c55c0e7066,True,2025-12-06 15:51:22
+BYR00350,Griffinshire Farmers Coop,Cooperative,Roger Swanson,0703686647,roger.swanson@hotmail.com,Pallisa,REG/2023/3507,0xcda39253a802208c98d84d3f832e2c8441bd5fcc,True,2025-12-06 15:51:22
+BYR00351,Dixon and Sons Foods,Wholesaler,Danielle Stevens,0701543046,danielle.stevens@yahoo.com,Hoima,REG/2015/9026,0x0fba323ada2bd53ca9a3f5bb7956ea669f917419,True,2025-12-06 15:51:22
+BYR00352,"Barnes, Taylor and Huffman Trading",Processor,Virginia Beck,0754786962,virginia.beck@gmail.com,Kumi,REG/2014/2253,0x5dfff55a4bcfd73b670f68554affcbfa1256ae26,True,2025-12-06 15:51:22
+BYR00353,Tiffanystad Farmers Coop,Cooperative,Jennifer Clark,0700817713,jennifer.clark@yahoo.com,Kapchorwa,REG/2023/6985,0x796b6c6ef8f71c4646cbb09910ac10ef0c664d9e,True,2025-12-06 15:51:22
+BYR00354,Moore-Kline Foods,Processor,Thomas Crawford,0703728130,thomas.crawford@yahoo.com,Kumi,REG/2010/6709,0x972dbf2509461e137e85fd336474efd542b5ad8e,True,2025-12-06 15:51:22
+BYR00355,Santos and Sons Trading,Exporter,Nicholas Sloan,0771651688,nicholas.sloan@gmail.com,Kampala,REG/2018/1534,0x4e06828e9db3aa99dfa12bd7c599569b4390778e,True,2025-12-06 15:51:22
+BYR00356,Gordon-Ellison Trading,Wholesaler,Jennifer Sawyer,0770223404,jennifer.sawyer@gmail.com,Iganga,REG/2014/6908,0x133ef1ceec23578fce51a977991ebca127b13933,True,2025-12-06 15:51:22
+BYR00357,"Hurst, Young and Smith Foods",Retailer,Joseph Murphy,0702324089,joseph.murphy@gmail.com,Kapchorwa,REG/2013/7720,0x2e62fc111cace5a4ce1804a853bd7ea8efef1b84,True,2025-12-06 15:51:22
+BYR00358,Wallace-Jones Foods,Processor,Christina Martin,0750144898,christina.martin@yahoo.com,Kabarole,REG/2013/7764,0xefa2a07f400d70f6890561cf1d1c4143f9aa7d1c,True,2025-12-06 15:51:22
+BYR00359,Brown-Nunez Trading,Exporter,Kellie Bailey,0753935144,kellie.bailey@yahoo.com,Arua,REG/2015/1999,0x1ca3f305f48501631912395314283e786a722555,True,2025-12-06 15:51:22
+BYR00360,"Gibson, Ramirez and Mendez Limited",Retailer,Laura Potter,0751102286,laura.potter@hotmail.com,Masaka,REG/2010/7618,0xc612ac3459b21694651048c5a3eaf9be683fe7fd,True,2025-12-06 15:51:22
+BYR00361,"Morales, Sheppard and Conner Trading",Wholesaler,Michael Marshall,0750129315,michael.marshall@gmail.com,Jinja,REG/2022/6128,0x9947a74371a88a67cdec61cc077f6f7acdcd8f95,True,2025-12-06 15:51:22
+BYR00362,"Baldwin, Cox and Roberts Foods",Exporter,Brian Thomas,0703796881,brian.thomas@gmail.com,Nebbi,REG/2021/8117,0x687c439f098218b759d47da56ffea30c2922aaf2,True,2025-12-06 15:51:22
+BYR00363,"Parsons, Little and Hawkins Trading",Processor,Christian Wilkins,0752166255,christian.wilkins@gmail.com,Masindi,REG/2021/3316,0x1593290165c29c06590eef1e063d8920f35d5a33,True,2025-12-06 15:51:22
+BYR00364,Myers-Hartman Agro,Exporter,Justin Myers,0754681444,justin.myers@gmail.com,Masaka,REG/2023/3176,0x81e21709345474efc5209f33969bf83b14d360c6,True,2025-12-06 15:51:22
+BYR00365,Moses Ltd Limited,Wholesaler,James Murphy,0704288398,james.murphy@yahoo.com,Kasese,REG/2019/5922,0x9c1a238e642f3b198a934d87886a125699c497e6,True,2025-12-06 15:51:22
+BYR00366,"Orozco, Arnold and Brooks Trading",Retailer,Ruth Hess,0751799029,ruth.hess@gmail.com,Bushenyi,REG/2017/2459,0xf7fc24bc5c816d890279cfa1271d53d3834eda24,True,2025-12-06 15:51:22
+BYR00367,Campos PLC Trading,Exporter,Deanna Morgan,0750174377,deanna.morgan@hotmail.com,Arua,REG/2013/1866,0xa08eb82116015313b87f7f85bc246e51ab391695,True,2025-12-06 15:51:22
+BYR00368,East Amy Farmers Coop,Cooperative,Tyrone Bailey,0702190031,tyrone.bailey@hotmail.com,Kapchorwa,REG/2013/6466,0x9c886979fec39bf7ebdb06d5e0cb9c17ef3dc85c,True,2025-12-06 15:51:22
+BYR00369,"Andrews, King and Jones Agro",Processor,Jeffrey Stanton,0770417226,jeffrey.stanton@gmail.com,Mbarara,REG/2022/1258,0x6bbdc10812a564bd07d3f7811667d03445a01f12,True,2025-12-06 15:51:22
+BYR00370,Morrow and Sons Limited,Retailer,Dustin Ford,0754304846,dustin.ford@gmail.com,Lira,REG/2022/6093,0x3318dac99be9c412b8f92b6e9498afb2bf0dd680,True,2025-12-06 15:51:22
+BYR00371,"Smith, May and Clark Trading",Exporter,Shawna Kim,0702787035,shawna.kim@hotmail.com,Ntungamo,REG/2014/7157,0xa7ce5fc5ddd2871cc69e962d1f9e9fe830ffe943,True,2025-12-06 15:51:22
+BYR00372,"Wagner, Prince and Miller Limited",Processor,Emily King,0702312475,emily.king@hotmail.com,Hoima,REG/2013/9854,0x014051fdbc8268a643ef16571f5ceb9119dff773,True,2025-12-06 15:51:22
+BYR00373,Mccoy-Keller Agro,Wholesaler,Melissa Martinez,0752999884,melissa.martinez@hotmail.com,Iganga,REG/2013/6707,0x379c23eddf8da51c2c22e1eb8ff5a63e3aa6f2c1,True,2025-12-06 15:51:22
+BYR00374,Oliver PLC Agro,Exporter,Sara Johnson,0701260773,sara.johnson@hotmail.com,Wakiso,REG/2019/5727,0x07f54a647d109d8edc4b74cd5888809905b0c0c6,True,2025-12-06 15:51:22
+BYR00375,Rosario-Williams Agro,Exporter,Anthony Smith,0754451877,anthony.smith@hotmail.com,Apac,REG/2013/1256,0xf1a082d69091ce08b5df16f4858047f1f4259b8a,True,2025-12-06 15:51:22
+BYR00376,"Mendez, Stokes and Martinez Foods",Retailer,Amanda Underwood,0753688187,amanda.underwood@hotmail.com,Kumi,REG/2013/7522,0xfbdc128d7163d71c231245e1ed7abf309d735b74,True,2025-12-06 15:51:22
+BYR00377,"Hodges, Chandler and Ford Limited",Wholesaler,Gregory Braun,0751383054,gregory.braun@gmail.com,Hoima,REG/2019/7337,0x599b44db5b499a2aaaa839af62f6e2b3ac9b7270,True,2025-12-06 15:51:22
+BYR00378,Wright Ltd Limited,Processor,Justin Mahoney,0770367304,justin.mahoney@gmail.com,Kumi,REG/2013/8258,0xbd61cbdab95addc267d92c20a6118ec972119920,True,2025-12-06 15:51:22
+BYR00379,"Hood, Blankenship and Martin Agro",Wholesaler,Michael Baker,0753935969,michael.baker@gmail.com,Fort Portal,REG/2010/4095,0x2e8e2a6a81e8c9a9245f4ab454d6ff6e3cbf28ec,True,2025-12-06 15:51:22
+BYR00380,Velez-Espinoza Limited,Retailer,Clarence Ford,0754247687,clarence.ford@yahoo.com,Katakwi,REG/2022/9852,0xdbcc447c3c100eac9eed0327552d09b5f07566f6,True,2025-12-06 15:51:22
+BYR00381,Trujilloburgh Farmers Coop,Cooperative,Michael Brown,0702424144,michael.brown@gmail.com,Kampala,REG/2014/8816,0x7484b97fb3c99d259be1ee267620585ee5aaddfe,True,2025-12-06 15:51:22
+BYR00382,Perry LLC Agro,Wholesaler,Darlene Weaver,0752337742,darlene.weaver@hotmail.com,Rukungiri,REG/2016/8087,0xd98843253a1e502d7162eb093780267ab995cbb5,True,2025-12-06 15:51:22
+BYR00383,Jones PLC Foods,Exporter,Kim Harrison,0702788567,kim.harrison@gmail.com,Moroto,REG/2022/3253,0x7e253ce06349e73573aaf34ca162762d97735bf4,True,2025-12-06 15:51:22
+BYR00384,West Terri Farmers Coop,Cooperative,Kathy Gutierrez,0754190980,kathy.gutierrez@yahoo.com,Kumi,REG/2023/5265,0xa219da8f25c3ddd49e767c205f4e188e19f013f9,True,2025-12-06 15:51:22
+BYR00385,Beasleyton Farmers Coop,Cooperative,Michelle Mcdaniel,0754364590,michelle.mcdaniel@gmail.com,Kapchorwa,REG/2014/5001,0xad9cbac30ca9eadcbd1318afb60be344db3d2918,True,2025-12-06 15:51:22
+BYR00386,West Loriburgh Farmers Coop,Cooperative,Megan Duncan,0700446910,megan.duncan@yahoo.com,Fort Portal,REG/2020/9827,0x3ce39524c8656e916a113976f238dde0235c2221,True,2025-12-06 15:51:22
+BYR00387,Josestad Farmers Coop,Cooperative,Tina Smith,0754121890,tina.smith@hotmail.com,Nebbi,REG/2019/1723,0xae71892ee7fea12caffe3317d326d0550e43272c,True,2025-12-06 15:51:22
+BYR00388,Carter Ltd Agro,Exporter,Phillip Garcia,0771742655,phillip.garcia@yahoo.com,Bushenyi,REG/2012/9401,0x2271ef6d9a76bdc855143751ab9fe61c95d59914,True,2025-12-06 15:51:22
+BYR00389,Raymond LLC Limited,Processor,Steven Carpenter,0752813565,steven.carpenter@gmail.com,Kasese,REG/2010/9689,0x512526f1a7ea43b0f4cc461980a84cbb35973df1,True,2025-12-06 15:51:22
+BYR00390,Shelton Group Limited,Retailer,Michelle Sanchez,0753652993,michelle.sanchez@yahoo.com,Bundibugyo,REG/2010/9019,0x4eca3ea5fa9cc7165bdfdd63c866d74c3d5a9fa0,True,2025-12-06 15:51:22
+BYR00391,Olson PLC Trading,Processor,Tonya Roman,0770523579,tonya.roman@hotmail.com,Kabarole,REG/2010/7140,0xfaf24feccd73abaf7232a4523efa0dbbc0728625,True,2025-12-06 15:51:22
+BYR00392,South Keithfort Farmers Coop,Cooperative,Mary Peters,0750824705,mary.peters@yahoo.com,Masindi,REG/2014/3639,0xdac985e77c972f54db289bb774ed0ab22effc97b,True,2025-12-06 15:51:22
+BYR00393,Zavala-Williams Trading,Exporter,Ronald Price,0704771306,ronald.price@gmail.com,Gulu,REG/2021/3513,0x677096487b4f5f23fb6793004c42e94131f32b56,True,2025-12-06 15:51:22
+BYR00394,Sanchez-Thomas Trading,Processor,Larry Mitchell,0771852204,larry.mitchell@gmail.com,Kamuli,REG/2014/3673,0xf7b9e3fb3db5f5b753adb1a85f662db89b58ff6c,True,2025-12-06 15:51:22
+BYR00395,"Bates, Wall and Barron Limited",Retailer,Lonnie Kirk,0750212537,lonnie.kirk@gmail.com,Arua,REG/2019/9638,0x9467bd397eb811bb4732cbcd9ca5d79d47a2ef3b,True,2025-12-06 15:51:22
+BYR00396,North Marvinborough Farmers Coop,Cooperative,Justin Horton,0700542551,justin.horton@hotmail.com,Masindi,REG/2017/9292,0x1120a724f5fc7b3d1541c72d4ae8f0b0f330f45c,True,2025-12-06 15:51:22
+BYR00397,"Morris, Arias and Jensen Foods",Exporter,John Carroll,0770385105,john.carroll@hotmail.com,Hoima,REG/2011/2059,0x47b88b7c9cfb7d6f33c3260540b0853e61d440b4,True,2025-12-06 15:51:22
+BYR00398,South Donna Farmers Coop,Cooperative,Austin Smith,0704488917,austin.smith@yahoo.com,Bushenyi,REG/2010/6674,0x71c1cac4a7b0d71216c40102e8664ad1e1f1ce04,True,2025-12-06 15:51:22
+BYR00399,"Salas, Boyer and Tapia Trading",Processor,Justin Caldwell,0754947750,justin.caldwell@hotmail.com,Rukungiri,REG/2019/2569,0x8c084e1805c25da2e3069c90d2d3a449c5056ea8,True,2025-12-06 15:51:22
+BYR00400,Rush LLC Agro,Retailer,Ricky Allen,0770517679,ricky.allen@hotmail.com,Moroto,REG/2019/3317,0x623f6c846b1280852c23f7bc0ec4d98d4dd27820,True,2025-12-06 15:51:22
+BYR00401,East Bethanyport Farmers Coop,Cooperative,Tammy Howard,0751890078,tammy.howard@hotmail.com,Kasese,REG/2019/1031,0xda17ef399a5e9347f40461195b5f3fe1bc47e964,True,2025-12-06 15:51:22
+BYR00402,Cooper LLC Foods,Retailer,Michael Gardner,0752494259,michael.gardner@hotmail.com,Masaka,REG/2013/6334,0xc00a173d4c5e466d7c43a1f256961539dd6efbca,True,2025-12-06 15:51:22
+BYR00403,Whitaker-Perry Foods,Retailer,Jesse Fisher,0771753238,jesse.fisher@hotmail.com,Apac,REG/2011/4713,0xb915a9fca2c338150998476187fdf68b5c1ffd7a,True,2025-12-06 15:51:22
+BYR00404,Lake Stacy Farmers Coop,Cooperative,Alyssa Sanchez,0700824976,alyssa.sanchez@gmail.com,Mbale,REG/2022/1656,0x606d5e8653f32ffcbb7b352e0ec9a4d07b13cec4,True,2025-12-06 15:51:22
+BYR00405,"Mccann, Miller and Ward Foods",Retailer,Tracey Barr,0700522501,tracey.barr@hotmail.com,Mbale,REG/2013/4916,0xa4debb4c216d664f3a49b8e3d72113bc07556cce,True,2025-12-06 15:51:22
+BYR00406,Duke-Kelly Limited,Wholesaler,Zachary Vazquez,0702438530,zachary.vazquez@gmail.com,Kamuli,REG/2017/5793,0x9a33079413236ce65907e0858acc04727dbbb10b,True,2025-12-06 15:51:22
+BYR00407,"Gonzalez, Thompson and Scott Limited",Exporter,Thomas Rogers Jr.,0754768102,thomas.rogers.jr.@yahoo.com,Gulu,REG/2012/3759,0x146233a592c3f89ad19e8ab0a6f5ccd49aec4f74,True,2025-12-06 15:51:22
+BYR00408,Tanner and Sons Limited,Wholesaler,James Bautista,0770319526,james.bautista@hotmail.com,Bundibugyo,REG/2013/4826,0x1b12a47a8dc72b5ebb14de66d12eb4295633abc8,True,2025-12-06 15:51:22
+BYR00409,"Valencia, Morales and Miller Limited",Retailer,Sarah Jackson,0771142373,sarah.jackson@yahoo.com,Kamuli,REG/2016/3704,0xcb7187e3bee6e2087a594ba3eff04f753b4bd3ef,True,2025-12-06 15:51:22
+BYR00410,"Kim, Williams and Malone Agro",Exporter,Christine Phillips,0770655817,christine.phillips@yahoo.com,Hoima,REG/2019/3639,0x32a02c53eb0f65c916b2d6cd134b4677b0196106,True,2025-12-06 15:51:22
+BYR00411,"Johnson, Orr and Rivera Limited",Wholesaler,Tara Pugh,0700637888,tara.pugh@hotmail.com,Kasese,REG/2021/3528,0x0e5bfc70b15fa5eb2c2eed2113790aa7776fd586,True,2025-12-06 15:51:22
+BYR00412,"Soto, Morton and Hall Limited",Exporter,Kelly Cooper,0753366698,kelly.cooper@gmail.com,Arua,REG/2017/9748,0xbec63d942323e0a986e2f7d3a29f56e691b9613c,True,2025-12-06 15:51:22
+BYR00413,West Vernonfurt Farmers Coop,Cooperative,Lori Kemp,0752468995,lori.kemp@gmail.com,Tororo,REG/2021/7765,0xf09a90ca3f4225f40fc3ddb800385376695ba955,True,2025-12-06 15:51:22
+BYR00414,Williams-Jones Trading,Exporter,Michael Zavala,0702136924,michael.zavala@gmail.com,Kamuli,REG/2011/7191,0x1cfa7647ead352a0bc28a29933961c6c3d91447f,True,2025-12-06 15:51:22
+BYR00415,Gibbs-Carter Foods,Processor,Alexander Wells,0704941700,alexander.wells@gmail.com,Pallisa,REG/2010/2042,0x5f678ee0d228955736098953ec7057c7fbaeba6b,True,2025-12-06 15:51:22
+BYR00416,Robbins Inc Trading,Exporter,Brittany Allen,0771885923,brittany.allen@yahoo.com,Lira,REG/2020/7036,0xaed7137b7be3e8d4819222d0f5757d3d19596355,True,2025-12-06 15:51:22
+BYR00417,Montgomery-Colon Foods,Processor,Patricia Davis,0753475091,patricia.davis@yahoo.com,Katakwi,REG/2011/6695,0x292039315e60aea472299bbd50acd3450cfae2df,True,2025-12-06 15:51:22
+BYR00418,Robertville Farmers Coop,Cooperative,Michael Howell,0752311900,michael.howell@hotmail.com,Mayuge,REG/2013/3892,0x2287e3978b161a190acb573d8eb21c5cb27ecff4,True,2025-12-06 15:51:22
+BYR00419,Myers Group Agro,Processor,Frank Baldwin,0702743568,frank.baldwin@gmail.com,Mbarara,REG/2022/4560,0x1d68a5dd8c7a84c8de9d50172dad284cd6197cfc,True,2025-12-06 15:51:22
+BYR00420,Evans PLC Foods,Retailer,Ellen Ball,0771990492,ellen.ball@yahoo.com,Kitgum,REG/2011/2200,0x9a10c231d90f002c69574427457cdd09209de063,True,2025-12-06 15:51:22
+BYR00421,Lopez LLC Foods,Retailer,Jason Howard,0770316854,jason.howard@gmail.com,Kisoro,REG/2022/6154,0x5ec855c72625c596a0caded5c0c8e482980901d1,True,2025-12-06 15:51:22
+BYR00422,"Allison, Hicks and Taylor Trading",Retailer,Sarah Robinson,0753900035,sarah.robinson@yahoo.com,Kisoro,REG/2010/8039,0xe92cea14d246a79cab499f861013dacff4bd23b6,True,2025-12-06 15:51:22
+BYR00423,Baileyshire Farmers Coop,Cooperative,Kathleen Alvarado,0704888527,kathleen.alvarado@yahoo.com,Fort Portal,REG/2020/6017,0x14379a3606bcee74a244dfee4340e258d62b9589,True,2025-12-06 15:51:22
+BYR00424,"Morgan, Jackson and Bailey Trading",Wholesaler,Beth Smith,0750844576,beth.smith@gmail.com,Mukono,REG/2015/3114,0x083b6db2aecc2b90d701524ba9dce4c1bc470dc8,True,2025-12-06 15:51:22
+BYR00425,"Richardson, Sherman and Russell Foods",Processor,Keith Patton,0770346775,keith.patton@yahoo.com,Soroti,REG/2014/8695,0xb8f6b4cbd2d5857004b6294d0a754c9b4b695cd0,True,2025-12-06 15:51:22
+BYR00426,Taylor-Parsons Foods,Processor,Lisa Hanson,0703105196,lisa.hanson@yahoo.com,Kamuli,REG/2022/2806,0x049bed26f3a35628870f57c0ef87300c1b7fa986,True,2025-12-06 15:51:22
+BYR00427,"Parker, Carlson and Hicks Foods",Wholesaler,Michael Cooper,0752224582,michael.cooper@hotmail.com,Pallisa,REG/2011/3837,0x013ab4f52977601ffb13e1030ba419fede817c65,True,2025-12-06 15:51:22
+BYR00428,South Dustintown Farmers Coop,Cooperative,Kyle Miller,0754622199,kyle.miller@hotmail.com,Kampala,REG/2023/7883,0xddb27011f1cae242bbc0d0d2962f7a42f126b568,True,2025-12-06 15:51:22
+BYR00429,Church and Sons Trading,Exporter,Amy Anderson,0750278037,amy.anderson@yahoo.com,Wakiso,REG/2018/6940,0xc0c7ec11e457a455efc486d80bd17da4aee79344,True,2025-12-06 15:51:22
+BYR00430,"Bowers, Spencer and Newman Trading",Processor,Joseph Vargas,0704211145,joseph.vargas@hotmail.com,Kabale,REG/2015/5606,0x420647cebf591ca3ef6fc656a9979f3d73ca6551,True,2025-12-06 15:51:22
+BYR00431,Howard and Sons Foods,Processor,Dr. Jennifer Bonilla,0771209396,dr..jennifer.bonilla@yahoo.com,Jinja,REG/2020/4677,0x983a7e376317435bd1f769536ef242d253fdec40,True,2025-12-06 15:51:22
+BYR00432,Trevino LLC Foods,Wholesaler,Ashley Newman,0754736312,ashley.newman@gmail.com,Kumi,REG/2014/9836,0x9293e4a7dfd4504ec4b5a0cedef219a600097144,True,2025-12-06 15:51:22
+BYR00433,Turner LLC Limited,Wholesaler,Thomas Dominguez,0702636183,thomas.dominguez@yahoo.com,Bushenyi,REG/2020/7439,0x097c8ebd7de6a2a6e6f20ceb7ec5bdf03be5738b,True,2025-12-06 15:51:22
+BYR00434,Horton-Gamble Agro,Exporter,Lisa Matthews,0703313284,lisa.matthews@yahoo.com,Tororo,REG/2022/5779,0xacb647d016e21f76e33bef9c1d8c542e8597249d,True,2025-12-06 15:51:22
+BYR00435,North Robertbury Farmers Coop,Cooperative,John Whitehead,0700676151,john.whitehead@hotmail.com,Jinja,REG/2014/6455,0x3d83e6993ffec123b0f8b3f76550ceb1f88cb998,True,2025-12-06 15:51:22
+BYR00436,Rosales-White Trading,Exporter,Dean Baker,0751199925,dean.baker@yahoo.com,Iganga,REG/2011/4736,0x3a9da965d394cd689cf368e7a1963a45914dc266,True,2025-12-06 15:51:22
+BYR00437,Diaz LLC Agro,Exporter,Marc Wagner,0703822803,marc.wagner@gmail.com,Mbarara,REG/2011/3627,0xfdb0cdf839055c04aa508d0a8b0d70b92e769761,True,2025-12-06 15:51:22
+BYR00438,"Miller, Russell and Harris Foods",Wholesaler,Ryan Mosley,0751348941,ryan.mosley@gmail.com,Masaka,REG/2010/7885,0x646411343ae6b10d669da794bdde7dff5e3362f4,True,2025-12-06 15:51:22
+BYR00439,Jackson Inc Trading,Wholesaler,Paul Smith,0753932027,paul.smith@yahoo.com,Apac,REG/2012/1600,0xb62bc10e3ecb8e84c23a44dcb256058e35bc95b0,True,2025-12-06 15:51:22
+BYR00440,Rodriguez Inc Trading,Retailer,Danielle White,0701844877,danielle.white@hotmail.com,Bushenyi,REG/2021/1118,0x6e16cd6594e9eebd61632acdd249918b4b96ad83,True,2025-12-06 15:51:22
+BYR00441,Yu Group Foods,Wholesaler,Nathaniel Garcia,0752987852,nathaniel.garcia@gmail.com,Jinja,REG/2015/6051,0xe8a8411380286c2dbea341713ce8af7b16865c35,True,2025-12-06 15:51:22
+BYR00442,Lake Michaelville Farmers Coop,Cooperative,Timothy Taylor,0752197639,timothy.taylor@hotmail.com,Bushenyi,REG/2010/5905,0xa73f2aa9252ffd7df3d10cd55d18f264bdb2a8a8,True,2025-12-06 15:51:22
+BYR00443,Myers LLC Trading,Exporter,Cassandra Wilson,0700993912,cassandra.wilson@gmail.com,Kampala,REG/2020/3766,0xe81a41e1bf6058145129b6df343f2769c960b929,True,2025-12-06 15:51:22
+BYR00444,Miller-Bradshaw Trading,Processor,Virginia Dean,0700313202,virginia.dean@gmail.com,Bundibugyo,REG/2021/2991,0x4d9f6c8563a07a7f6e95f25edeb5b1d9a910358e,True,2025-12-06 15:51:22
+BYR00445,Harris Group Trading,Retailer,Michele Miller,0751261889,michele.miller@yahoo.com,Moroto,REG/2015/3758,0xde57c64e5fbed6cd6be826066ad72f72aeecc87a,True,2025-12-06 15:51:22
+BYR00446,Kylemouth Farmers Coop,Cooperative,Devin Vargas,0700690029,devin.vargas@yahoo.com,Mbale,REG/2018/3620,0x206ebca8b45770f80c051300ce125eae67c5ac5d,True,2025-12-06 15:51:22
+BYR00447,Diaz Ltd Agro,Exporter,Gabriel Long,0700437955,gabriel.long@yahoo.com,Rukungiri,REG/2014/4335,0x66c4e34ee4af98ee6b3c77597e49dcabb58a09a4,True,2025-12-06 15:51:22
+BYR00448,Barajas-Aguilar Trading,Exporter,Angela Smith,0771795615,angela.smith@yahoo.com,Kampala,REG/2013/2910,0x22307ed7ea49c22d6550225c099f5d7417f94e07,True,2025-12-06 15:51:22
+BYR00449,"Fletcher, Boyer and Austin Limited",Wholesaler,Joshua Frazier,0704988024,joshua.frazier@yahoo.com,Mbarara,REG/2016/6136,0xf88322b50c18cbcbc69e8357462c57e78922d376,True,2025-12-06 15:51:22
+BYR00450,Matthews-Ellison Trading,Retailer,Neil Bell,0771292178,neil.bell@gmail.com,Kamuli,REG/2012/2647,0x707bed7ae66fde2f3ecd8166295f504c2e359346,True,2025-12-06 15:51:22
+BYR00451,"Cook, White and Phillips Agro",Exporter,Mr. Ronald Clark,0704390659,mr..ronald.clark@hotmail.com,Bushenyi,REG/2013/9420,0x20dd50e8e2b78bf40841eb00e03defc182a6ae64,True,2025-12-06 15:51:22
+BYR00452,Moore-Hubbard Foods,Processor,Tiffany Wade,0754535636,tiffany.wade@yahoo.com,Katakwi,REG/2012/9390,0x930b0fa5e6d07ec070bb8815dd666d0228811320,True,2025-12-06 15:51:22
+BYR00453,"Harris, Goodman and Hernandez Foods",Processor,David Williams,0754726275,david.williams@hotmail.com,Mbale,REG/2016/3667,0x2147f15d656097f93b7dcee6e3066f4c352b158e,True,2025-12-06 15:51:22
+BYR00454,Hawkins-Jackson Limited,Retailer,Anita Greene,0700371829,anita.greene@hotmail.com,Gulu,REG/2014/5814,0x5ee8bc9a025c48d143bb7be00935cc9862cb1243,True,2025-12-06 15:51:22
+BYR00455,Torresside Farmers Coop,Cooperative,Jennifer Dean,0751541591,jennifer.dean@yahoo.com,Tororo,REG/2019/8522,0x5b873711890d1962665ef853e7b2d1a021799b2e,True,2025-12-06 15:51:22
+BYR00456,Harris-Fuentes Foods,Processor,Michelle Gray,0750394307,michelle.gray@yahoo.com,Hoima,REG/2014/8458,0x189bf16ca8b56a3bb88919b6d5c4d5bcd0249e1b,True,2025-12-06 15:51:22
+BYR00457,Lawrence and Sons Limited,Processor,Whitney Gutierrez,0752421740,whitney.gutierrez@gmail.com,Ntungamo,REG/2010/5030,0xff683c8641e3d28d11f8a48a846b7007e03503e2,True,2025-12-06 15:51:22
+BYR00458,"Jenkins, Curry and Jones Foods",Retailer,Richard Rodriguez,0751239298,richard.rodriguez@yahoo.com,Jinja,REG/2021/2301,0xbde02aa22807d631f64e079ce688a4eb689c0933,True,2025-12-06 15:51:22
+BYR00459,Payne Inc Agro,Exporter,Jessica Poole,0751102451,jessica.poole@hotmail.com,Bundibugyo,REG/2012/1951,0x3f37d87080c6302f0e8547ce3afc15f9755d75d2,True,2025-12-06 15:51:22
+BYR00460,Lake Alejandro Farmers Coop,Cooperative,Sharon Murphy,0771191249,sharon.murphy@yahoo.com,Kapchorwa,REG/2018/8147,0x3d1cd0938dd9b9e66ae32fd95e7acb0efb656e56,True,2025-12-06 15:51:22
+BYR00461,New Katherine Farmers Coop,Cooperative,Kenneth Stuart,0750431513,kenneth.stuart@gmail.com,Wakiso,REG/2021/5479,0x95e8fa6bfd15276a67a89c729a5f270506a95f05,True,2025-12-06 15:51:22
+BYR00462,French-Smith Foods,Wholesaler,James Walker,0754654809,james.walker@hotmail.com,Wakiso,REG/2022/1951,0xf73dc89b58b99b8de1c643b402c6c7ad5f89f9b3,True,2025-12-06 15:51:22
+BYR00463,Mata Group Agro,Exporter,Lisa Barber,0753310233,lisa.barber@yahoo.com,Mbarara,REG/2019/2828,0x1ea32ae082319aaf793c200dcff0315078a6dac8,True,2025-12-06 15:51:22
+BYR00464,Williams-Powell Agro,Retailer,Dr. Glenda Lyons,0702540331,dr..glenda.lyons@yahoo.com,Soroti,REG/2022/1160,0xeee15dfcb0230dc0acd7f9ce1d548577796fe34d,True,2025-12-06 15:51:22
+BYR00465,Sanchezmouth Farmers Coop,Cooperative,Cynthia Miller,0701266571,cynthia.miller@hotmail.com,Gulu,REG/2013/9549,0x7a9aaa86b9906c78e15dd9ea764646d0f1966fd0,True,2025-12-06 15:51:22
+BYR00466,Martin-Maxwell Limited,Processor,Jay Clark,0700527610,jay.clark@yahoo.com,Masindi,REG/2018/8689,0xa3043a28d12cc451d147279c137fcc9abb563fc4,True,2025-12-06 15:51:22
+BYR00467,May-Santana Foods,Exporter,Lisa Figueroa,0704772303,lisa.figueroa@hotmail.com,Bundibugyo,REG/2011/8933,0x89f39ef923d9594c168a6420b6fa24a1cdfd8f38,True,2025-12-06 15:51:22
+BYR00468,Kelly PLC Foods,Exporter,Dr. Linda Johnson,0704167711,dr..linda.johnson@hotmail.com,Kampala,REG/2021/1489,0xce9b0aa35a8437a716a8a4ccd16e6b69d0c25b90,True,2025-12-06 15:51:22
+BYR00469,Guerrero PLC Agro,Wholesaler,Jacqueline Petersen,0701513038,jacqueline.petersen@hotmail.com,Tororo,REG/2012/2962,0x099b523bba5c6d28334107606b00755d7e0afe63,True,2025-12-06 15:51:22
+BYR00470,Avilamouth Farmers Coop,Cooperative,Logan Gibson,0752206231,logan.gibson@yahoo.com,Mbale,REG/2013/1200,0x707e3a33e1edbcff68e7b540679294b331e26f74,True,2025-12-06 15:51:22
+BYR00471,"Pitts, Anthony and Archer Agro",Retailer,Joshua Williams,0702123864,joshua.williams@yahoo.com,Ntungamo,REG/2010/6658,0x34c55203babf8a93d806277ff9e78b3b35cdfad8,True,2025-12-06 15:51:22
+BYR00472,Santos Group Agro,Processor,Shawn Carter,0752312549,shawn.carter@gmail.com,Mayuge,REG/2013/2369,0x2b7d12d7467f73071b21cc7da712a2a818a1e6a4,True,2025-12-06 15:51:22
+BYR00473,Ross-Roberts Limited,Retailer,Mrs. Julie Blake MD,0771874138,mrs..julie.blake.md@yahoo.com,Fort Portal,REG/2014/4683,0x3248a5bd520d8bd2f33ca796bf2a3db5879eaa3a,True,2025-12-06 15:51:22
+BYR00474,Griffinton Farmers Coop,Cooperative,Thomas Robinson,0703496146,thomas.robinson@hotmail.com,Kamuli,REG/2016/4321,0xff6b248e5c2cca6dc0d2fff6803daa1ee7ab2011,True,2025-12-06 15:51:22
+BYR00475,Williams LLC Limited,Wholesaler,James Green,0753946425,james.green@yahoo.com,Soroti,REG/2023/8788,0xe71d532d91dbebe1d0ea48f1d3186b630cd9c710,True,2025-12-06 15:51:22
+BYR00476,Spencer and Sons Limited,Retailer,Michelle Fernandez,0702379764,michelle.fernandez@hotmail.com,Kampala,REG/2012/2282,0xaf4b88933834960bc190e8837c6df69eb451535d,True,2025-12-06 15:51:22
+BYR00477,"Bauer, Higgins and Schmidt Trading",Retailer,Karen Hicks,0754571241,karen.hicks@yahoo.com,Iganga,REG/2011/4594,0x6b6e4f37e6a5f920907e60d7fd59e7fae501da5a,True,2025-12-06 15:51:22
+BYR00478,Brandistad Farmers Coop,Cooperative,Jenna Martinez,0770543090,jenna.martinez@gmail.com,Ntungamo,REG/2014/6069,0x2688b21065cd990f500a476635d594fa6f0de565,True,2025-12-06 15:51:22
+BYR00479,"Kent, Anderson and Rice Foods",Exporter,Shane Gray,0701549285,shane.gray@gmail.com,Soroti,REG/2010/5345,0x9b3cd183c94447259008ac692fe8c88b8e858993,True,2025-12-06 15:51:22
+BYR00480,Donnahaven Farmers Coop,Cooperative,Alicia Perez,0751918684,alicia.perez@yahoo.com,Arua,REG/2018/3546,0xe9670d3c32a60838e85a2ff91a26bd5879725c3d,True,2025-12-06 15:51:22
+BYR00481,New Amybury Farmers Coop,Cooperative,James Brooks,0703257162,james.brooks@yahoo.com,Kitgum,REG/2023/2592,0xacb8ce84833dd71dff8ab67f81dac7ec803ab800,True,2025-12-06 15:51:22
+BYR00482,"Mccarthy, Martinez and Crawford Agro",Processor,Mrs. Charlene Tapia,0700533892,mrs..charlene.tapia@yahoo.com,Kabarole,REG/2010/2382,0xddbc11b29e9b27dcc58f6c7c984a0eea5bdf91e3,True,2025-12-06 15:51:22
+BYR00483,"Bennett, Barrett and Aguilar Agro",Exporter,Tiffany Thomas,0753892498,tiffany.thomas@hotmail.com,Mbale,REG/2016/7075,0x49a7d03a11c910d0140cd7456acfb03ca82a280e,True,2025-12-06 15:51:22
+BYR00484,Ward-Taylor Agro,Wholesaler,James Castillo,0753970913,james.castillo@gmail.com,Jinja,REG/2010/3434,0xe75c7cbc90dd7c8a0278020aebbf948704f7505a,True,2025-12-06 15:51:22
+BYR00485,"Oliver, Green and Ryan Limited",Exporter,Daniel Jacobson,0702632146,daniel.jacobson@gmail.com,Soroti,REG/2022/9701,0x3babd59277a33873d6333920d9e187b88c080100,True,2025-12-06 15:51:22
+BYR00486,Anderson-Yates Limited,Exporter,Austin Dixon PhD,0752334830,austin.dixon.phd@hotmail.com,Gulu,REG/2022/1078,0xd279177e4d9de46a915b4b5c706d0e05e80ba2f2,True,2025-12-06 15:51:22
+BYR00487,South Sharon Farmers Coop,Cooperative,Pamela Dougherty,0750423639,pamela.dougherty@hotmail.com,Mbale,REG/2010/6115,0xf1adb6acaa313090c11290f8b804064d4d617ef6,True,2025-12-06 15:51:22
+BYR00488,Bonnieborough Farmers Coop,Cooperative,Kathryn Taylor,0770908440,kathryn.taylor@hotmail.com,Jinja,REG/2011/3648,0x8b11bfd117bb408ad7e11307bc2adffdfd03068f,True,2025-12-06 15:51:22
+BYR00489,Ballard-Brown Limited,Exporter,Mrs. Morgan Henderson,0750466462,mrs..morgan.henderson@yahoo.com,Kapchorwa,REG/2013/1414,0x2c3108bb5a1c42e1594830445b75f469a2b296e9,True,2025-12-06 15:51:22
+BYR00490,Lauraside Farmers Coop,Cooperative,Wendy Norris,0754635946,wendy.norris@gmail.com,Lira,REG/2010/9960,0xe65ba1abcd0f0617fac8f8783824e7ef6ef052d7,True,2025-12-06 15:51:22
+BYR00491,New Heatherchester Farmers Coop,Cooperative,Rebecca Bishop,0753463713,rebecca.bishop@gmail.com,Fort Portal,REG/2018/7093,0xd58e5d4d69963e7970d49eaf752e5152514b6645,True,2025-12-06 15:51:22
+BYR00492,Parker LLC Trading,Retailer,Margaret Brown,0752459069,margaret.brown@yahoo.com,Mayuge,REG/2019/4656,0x186da72d35c0a937733f04e432e1f10027262dad,True,2025-12-06 15:51:22
+BYR00493,Hutchinson-Bishop Foods,Exporter,Jerry Hoover,0701688429,jerry.hoover@yahoo.com,Bushenyi,REG/2023/6889,0x35502e094d11e269d9fa17bc593ee263737a848a,True,2025-12-06 15:51:22
+BYR00494,Mueller-Ramirez Trading,Wholesaler,Alexandria James,0703418269,alexandria.james@yahoo.com,Kitgum,REG/2012/2366,0x6f38cfb4ce647884da9aa90e234ac4c73320df9b,True,2025-12-06 15:51:22
+BYR00495,Port Barbara Farmers Coop,Cooperative,Adam Gonzalez,0700760672,adam.gonzalez@hotmail.com,Arua,REG/2015/7983,0x9bc51c24f464a7b7fe0296cb4824727bbf8cb424,True,2025-12-06 15:51:22
+BYR00496,Peterson Ltd Agro,Exporter,David Mccoy,0771668702,david.mccoy@yahoo.com,Iganga,REG/2023/1623,0xf2e32973dfa8bc1afb586a1f9cdbc7c7563f9b8d,True,2025-12-06 15:51:22
+BYR00497,Phillips-Cummings Agro,Wholesaler,Peter Andrews,0751186441,peter.andrews@yahoo.com,Iganga,REG/2019/3687,0x4baac8d97df7c5c3cb658337259f71f0461582b6,True,2025-12-06 15:51:22
+BYR00498,Danielmouth Farmers Coop,Cooperative,Clinton Smith,0703656126,clinton.smith@yahoo.com,Bundibugyo,REG/2012/6535,0xb7a98fd0001409f83c56515610c0ad9c5014ed0f,True,2025-12-06 15:51:22
+BYR00499,Rodriguez LLC Limited,Wholesaler,Kirk Jackson,0771806335,kirk.jackson@hotmail.com,Nebbi,REG/2016/2647,0xff7d3896c832c2494cc9bee3fd75432af0bfbf44,True,2025-12-06 15:51:22
+BYR00500,"Brewer, Navarro and Barajas Trading",Exporter,Nicole Rice,0753560417,nicole.rice@yahoo.com,Kitgum,REG/2022/9218,0xbe3b02ccf9ac04836eddcba14fe969e541edf271,True,2025-12-06 15:51:22

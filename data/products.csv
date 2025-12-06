@@ -1,0 +1,101 @@
+product_id,product_name,category,variety,unit_of_measure,season,avg_growing_days,is_perishable
+PRD0001,Maize,Cereals,Longe 10H,kg,Both,119,False
+PRD0002,Maize,Cereals,Longe 5,kg,Both,111,False
+PRD0003,Maize,Cereals,Hybrid,kg,Both,102,False
+PRD0004,Rice,Cereals,NERICA,kg,Both,119,False
+PRD0005,Rice,Cereals,WITA 9,kg,Both,126,False
+PRD0006,Millet,Cereals,Finger Millet,kg,First,119,False
+PRD0007,Sorghum,Cereals,Local,kg,First,110,False
+PRD0008,Beans,Legumes,NABE 15,kg,Both,85,False
+PRD0009,Beans,Legumes,K132,kg,Both,81,False
+PRD0010,Beans,Legumes,Masindi Yellow,kg,Both,97,False
+PRD0011,Groundnuts,Legumes,Red Beauty,kg,First,95,False
+PRD0012,Groundnuts,Legumes,Serenut,kg,First,106,False
+PRD0013,Soybeans,Legumes,Maksoy,kg,Both,119,False
+PRD0014,Cowpeas,Legumes,SECOW,kg,Both,66,False
+PRD0015,Cassava,Root Crops,NASE 14,kg,Year-round,364,True
+PRD0016,Cassava,Root Crops,TME 14,kg,Year-round,335,True
+PRD0017,Sweet Potato,Root Crops,NASPOT 10,kg,Both,115,True
+PRD0018,Sweet Potato,Root Crops,Ejumula,kg,Both,114,True
+PRD0019,Irish Potato,Root Crops,Victoria,kg,Both,96,True
+PRD0020,Irish Potato,Root Crops,Kachpot,kg,Both,87,True
+PRD0021,Matooke,Plantains,Mbwazirume,kg,Year-round,364,True
+PRD0022,Matooke,Plantains,Nakitembe,kg,Year-round,362,True
+PRD0023,Banana,Fruits,Bogoya,kg,Year-round,363,True
+PRD0024,Banana,Fruits,Sukali Ndiizi,kg,Year-round,366,True
+PRD0025,Coffee,Cash Crops,Arabica,kg,Year-round,726,False
+PRD0026,Coffee,Cash Crops,Robusta,kg,Year-round,734,False
+PRD0027,Cotton,Cash Crops,BPA,kg,First,151,False
+PRD0028,Tobacco,Cash Crops,Burley,kg,First,117,False
+PRD0029,Tea,Cash Crops,Clonal,kg,Year-round,1090,False
+PRD0030,Cocoa,Cash Crops,Hybrid,kg,Year-round,1090,False
+PRD0031,Tomato,Vegetables,MT 56,kg,Both,72,True
+PRD0032,Tomato,Vegetables,Moneymaker,kg,Both,80,True
+PRD0033,Cabbage,Vegetables,Gloria,kg,Both,69,True
+PRD0034,Onion,Vegetables,Red Creole,kg,Both,90,False
+PRD0035,Carrot,Vegetables,Nantes,kg,Both,75,True
+PRD0036,Eggplant,Vegetables,Black Beauty,kg,Both,76,True
+PRD0037,Pepper,Vegetables,Hot Pepper,kg,Both,71,True
+PRD0038,Leafy Greens,Vegetables,Dodo,kg,Both,30,True
+PRD0039,Pineapple,Fruits,Smooth Cayenne,kg,Year-round,360,True
+PRD0040,Mango,Fruits,Apple Mango,kg,Seasonal,730,True
+PRD0041,Passion Fruit,Fruits,Purple,kg,Year-round,180,True
+PRD0042,Papaya,Fruits,Solo,kg,Year-round,271,True
+PRD0043,Avocado,Fruits,Hass,kg,Seasonal,733,True
+PRD0044,Jackfruit,Fruits,Local,kg,Seasonal,735,True
+PRD0045,Sunflower,Oilseeds,PAN 7033,kg,Both,93,False
+PRD0046,Sesame,Oilseeds,Sesim 1,kg,First,95,False
+PRD0047,Maize,Cereals,Longe 10H,kg,Both,124,False
+PRD0048,Maize,Cereals,Longe 5,kg,Both,115,False
+PRD0049,Maize,Cereals,Hybrid,kg,Both,99,False
+PRD0050,Rice,Cereals,NERICA,kg,Both,124,False
+PRD0051,Rice,Cereals,WITA 9,kg,Both,135,False
+PRD0052,Millet,Cereals,Finger Millet,kg,First,115,False
+PRD0053,Sorghum,Cereals,Local,kg,First,112,False
+PRD0054,Beans,Legumes,NABE 15,kg,Both,90,False
+PRD0055,Beans,Legumes,K132,kg,Both,83,False
+PRD0056,Beans,Legumes,Masindi Yellow,kg,Both,95,False
+PRD0057,Groundnuts,Legumes,Red Beauty,kg,First,97,False
+PRD0058,Groundnuts,Legumes,Serenut,kg,First,115,False
+PRD0059,Soybeans,Legumes,Maksoy,kg,Both,115,False
+PRD0060,Cowpeas,Legumes,SECOW,kg,Both,68,False
+PRD0061,Cassava,Root Crops,NASE 14,kg,Year-round,367,True
+PRD0062,Cassava,Root Crops,TME 14,kg,Year-round,334,True
+PRD0063,Sweet Potato,Root Crops,NASPOT 10,kg,Both,121,True
+PRD0064,Sweet Potato,Root Crops,Ejumula,kg,Both,109,True
+PRD0065,Irish Potato,Root Crops,Victoria,kg,Both,98,True
+PRD0066,Irish Potato,Root Crops,Kachpot,kg,Both,91,True
+PRD0067,Matooke,Plantains,Mbwazirume,kg,Year-round,366,True
+PRD0068,Matooke,Plantains,Nakitembe,kg,Year-round,366,True
+PRD0069,Banana,Fruits,Bogoya,kg,Year-round,362,True
+PRD0070,Banana,Fruits,Sukali Ndiizi,kg,Year-round,369,True
+PRD0071,Coffee,Cash Crops,Arabica,kg,Year-round,732,False
+PRD0072,Coffee,Cash Crops,Robusta,kg,Year-round,733,False
+PRD0073,Cotton,Cash Crops,BPA,kg,First,146,False
+PRD0074,Tobacco,Cash Crops,Burley,kg,First,123,False
+PRD0075,Tea,Cash Crops,Clonal,kg,Year-round,1096,False
+PRD0076,Cocoa,Cash Crops,Hybrid,kg,Year-round,1090,False
+PRD0077,Tomato,Vegetables,MT 56,kg,Both,78,True
+PRD0078,Tomato,Vegetables,Moneymaker,kg,Both,84,True
+PRD0079,Cabbage,Vegetables,Gloria,kg,Both,65,True
+PRD0080,Onion,Vegetables,Red Creole,kg,Both,94,False
+PRD0081,Carrot,Vegetables,Nantes,kg,Both,78,True
+PRD0082,Eggplant,Vegetables,Black Beauty,kg,Both,85,True
+PRD0083,Pepper,Vegetables,Hot Pepper,kg,Both,75,True
+PRD0084,Leafy Greens,Vegetables,Dodo,kg,Both,33,True
+PRD0085,Pineapple,Fruits,Smooth Cayenne,kg,Year-round,364,True
+PRD0086,Mango,Fruits,Apple Mango,kg,Seasonal,730,True
+PRD0087,Passion Fruit,Fruits,Purple,kg,Year-round,179,True
+PRD0088,Papaya,Fruits,Solo,kg,Year-round,267,True
+PRD0089,Avocado,Fruits,Hass,kg,Seasonal,727,True
+PRD0090,Jackfruit,Fruits,Local,kg,Seasonal,725,True
+PRD0091,Sunflower,Oilseeds,PAN 7033,kg,Both,94,False
+PRD0092,Sesame,Oilseeds,Sesim 1,kg,First,89,False
+PRD0093,Maize,Cereals,Longe 10H,kg,Both,115,False
+PRD0094,Maize,Cereals,Longe 5,kg,Both,111,False
+PRD0095,Maize,Cereals,Hybrid,kg,Both,96,False
+PRD0096,Rice,Cereals,NERICA,kg,Both,115,False
+PRD0097,Rice,Cereals,WITA 9,kg,Both,134,False
+PRD0098,Millet,Cereals,Finger Millet,kg,First,124,False
+PRD0099,Sorghum,Cereals,Local,kg,First,110,False
+PRD0100,Beans,Legumes,NABE 15,kg,Both,94,False

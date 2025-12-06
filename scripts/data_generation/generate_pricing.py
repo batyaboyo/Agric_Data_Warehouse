@@ -171,8 +171,6 @@ def generate_pricing(num_days=365, products_df=None, markets_df=None, output_dir
                     'price_date': current_date.strftime('%Y-%m-%d'),
                     'wholesale_price': round(current_wholesale, 2),
                     'retail_price': round(current_retail, 2),
-                    'price_spread': round(price_spread, 2),
-                    'price_spread_pct': round(price_spread_pct, 2),
                     'price_trend': price_trend,
                     'source': source
                 }
@@ -210,7 +208,6 @@ def generate_pricing(num_days=365, products_df=None, markets_df=None, output_dir
     print(f"    Date Range: {pricing_df['price_date'].min()} to {pricing_df['price_date'].max()}")
     print(f"    Average Wholesale Price: UGX {pricing_df['wholesale_price'].mean():,.0f}")
     print(f"    Average Retail Price: UGX {pricing_df['retail_price'].mean():,.0f}")
-    print(f"    Average Price Spread: {pricing_df['price_spread_pct'].mean():.1f}%")
     print(f"\n    Price Trend Distribution:")
     for trend, count in pricing_df['price_trend'].value_counts().items():
         pct = count / len(pricing_df) * 100

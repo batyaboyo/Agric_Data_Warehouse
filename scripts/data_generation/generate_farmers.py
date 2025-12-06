@@ -50,8 +50,8 @@ def generate_blockchain_wallet(farmer_id):
     return "0x" + hashlib.sha256(hash_input.encode()).hexdigest()[:40]
 
 def generate_national_id():
-    """Generate Uganda-style national ID (CM + 13 digits)"""
-    return f"CM{random.randint(1000000000000, 9999999999999)}"
+    """Generate Uganda-style national ID (CM + 12 digits = 14 chars)"""
+    return f"CM{random.randint(100000000000, 999999999999)}"
 
 def generate_phone_number():
     """Generate Uganda phone number format"""
@@ -141,19 +141,15 @@ def generate_farmers(num_farmers=2000, products_df=None, output_dir="../../data"
             'national_id': generate_national_id(),
             'first_name': first_name,
             'last_name': last_name,
-            'full_name': f"{first_name} {last_name}",
             'gender': gender,
             'date_of_birth': date_of_birth.strftime('%Y-%m-%d'),
-            'age': age,
             'phone_number': generate_phone_number(),
             'district': district,
-            'region': region,
             'subcounty': subcounty,
             'village': village,
             'gps_latitude': gps_latitude,
             'gps_longitude': gps_longitude,
             'farm_size_acres': farm_size_acres,
-            'farm_size_category': farm_size_category,
             'primary_crop': primary_crop,
             'cooperative_id': cooperative_id,
             'blockchain_wallet': blockchain_wallet,

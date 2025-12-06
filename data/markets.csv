@@ -1,0 +1,201 @@
+market_id,market_name,market_type,district,subcounty,gps_latitude,gps_longitude,operating_days,capacity_kg,is_active
+MKT0001,Regional Bushenyi Market,Urban Market,Bushenyi,Bushenyi West,0.06304,30.8955,Daily except Sunday,127791.17,True
+MKT0002,Central Kabale Market,Urban Market,Kabale,Kabale West,-1.350603,34.876121,"Tuesday, Thursday, Saturday",64262.69,True
+MKT0003,Main Fort Portal Market,Urban Market,Fort Portal,Fort Portal North,-0.726039,31.715419,"Wednesday, Saturday",74553.57,True
+MKT0004,Village Kamuli Market,Collection Center,Kamuli,Kamuli West,0.69838,31.770226,"Tuesday, Thursday, Saturday",9071.47,True
+MKT0005,Main Mayuge Market,Rural Market,Mayuge,Mayuge North,2.173802,34.885325,"Tuesday, Thursday, Saturday",10851.33,True
+MKT0006,Town Kabarole Market,Urban Market,Kabarole,Kabarole West,3.957407,31.712994,"Wednesday, Saturday",130806.36,True
+MKT0007,Town Kampala Market,Urban Market,Kampala,Kampala West,3.358624,34.253634,"Tuesday, Thursday, Saturday",147741.72,True
+MKT0008,Town Jinja Market,Urban Market,Jinja,Jinja South,-0.194272,29.839288,"Wednesday, Saturday",168085.29,True
+MKT0009,Regional Masindi Market,Collection Center,Masindi,Masindi East,3.299463,31.654173,Monday-Friday,22927.16,True
+MKT0010,Trading Bundibugyo Market,Cooperative Center,Bundibugyo,Bundibugyo West,1.74467,31.677386,"Tuesday, Thursday, Saturday",12494.49,True
+MKT0011,Main Kabarole Market,Collection Center,Kabarole,Kabarole East,-0.637617,31.363207,Monday-Friday,15156.94,True
+MKT0012,Town Masaka Market,Rural Market,Masaka,Masaka North,2.761514,32.895372,Monday-Friday,26134.57,True
+MKT0013,Village Sironko Market,Collection Center,Sironko,Sironko South,-0.096516,30.020403,Monday-Friday,29366.48,True
+MKT0014,Village Kitgum Market,Cooperative Center,Kitgum,Kitgum East,2.335589,32.999748,Monday-Saturday,34945.02,True
+MKT0015,Town Nebbi Market,Collection Center,Nebbi,Nebbi West,0.030529,30.803052,Monday-Saturday,8049.82,True
+MKT0016,Regional Sironko Market,Urban Market,Sironko,Sironko North,0.867252,31.423904,"Tuesday, Thursday, Saturday",186635.64,True
+MKT0017,Modern Kumi Market,Urban Market,Kumi,Kumi East,-1.41298,31.835203,Daily,68876.27,True
+MKT0018,Old Sironko Market,Collection Center,Sironko,Sironko East,2.993557,30.491246,"Wednesday, Saturday",16408.81,True
+MKT0019,Main Pallisa Market,Wholesale Market,Pallisa,Pallisa North,1.409555,31.85698,Monday-Saturday,191192.14,True
+MKT0020,Farmers' Nebbi Market,Urban Market,Nebbi,Nebbi South,4.171603,32.433148,Daily except Sunday,73028.59,True
+MKT0021,Farmers' Kisoro Market,Urban Market,Kisoro,Kisoro South,-0.023809,33.107315,Daily,55725.67,True
+MKT0022,Trading Tororo Market,Rural Market,Tororo,Tororo Central,1.508113,31.989507,Monday-Saturday,14150.7,True
+MKT0023,Town Nebbi Market,Wholesale Market,Nebbi,Nebbi East,3.513948,32.552118,Monday-Friday,92778.55,True
+MKT0024,District Kapchorwa Market,Collection Center,Kapchorwa,Kapchorwa Central,1.980143,31.416467,"Wednesday, Saturday",12197.66,True
+MKT0025,New Lira Market,Collection Center,Lira,Lira South,3.314267,31.721386,Daily except Sunday,29700.61,True
+MKT0026,Main Bushenyi Market,Urban Market,Bushenyi,Bushenyi East,3.803805,31.849798,Monday-Saturday,190769.16,True
+MKT0027,Farmers' Kamuli Market,Rural Market,Kamuli,Kamuli West,3.337504,33.416761,"Tuesday, Thursday, Saturday",8591.22,True
+MKT0028,Main Lira Market,Urban Market,Lira,Lira East,-0.963696,31.024678,Monday-Saturday,183303.1,True
+MKT0029,Village Sironko Market,Cooperative Center,Sironko,Sironko South,3.902877,34.673493,Monday-Friday,37526.72,True
+MKT0030,Old Kampala Market,Collection Center,Kampala,Kampala West,1.917687,30.593663,"Wednesday, Saturday",17573.78,True
+MKT0031,Regional Bushenyi Market,Rural Market,Bushenyi,Bushenyi East,-1.157199,30.598057,"Tuesday, Thursday, Saturday",16461.08,True
+MKT0032,Main Katakwi Market,Rural Market,Katakwi,Katakwi Central,-0.505953,32.116544,Daily,13746.14,True
+MKT0033,Community Kabarole Market,Rural Market,Kabarole,Kabarole South,-0.395182,31.115076,Monday-Saturday,8400.89,True
+MKT0034,New Masaka Market,Rural Market,Masaka,Masaka North,2.931572,33.554137,"Tuesday, Thursday, Saturday",21826.63,True
+MKT0035,Main Apac Market,Urban Market,Apac,Apac East,-0.249946,34.262132,Daily,100067.04,True
+MKT0036,Old Kamuli Market,Urban Market,Kamuli,Kamuli East,1.727524,32.674679,"Wednesday, Saturday",78899.52,True
+MKT0037,Modern Masaka Market,Rural Market,Masaka,Masaka East,3.800553,34.576165,Monday-Friday,17431.93,True
+MKT0038,New Mayuge Market,Rural Market,Mayuge,Mayuge North,1.391853,31.438032,Daily except Sunday,23805.52,True
+MKT0039,Modern Nebbi Market,Collection Center,Nebbi,Nebbi Central,3.692104,32.234746,Daily except Sunday,22584.27,True
+MKT0040,Village Pallisa Market,Cooperative Center,Pallisa,Pallisa South,1.597143,30.518807,"Wednesday, Saturday",45820.53,True
+MKT0041,New Hoima Market,Rural Market,Hoima,Hoima Central,3.483828,30.833254,Daily,20226.69,True
+MKT0042,Regional Kapchorwa Market,Cooperative Center,Kapchorwa,Kapchorwa West,0.672076,32.321622,"Tuesday, Thursday, Saturday",27285.18,True
+MKT0043,Central Rukungiri Market,Wholesale Market,Rukungiri,Rukungiri East,3.518788,32.48048,"Tuesday, Thursday, Saturday",145450.08,True
+MKT0044,Community Katakwi Market,Rural Market,Katakwi,Katakwi South,3.270374,34.42934,"Wednesday, Saturday",21499.48,True
+MKT0045,Trading Kisoro Market,Rural Market,Kisoro,Kisoro South,3.180288,31.413343,Monday-Saturday,29251.6,True
+MKT0046,Old Wakiso Market,Rural Market,Wakiso,Wakiso West,4.079089,29.722893,Daily except Sunday,25630.84,True
+MKT0047,Village Arua Market,Rural Market,Arua,Arua East,0.526797,33.835626,"Tuesday, Thursday, Saturday",23812.35,True
+MKT0048,District Masindi Market,Rural Market,Masindi,Masindi Central,0.090447,34.18959,Monday-Saturday,23001.83,True
+MKT0049,Main Apac Market,Urban Market,Apac,Apac South,0.368127,33.070807,Monday-Saturday,119124.11,True
+MKT0050,Town Masaka Market,Collection Center,Masaka,Masaka North,1.313365,30.116749,"Wednesday, Saturday",19697.26,True
+MKT0051,Village Tororo Market,Collection Center,Tororo,Tororo North,2.683211,30.874512,Monday-Saturday,6167.86,True
+MKT0052,New Rukungiri Market,Collection Center,Rukungiri,Rukungiri East,0.750067,33.524884,Monday-Friday,22381.52,True
+MKT0053,Village Soroti Market,Collection Center,Soroti,Soroti Central,0.694374,34.685827,Daily except Sunday,16470.51,True
+MKT0054,Community Moroto Market,Rural Market,Moroto,Moroto Central,0.74506,30.485159,Monday-Saturday,17741.02,True
+MKT0055,District Kampala Market,Rural Market,Kampala,Kampala South,1.402098,32.291703,"Wednesday, Saturday",22136.48,True
+MKT0056,District Soroti Market,Collection Center,Soroti,Soroti Central,0.243631,33.97701,"Wednesday, Saturday",24972.72,True
+MKT0057,Central Moroto Market,Rural Market,Moroto,Moroto South,3.616806,29.829337,Daily,23650.31,True
+MKT0058,Old Mbarara Market,Rural Market,Mbarara,Mbarara East,2.23014,31.503275,"Wednesday, Saturday",11698.45,True
+MKT0059,Central Rukungiri Market,Cooperative Center,Rukungiri,Rukungiri South,2.706048,34.244845,Monday-Friday,46002.44,True
+MKT0060,Central Fort Portal Market,Rural Market,Fort Portal,Fort Portal East,-0.922319,33.725839,Monday-Saturday,19670.86,True
+MKT0061,Trading Kamuli Market,Urban Market,Kamuli,Kamuli Central,1.561789,30.256713,Daily,111770.53,True
+MKT0062,Trading Gulu Market,Urban Market,Gulu,Gulu South,0.594781,32.408424,Monday-Saturday,129861.03,True
+MKT0063,Village Mayuge Market,Urban Market,Mayuge,Mayuge West,-0.460133,34.397042,"Wednesday, Saturday",71398.93,True
+MKT0064,Central Arua Market,Rural Market,Arua,Arua Central,1.546789,31.682705,Daily except Sunday,28960.79,True
+MKT0065,District Bushenyi Market,Urban Market,Bushenyi,Bushenyi West,1.196218,33.731319,"Tuesday, Thursday, Saturday",157838.88,True
+MKT0066,Regional Kasese Market,Urban Market,Kasese,Kasese Central,2.7083,30.963016,Monday-Saturday,65406.32,True
+MKT0067,Regional Bundibugyo Market,Urban Market,Bundibugyo,Bundibugyo North,3.262781,32.870499,Daily except Sunday,174325.91,True
+MKT0068,Central Jinja Market,Urban Market,Jinja,Jinja South,3.786521,32.104769,"Wednesday, Saturday",138170.07,True
+MKT0069,Central Arua Market,Collection Center,Arua,Arua South,0.192779,30.792847,Daily,15091.97,True
+MKT0070,District Hoima Market,Rural Market,Hoima,Hoima South,-1.473556,34.746161,Monday-Saturday,10763.67,True
+MKT0071,Community Pallisa Market,Rural Market,Pallisa,Pallisa Central,3.240153,34.791815,Monday-Friday,16982.96,True
+MKT0072,Modern Mbale Market,Collection Center,Mbale,Mbale North,-0.329578,31.673447,Monday-Friday,11523.69,True
+MKT0073,Old Fort Portal Market,Cooperative Center,Fort Portal,Fort Portal North,1.095335,30.886006,Monday-Saturday,26064.07,True
+MKT0074,Farmers' Nebbi Market,Rural Market,Nebbi,Nebbi Central,-0.537948,32.992627,Daily except Sunday,7221.16,True
+MKT0075,Main Tororo Market,Urban Market,Tororo,Tororo West,2.042022,34.357042,Daily except Sunday,51570.63,True
+MKT0076,Old Apac Market,Rural Market,Apac,Apac South,3.149124,34.83569,Monday-Saturday,29308.44,True
+MKT0077,Central Mayuge Market,Urban Market,Mayuge,Mayuge North,0.532087,30.132049,Monday-Saturday,197411.11,True
+MKT0078,Farmers' Kampala Market,Wholesale Market,Kampala,Kampala Central,-0.222049,30.886482,Monday-Saturday,85424.73,True
+MKT0079,Farmers' Moroto Market,Urban Market,Moroto,Moroto South,-0.786557,33.926047,Daily except Sunday,168705.83,True
+MKT0080,Town Kitgum Market,Collection Center,Kitgum,Kitgum Central,4.112834,31.823527,"Wednesday, Saturday",22641.12,True
+MKT0081,District Mayuge Market,Urban Market,Mayuge,Mayuge North,0.445003,30.676075,"Wednesday, Saturday",78524.59,True
+MKT0082,Modern Rukungiri Market,Urban Market,Rukungiri,Rukungiri East,0.79532,30.750848,Daily except Sunday,87231.8,True
+MKT0083,Central Kisoro Market,Urban Market,Kisoro,Kisoro North,3.879905,29.65833,"Wednesday, Saturday",103062.1,True
+MKT0084,Town Wakiso Market,Wholesale Market,Wakiso,Wakiso West,0.290184,29.615734,"Tuesday, Thursday, Saturday",67898.34,True
+MKT0085,District Fort Portal Market,Rural Market,Fort Portal,Fort Portal South,1.61935,32.130252,"Tuesday, Thursday, Saturday",16810.19,True
+MKT0086,Regional Gulu Market,Urban Market,Gulu,Gulu East,-1.026258,33.862957,"Tuesday, Thursday, Saturday",116846.11,True
+MKT0087,Trading Mbarara Market,Wholesale Market,Mbarara,Mbarara Central,1.581885,34.302375,"Wednesday, Saturday",195285.49,True
+MKT0088,Regional Masindi Market,Collection Center,Masindi,Masindi South,0.38059,32.883433,"Wednesday, Saturday",6985.43,True
+MKT0089,Village Fort Portal Market,Urban Market,Fort Portal,Fort Portal West,-1.17105,30.736576,"Wednesday, Saturday",95400.49,True
+MKT0090,Village Mbale Market,Rural Market,Mbale,Mbale South,0.313793,30.550506,Daily,27671.4,True
+MKT0091,Regional Sironko Market,Rural Market,Sironko,Sironko South,0.039694,32.909342,"Wednesday, Saturday",12538.22,True
+MKT0092,Town Bushenyi Market,Urban Market,Bushenyi,Bushenyi East,-0.046841,30.49759,"Tuesday, Thursday, Saturday",188173.33,True
+MKT0093,Old Mbale Market,Urban Market,Mbale,Mbale South,-0.367302,34.181537,Monday-Friday,125850.82,True
+MKT0094,Trading Ntungamo Market,Urban Market,Ntungamo,Ntungamo Central,2.828029,34.988581,Monday-Saturday,170885.32,True
+MKT0095,Trading Katakwi Market,Rural Market,Katakwi,Katakwi South,-0.246186,33.505522,Monday-Saturday,18192.5,True
+MKT0096,Modern Mbale Market,Rural Market,Mbale,Mbale Central,3.581557,32.869213,Monday-Saturday,6668.97,True
+MKT0097,Community Masindi Market,Rural Market,Masindi,Masindi East,1.184713,33.232837,"Wednesday, Saturday",26227.38,True
+MKT0098,Main Kisoro Market,Urban Market,Kisoro,Kisoro East,-0.925617,34.084302,Monday-Saturday,100809.17,True
+MKT0099,District Lira Market,Urban Market,Lira,Lira Central,3.330306,30.440091,"Wednesday, Saturday",100120.4,True
+MKT0100,Main Jinja Market,Processing Center,Jinja,Jinja West,0.612671,29.952416,"Tuesday, Thursday, Saturday",33796.32,True
+MKT0101,Trading Kabale Market,Urban Market,Kabale,Kabale South,-1.280089,33.946314,Daily except Sunday,95726.77,True
+MKT0102,Trading Katakwi Market,Urban Market,Katakwi,Katakwi East,3.900787,32.224832,"Wednesday, Saturday",114533.91,True
+MKT0103,Farmers' Mayuge Market,Rural Market,Mayuge,Mayuge Central,2.76249,32.819719,Monday-Saturday,27381.61,True
+MKT0104,District Kumi Market,Urban Market,Kumi,Kumi East,1.693861,30.523355,Monday-Friday,75197.87,True
+MKT0105,Trading Arua Market,Wholesale Market,Arua,Arua East,-1.112465,33.676414,Daily except Sunday,141290.47,True
+MKT0106,New Kabale Market,Urban Market,Kabale,Kabale South,0.849656,31.681466,Daily,75401.49,True
+MKT0107,Farmers' Kapchorwa Market,Urban Market,Kapchorwa,Kapchorwa East,3.943253,33.383732,Monday-Friday,177795.88,True
+MKT0108,District Mbale Market,Urban Market,Mbale,Mbale North,1.219562,29.878262,Monday-Saturday,127275.12,True
+MKT0109,Old Kabarole Market,Rural Market,Kabarole,Kabarole South,3.853378,33.013681,"Wednesday, Saturday",25336.22,True
+MKT0110,District Mbale Market,Rural Market,Mbale,Mbale East,1.365288,30.837673,"Tuesday, Thursday, Saturday",22052.71,True
+MKT0111,Modern Bundibugyo Market,Export Hub,Bundibugyo,Bundibugyo Central,-1.099575,34.655847,Monday-Saturday,14983.59,True
+MKT0112,New Bushenyi Market,Collection Center,Bushenyi,Bushenyi South,1.508577,33.942183,"Tuesday, Thursday, Saturday",16024.03,True
+MKT0113,Town Rukungiri Market,Urban Market,Rukungiri,Rukungiri West,1.002376,32.127177,Daily except Sunday,89620.24,True
+MKT0114,Main Iganga Market,Rural Market,Iganga,Iganga North,3.638184,33.198163,Daily,12250.02,True
+MKT0115,Trading Kampala Market,Rural Market,Kampala,Kampala East,0.765499,33.03293,"Wednesday, Saturday",19461.46,True
+MKT0116,Town Kapchorwa Market,Rural Market,Kapchorwa,Kapchorwa West,1.132606,32.794627,"Tuesday, Thursday, Saturday",25231.42,True
+MKT0117,Town Kabarole Market,Urban Market,Kabarole,Kabarole South,-0.188879,31.83019,Daily,55133.31,True
+MKT0118,Main Bushenyi Market,Urban Market,Bushenyi,Bushenyi Central,3.908634,30.699287,Daily,154143.43,True
+MKT0119,Town Kabarole Market,Urban Market,Kabarole,Kabarole East,1.234901,32.246076,"Wednesday, Saturday",78320.57,True
+MKT0120,Regional Jinja Market,Collection Center,Jinja,Jinja North,2.295856,29.67447,"Wednesday, Saturday",11174.66,True
+MKT0121,New Apac Market,Cooperative Center,Apac,Apac West,0.059195,32.306872,Daily,45673.36,True
+MKT0122,Regional Soroti Market,Rural Market,Soroti,Soroti North,3.437822,33.180387,Daily,6749.9,True
+MKT0123,Main Kisoro Market,Urban Market,Kisoro,Kisoro West,-0.561649,31.229018,Daily except Sunday,184720.61,True
+MKT0124,Farmers' Wakiso Market,Rural Market,Wakiso,Wakiso South,3.272572,31.387314,"Wednesday, Saturday",18055.08,True
+MKT0125,District Arua Market,Cooperative Center,Arua,Arua West,-0.599666,33.805848,Monday-Saturday,17560.81,True
+MKT0126,New Bundibugyo Market,Urban Market,Bundibugyo,Bundibugyo Central,4.129298,34.608179,Daily,97895.84,True
+MKT0127,Old Sironko Market,Collection Center,Sironko,Sironko Central,1.221477,34.929693,"Wednesday, Saturday",7309.7,True
+MKT0128,Town Mbarara Market,Rural Market,Mbarara,Mbarara Central,-1.47027,33.327401,Monday-Friday,11642.57,True
+MKT0129,New Soroti Market,Rural Market,Soroti,Soroti West,3.294712,34.234265,Monday-Friday,29297.01,True
+MKT0130,Town Arua Market,Collection Center,Arua,Arua East,3.914748,34.516388,Daily,15955.01,True
+MKT0131,Trading Fort Portal Market,Cooperative Center,Fort Portal,Fort Portal South,0.627815,32.924712,"Tuesday, Thursday, Saturday",20955.44,True
+MKT0132,Central Lira Market,Rural Market,Lira,Lira North,-1.255089,34.741905,Daily except Sunday,21027.82,True
+MKT0133,District Rukungiri Market,Cooperative Center,Rukungiri,Rukungiri North,1.635992,31.052579,Daily except Sunday,44244.47,True
+MKT0134,Modern Nebbi Market,Rural Market,Nebbi,Nebbi East,1.518652,33.986851,Daily,10971.02,True
+MKT0135,District Fort Portal Market,Rural Market,Fort Portal,Fort Portal Central,1.168665,30.765828,Daily except Sunday,17349.49,True
+MKT0136,Modern Jinja Market,Rural Market,Jinja,Jinja South,1.596126,33.704238,Monday-Friday,14935.65,True
+MKT0137,District Wakiso Market,Rural Market,Wakiso,Wakiso Central,2.897737,33.204961,Monday-Saturday,22327.87,True
+MKT0138,Community Arua Market,Urban Market,Arua,Arua West,2.193829,34.656939,Daily,127932.29,True
+MKT0139,Central Gulu Market,Wholesale Market,Gulu,Gulu East,-0.762855,34.33204,Monday-Friday,79016.72,True
+MKT0140,Community Sironko Market,Rural Market,Sironko,Sironko Central,1.436085,29.822809,Monday-Saturday,21511.65,True
+MKT0141,Town Mukono Market,Urban Market,Mukono,Mukono Central,2.605355,31.058313,Daily except Sunday,185780.23,True
+MKT0142,Community Wakiso Market,Rural Market,Wakiso,Wakiso South,-1.262657,34.255964,"Tuesday, Thursday, Saturday",20673.15,True
+MKT0143,Community Ntungamo Market,Rural Market,Ntungamo,Ntungamo East,-0.746167,32.928247,Daily except Sunday,9012.14,True
+MKT0144,Main Kumi Market,Urban Market,Kumi,Kumi West,-0.508415,30.573034,Monday-Saturday,139167.85,True
+MKT0145,Old Jinja Market,Urban Market,Jinja,Jinja North,-0.001919,33.938761,"Tuesday, Thursday, Saturday",147084.41,True
+MKT0146,Farmers' Bushenyi Market,Rural Market,Bushenyi,Bushenyi South,4.047703,30.815146,Daily,17835.69,True
+MKT0147,Regional Mayuge Market,Rural Market,Mayuge,Mayuge North,1.429285,34.666195,Monday-Friday,14852.35,True
+MKT0148,District Lira Market,Rural Market,Lira,Lira South,1.83872,30.078994,Monday-Saturday,24039.0,True
+MKT0149,Modern Kasese Market,Wholesale Market,Kasese,Kasese East,3.135596,31.726369,"Wednesday, Saturday",160724.3,True
+MKT0150,Modern Lira Market,Rural Market,Lira,Lira Central,1.99043,34.549265,"Wednesday, Saturday",26080.41,True
+MKT0151,Old Katakwi Market,Rural Market,Katakwi,Katakwi East,1.289455,30.877424,Daily,22299.93,True
+MKT0152,Central Masaka Market,Collection Center,Masaka,Masaka South,2.63022,34.511725,Monday-Saturday,9253.5,True
+MKT0153,Community Mbarara Market,Rural Market,Mbarara,Mbarara North,2.620361,31.777329,"Tuesday, Thursday, Saturday",7822.7,True
+MKT0154,Community Wakiso Market,Collection Center,Wakiso,Wakiso North,-0.842986,31.350441,Daily,29557.42,True
+MKT0155,Old Kasese Market,Rural Market,Kasese,Kasese East,0.569405,30.925009,Daily except Sunday,23355.9,True
+MKT0156,Farmers' Katakwi Market,Rural Market,Katakwi,Katakwi North,1.189408,33.445185,Daily except Sunday,13570.07,True
+MKT0157,Main Arua Market,Rural Market,Arua,Arua East,-1.316108,33.548715,Daily,16468.35,True
+MKT0158,Farmers' Bundibugyo Market,Urban Market,Bundibugyo,Bundibugyo South,1.221762,30.094926,"Wednesday, Saturday",181679.78,True
+MKT0159,Town Jinja Market,Rural Market,Jinja,Jinja North,0.016748,29.81203,Daily except Sunday,23721.05,True
+MKT0160,Main Fort Portal Market,Rural Market,Fort Portal,Fort Portal Central,4.122628,31.369073,Daily,27038.41,True
+MKT0161,Farmers' Wakiso Market,Rural Market,Wakiso,Wakiso North,4.111149,30.577807,Monday-Saturday,23692.48,True
+MKT0162,Main Kampala Market,Rural Market,Kampala,Kampala Central,-1.372063,30.543739,Daily,10239.87,True
+MKT0163,Modern Kumi Market,Rural Market,Kumi,Kumi Central,2.987523,33.633835,Daily except Sunday,15321.26,True
+MKT0164,Central Iganga Market,Rural Market,Iganga,Iganga West,1.79344,32.204917,Monday-Saturday,5213.77,True
+MKT0165,Village Jinja Market,Export Hub,Jinja,Jinja South,1.181986,29.909879,"Tuesday, Thursday, Saturday",14693.06,True
+MKT0166,Community Kamuli Market,Export Hub,Kamuli,Kamuli South,-0.065644,34.453992,Daily except Sunday,38938.47,True
+MKT0167,Trading Mbarara Market,Urban Market,Mbarara,Mbarara Central,-1.118195,31.234288,"Tuesday, Thursday, Saturday",166903.52,True
+MKT0168,New Mbale Market,Rural Market,Mbale,Mbale South,-0.653709,30.695039,Daily,28021.07,True
+MKT0169,Central Bushenyi Market,Rural Market,Bushenyi,Bushenyi East,-0.413543,34.878477,"Wednesday, Saturday",15541.47,True
+MKT0170,Central Iganga Market,Collection Center,Iganga,Iganga South,1.034386,31.608518,Daily except Sunday,28517.36,True
+MKT0171,Farmers' Soroti Market,Urban Market,Soroti,Soroti Central,-0.328334,31.332247,"Wednesday, Saturday",163382.34,True
+MKT0172,Farmers' Mbale Market,Cooperative Center,Mbale,Mbale East,3.278236,30.707127,Monday-Saturday,36436.13,True
+MKT0173,Central Mbale Market,Rural Market,Mbale,Mbale East,2.142673,33.569003,"Wednesday, Saturday",22509.05,True
+MKT0174,Central Apac Market,Rural Market,Apac,Apac Central,-1.089419,31.213131,"Wednesday, Saturday",20207.41,True
+MKT0175,Main Hoima Market,Wholesale Market,Hoima,Hoima West,-0.162191,33.128747,Daily except Sunday,193514.8,True
+MKT0176,Old Masaka Market,Urban Market,Masaka,Masaka South,-0.460914,33.296956,Daily,139052.0,True
+MKT0177,Trading Kasese Market,Urban Market,Kasese,Kasese Central,0.728577,34.882404,Monday-Saturday,62994.08,True
+MKT0178,Farmers' Mayuge Market,Urban Market,Mayuge,Mayuge North,0.386715,32.051187,Daily except Sunday,91818.32,True
+MKT0179,Regional Kapchorwa Market,Collection Center,Kapchorwa,Kapchorwa South,3.795341,32.485817,"Wednesday, Saturday",27641.98,True
+MKT0180,New Arua Market,Rural Market,Arua,Arua Central,3.292913,33.278287,Monday-Friday,12735.01,True
+MKT0181,Old Kitgum Market,Processing Center,Kitgum,Kitgum South,3.301549,30.88565,Monday-Saturday,33805.24,True
+MKT0182,Town Kapchorwa Market,Rural Market,Kapchorwa,Kapchorwa Central,0.968805,31.944692,Daily,27199.69,True
+MKT0183,Central Gulu Market,Urban Market,Gulu,Gulu North,3.231298,31.802786,Monday-Saturday,69586.6,True
+MKT0184,Modern Fort Portal Market,Urban Market,Fort Portal,Fort Portal North,3.73056,33.545934,Monday-Friday,143709.8,True
+MKT0185,Town Rukungiri Market,Urban Market,Rukungiri,Rukungiri South,-0.98816,32.461794,Daily except Sunday,55310.87,True
+MKT0186,Community Moroto Market,Rural Market,Moroto,Moroto West,-0.03458,33.465729,Daily except Sunday,23049.91,True
+MKT0187,Old Kumi Market,Wholesale Market,Kumi,Kumi North,1.489713,31.127429,Monday-Saturday,153096.22,True
+MKT0188,District Gulu Market,Collection Center,Gulu,Gulu North,2.631281,31.380196,"Wednesday, Saturday",17663.18,True
+MKT0189,Regional Mbale Market,Urban Market,Mbale,Mbale South,3.629837,33.933838,Monday-Saturday,104836.84,True
+MKT0190,District Arua Market,Rural Market,Arua,Arua South,3.224581,32.471079,"Tuesday, Thursday, Saturday",20636.39,True
+MKT0191,Central Soroti Market,Collection Center,Soroti,Soroti South,2.100284,30.695172,Daily,20567.23,True
+MKT0192,New Hoima Market,Urban Market,Hoima,Hoima North,1.158849,35.021455,Monday-Friday,153527.56,True
+MKT0193,Town Kisoro Market,Cooperative Center,Kisoro,Kisoro North,0.894507,32.120011,"Wednesday, Saturday",37261.44,True
+MKT0194,Old Kampala Market,Collection Center,Kampala,Kampala East,3.16092,30.987486,Daily except Sunday,20628.11,True
+MKT0195,District Masaka Market,Rural Market,Masaka,Masaka North,1.226249,31.157739,Monday-Friday,25588.87,True
+MKT0196,Modern Kabarole Market,Urban Market,Kabarole,Kabarole South,2.05986,30.695921,Daily,102751.26,True
+MKT0197,Modern Kabarole Market,Cooperative Center,Kabarole,Kabarole North,1.492119,33.142939,Monday-Saturday,22833.84,True
+MKT0198,Central Kisoro Market,Urban Market,Kisoro,Kisoro East,0.263863,30.824745,Daily,173739.13,True
+MKT0199,Central Nebbi Market,Cooperative Center,Nebbi,Nebbi East,2.783598,33.581885,Monday-Saturday,24943.55,True
+MKT0200,Central Bushenyi Market,Collection Center,Bushenyi,Bushenyi North,1.8089,29.98571,Daily except Sunday,16412.09,True

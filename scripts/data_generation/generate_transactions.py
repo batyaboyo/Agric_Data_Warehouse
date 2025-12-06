@@ -45,8 +45,9 @@ def calculate_price_with_quality(base_price, quality_grade):
     else:  # Grade C
         return base_price * random.uniform(0.70, 0.85)  # 15-30% discount
 
+
 def generate_transactions(num_transactions=10000, farmers_df=None, products_df=None, 
-                         markets_df=None, output_dir="../../data"):
+                         markets_df=None, buyers_df=None, output_dir="../../data"):
     """
     Generate synthetic transaction data
     
@@ -55,6 +56,7 @@ def generate_transactions(num_transactions=10000, farmers_df=None, products_df=N
         farmers_df: DataFrame of farmers
         products_df: DataFrame of products
         markets_df: DataFrame of markets
+        buyers_df: DataFrame of buyers
         output_dir: Output directory for CSV files
     
     Returns:
@@ -63,8 +65,8 @@ def generate_transactions(num_transactions=10000, farmers_df=None, products_df=N
     
     print(f"Generating {num_transactions} transaction records...")
     
-    if farmers_df is None or products_df is None or markets_df is None:
-        raise ValueError("farmers_df, products_df, and markets_df are required")
+    if farmers_df is None or products_df is None or markets_df is None or buyers_df is None:
+        raise ValueError("farmers_df, products_df, markets_df, and buyers_df are required")
     
     transactions = []
     
@@ -104,8 +106,9 @@ def generate_transactions(num_transactions=10000, farmers_df=None, products_df=N
         product = products_df.sample(n=1).iloc[0]
         market = markets_df.sample(n=1).iloc[0]
         
-        # Buyer
-        buyer_id = generate_buyer_id()
+        # Buyer from buyers list
+        buyer = buyers_df.sample(n=1).iloc[0]
+        buyer_id = buyer['buyer_id']
         
         # Transaction date (weighted towards recent dates)
         days_ago = int(np.random.exponential(scale=100))  # Exponential distribution

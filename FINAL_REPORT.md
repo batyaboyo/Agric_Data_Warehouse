@@ -3,7 +3,7 @@
 **Final Project Report**
 
 **Course**: Data Warehousing  
-**Date**: December 4, 2025  
+**Date**: December 6, 2025  
 **Project Type**: Blockchain-Integrated Data Warehouse Implementation
 
 ---
@@ -888,13 +888,54 @@ blockchain_hash: 0xabcd1234...
 
 ### Appendix D: Screenshots
 
-*Note: For final submission, include screenshots of:*
-1. PlantUML diagrams (4 screenshots)
-2. Database tables in pgAdmin (3 screenshots)
-3. Data generation output (1 screenshot)
-4. ETL execution (1 screenshot)
-5. Power BI dashboards (5 screenshots)
-6. Verification queries (2 screenshots)
+#### 1. System Architecture & Design
+![Insert Star Schema Diagram Here]
+*Figure 1: Star Schema Design*
+
+![Insert System Architecture Diagram Here]
+*Figure 2: System Architecture*
+
+![Insert ETL Flow Diagram Here]
+*Figure 3: ETL Process Flow*
+
+![Insert ERD Diagram Here]
+*Figure 4: Entity Relationship Diagram*
+
+#### 2. Database Implementation
+![Insert Staging Tables Check Here]
+*Figure 5: Staging Tables in PostgreSQL*
+
+![Insert Fact Tables Check Here]
+*Figure 6: Data Warehouse Fact Tables*
+
+![Insert Dimension Tables Check Here]
+*Figure 7: Dimension Tables with SCD Columns*
+
+#### 3. Execution & Verification
+![Insert Data Generation Output Here]
+*Figure 8: Python Data Generation Console Output*
+
+![Insert ETL Execution Log Here]
+*Figure 9: ETL Pipeline Execution Log*
+
+![Insert Verification Queries Here]
+*Figure 10: SQL Row Count Verification Results*
+
+#### 4. Analytics & Reporting (Power BI)
+![Insert Executive Dashboard Here]
+*Figure 11: Executive Overview Dashboard*
+
+![Insert Farmer Analytics Dashboard Here]
+*Figure 12: Farmer Analytics Dashboard*
+
+![Insert Product Analysis Dashboard Here]
+*Figure 13: Product & Market Analysis Dashboard*
+
+![Insert Financial Dashboard Here]
+*Figure 14: Financial Performance Dashboard*
+
+![Insert Supply Chain Dashboard Here]
+*Figure 15: Supply Chain Traceability Dashboard*
 
 ---
 
@@ -902,5 +943,5 @@ blockchain_hash: 0xabcd1234...
 
 **Total Pages**: 15  
 **Word Count**: ~5,500  
-**Date**: December 4, 2025  
+**Date**: December 6, 2025  
 **Project Status**: Complete ✓

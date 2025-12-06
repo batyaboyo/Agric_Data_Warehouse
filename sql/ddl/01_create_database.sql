@@ -11,19 +11,22 @@
 -- DROP DATABASE IF EXISTS agri_dw;
 
 -- Create database
-CREATE DATABASE agri_dw
-    WITH 
-    OWNER = postgres
-    ENCODING = 'UTF8'
-    LC_COLLATE = 'English_United States.1252'
-    LC_CTYPE = 'English_United States.1252'
-    TABLESPACE = pg_default
-    CONNECTION LIMIT = -1;
+-- Note: Database creation should be done manually in pgAdmin or via psql
+-- CREATE DATABASE agri_dw
+--     WITH 
+--     OWNER = postgres
+--     ENCODING = 'UTF8'
+--     LC_COLLATE = 'English_United States.1252'
+--     LC_CTYPE = 'English_United States.1252'
+--     TABLESPACE = pg_default
+--     CONNECTION LIMIT = -1;
 
-COMMENT ON DATABASE agri_dw IS 'Agricultural Supply Chain Data Warehouse';
+-- COMMENT ON DATABASE agri_dw IS 'Agricultural Supply Chain Data Warehouse';
 
 -- Connect to the database
-\c agri_dw
+-- Note: \c is a psql metacommand and won't work in pgAdmin Query Tool
+-- Make sure you're connected to agri_dw database before running this script
+-- \c agri_dw
 
 -- ============================================================================
 -- Create Schemas

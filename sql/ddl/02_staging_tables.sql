@@ -6,7 +6,10 @@
 -- Schema: staging
 -- ============================================================================
 
-\c agri_dw
+-- Connect to agri_dw database
+-- Note: \c is a psql metacommand and won't work in pgAdmin Query Tool
+-- Make sure you're connected to agri_dw database before running this script
+-- \c agri_dw
 
 SET search_path TO staging, public;
 

@@ -2,8 +2,6 @@
 # Install with: pip install -r requirements.txt
 
 # Data Generation and Manipulation
-pandas==2.1.4
-numpy==1.26.2
 faker==20.1.0
 
 # Database Connectivity

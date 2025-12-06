@@ -1,0 +1,601 @@
+farmer_subsidy_id,farmer_id,subsidy_id,program_name,subsidy_type,amount_value,distribution_date,verification_status,loaded_at
+SUB000001,FMR000453,PRG-934,Small-Scale Irrigation Program,Irrigation Equipment,2217150.0,2024-01-12,Verified,2025-12-06 15:51:42
+SUB000002,FMR000213,PRG-656,Parish Development Model (PDM),Cash Grant,879918.0,2024-09-01,Verified,2025-12-06 15:51:42
+SUB000003,FMR000040,PRG-805,Operation Wealth Creation (OWC),Fruit Trees,316065.0,2024-02-24,Verified,2025-12-06 15:51:42
+SUB000004,FMR000010,PRG-208,NAADS Agricultural Input Support,Seeds,484328.0,2025-03-31,Received,2025-12-06 15:51:42
+SUB000005,FMR000449,PRG-844,Small-Scale Irrigation Program,Irrigation Equipment,2977050.0,2024-06-30,Verified,2025-12-06 15:51:42
+SUB000006,FMR000015,PRG-817,NAADS Agricultural Input Support,Seeds,408957.0,2025-06-20,Received,2025-12-06 15:51:42
+SUB000007,FMR000404,PRG-110,Small-Scale Irrigation Program,Irrigation Equipment,2949341.0,2024-03-31,Disbursed,2025-12-06 15:51:42
+SUB000008,FMR000936,PRG-726,Small-Scale Irrigation Program,Irrigation Equipment,2395515.0,2024-03-21,Received,2025-12-06 15:51:42
+SUB000009,FMR001390,PRG-944,Small-Scale Irrigation Program,Irrigation Equipment,4193888.0,2025-09-05,Received,2025-12-06 15:51:42
+SUB000010,FMR000605,PRG-816,NAADS Agricultural Input Support,Seeds,287150.0,2024-12-14,Disbursed,2025-12-06 15:51:42
+SUB000011,FMR001886,PRG-854,Parish Development Model (PDM),Revolving Fund,823356.0,2025-08-04,Verified,2025-12-06 15:51:42
+SUB000012,FMR000247,PRG-545,NAADS Agricultural Input Support,Saplings,229099.0,2025-01-28,Disbursed,2025-12-06 15:51:42
+SUB000013,FMR001889,PRG-167,NAADS Agricultural Input Support,Seeds,155910.0,2025-08-30,Pending,2025-12-06 15:51:42
+SUB000014,FMR001578,PRG-276,Parish Development Model (PDM),Revolving Fund,834492.0,2025-06-24,Disbursed,2025-12-06 15:51:42
+SUB000015,FMR000085,PRG-806,NAADS Agricultural Input Support,Seeds,450449.0,2025-08-08,Received,2025-12-06 15:51:42
+SUB000016,FMR000382,PRG-113,Parish Development Model (PDM),Cash Grant,827934.0,2024-06-13,Disbursed,2025-12-06 15:51:42
+SUB000017,FMR001975,PRG-275,Fertilizer Access Initiative,Fertilizer,58977.0,2024-11-05,Received,2025-12-06 15:51:42
+SUB000018,FMR001745,PRG-620,Fertilizer Access Initiative,Fertilizer,66724.0,2025-04-22,Received,2025-12-06 15:51:42
+SUB000019,FMR000135,PRG-763,NAADS Agricultural Input Support,Seeds,433177.0,2024-05-29,Verified,2025-12-06 15:51:42
+SUB000020,FMR000902,PRG-514,NAADS Agricultural Input Support,Saplings,244531.0,2024-04-24,Disbursed,2025-12-06 15:51:42
+SUB000021,FMR000839,PRG-191,Small-Scale Irrigation Program,Irrigation Equipment,4223797.0,2025-07-26,Verified,2025-12-06 15:51:42
+SUB000022,FMR001246,PRG-372,NAADS Agricultural Input Support,Saplings,499391.0,2024-02-08,Disbursed,2025-12-06 15:51:42
+SUB000023,FMR001878,PRG-537,Small-Scale Irrigation Program,Irrigation Equipment,4212381.0,2024-04-12,Disbursed,2025-12-06 15:51:42
+SUB000024,FMR000697,PRG-639,Parish Development Model (PDM),Cash Grant,605330.0,2024-05-17,Disbursed,2025-12-06 15:51:42
+SUB000025,FMR001317,PRG-189,Parish Development Model (PDM),Revolving Fund,755245.0,2025-05-07,Pending,2025-12-06 15:51:42
+SUB000026,FMR000553,PRG-245,Fertilizer Access Initiative,Fertilizer,168891.0,2023-12-21,Pending,2025-12-06 15:51:42
+SUB000027,FMR001940,PRG-192,NAADS Agricultural Input Support,Saplings,359411.0,2024-07-26,Verified,2025-12-06 15:51:42
+SUB000028,FMR000894,PRG-986,Fertilizer Access Initiative,Fertilizer,124130.0,2025-10-05,Disbursed,2025-12-06 15:51:42
+SUB000029,FMR000529,PRG-644,Parish Development Model (PDM),Cash Grant,559953.0,2025-07-14,Disbursed,2025-12-06 15:51:42
+SUB000030,FMR000286,PRG-594,Parish Development Model (PDM),Cash Grant,517508.0,2025-08-14,Received,2025-12-06 15:51:42
+SUB000031,FMR000569,PRG-706,Parish Development Model (PDM),Cash Grant,639641.0,2024-10-25,Verified,2025-12-06 15:51:42
+SUB000032,FMR001462,PRG-302,Fertilizer Access Initiative,Fertilizer,168778.0,2024-08-16,Verified,2025-12-06 15:51:42
+SUB000033,FMR000625,PRG-703,Parish Development Model (PDM),Revolving Fund,747341.0,2024-01-11,Verified,2025-12-06 15:51:42
+SUB000034,FMR001958,PRG-658,Small-Scale Irrigation Program,Irrigation Equipment,1922352.0,2023-12-14,Disbursed,2025-12-06 15:51:42
+SUB000035,FMR001036,PRG-149,Operation Wealth Creation (OWC),Coffee Seedlings,179761.0,2025-07-01,Verified,2025-12-06 15:51:42
+SUB000036,FMR001898,PRG-828,Operation Wealth Creation (OWC),Coffee Seedlings,155196.0,2025-06-07,Disbursed,2025-12-06 15:51:42
+SUB000037,FMR000952,PRG-168,Operation Wealth Creation (OWC),Fruit Trees,320601.0,2024-04-26,Verified,2025-12-06 15:51:42
+SUB000038,FMR000890,PRG-231,Operation Wealth Creation (OWC),Coffee Seedlings,210568.0,2024-01-14,Verified,2025-12-06 15:51:42
+SUB000039,FMR001954,PRG-444,Operation Wealth Creation (OWC),Fruit Trees,191710.0,2025-07-01,Verified,2025-12-06 15:51:42
+SUB000040,FMR000910,PRG-451,Operation Wealth Creation (OWC),Fruit Trees,480423.0,2025-01-09,Verified,2025-12-06 15:51:42
+SUB000041,FMR000008,PRG-343,Fertilizer Access Initiative,Fertilizer,103179.0,2024-06-24,Pending,2025-12-06 15:51:42
+SUB000042,FMR000749,PRG-356,Operation Wealth Creation (OWC),Coffee Seedlings,451973.0,2025-03-25,Disbursed,2025-12-06 15:51:42
+SUB000043,FMR000447,PRG-382,Small-Scale Irrigation Program,Irrigation Equipment,4502711.0,2025-07-30,Disbursed,2025-12-06 15:51:42
+SUB000044,FMR001433,PRG-133,Operation Wealth Creation (OWC),Livestock,373518.0,2025-01-20,Received,2025-12-06 15:51:42
+SUB000045,FMR001935,PRG-644,Small-Scale Irrigation Program,Irrigation Equipment,2311222.0,2025-09-13,Pending,2025-12-06 15:51:42
+SUB000046,FMR001574,PRG-241,Operation Wealth Creation (OWC),Fruit Trees,244136.0,2024-01-24,Disbursed,2025-12-06 15:51:42
+SUB000047,FMR001431,PRG-156,Fertilizer Access Initiative,Fertilizer,91978.0,2024-04-26,Received,2025-12-06 15:51:42
+SUB000048,FMR000259,PRG-993,Fertilizer Access Initiative,Fertilizer,142109.0,2024-08-02,Verified,2025-12-06 15:51:42
+SUB000049,FMR001073,PRG-426,Operation Wealth Creation (OWC),Fruit Trees,193457.0,2025-09-13,Disbursed,2025-12-06 15:51:42
+SUB000050,FMR001195,PRG-356,Operation Wealth Creation (OWC),Coffee Seedlings,432047.0,2024-12-20,Received,2025-12-06 15:51:42
+SUB000051,FMR001436,PRG-370,Parish Development Model (PDM),Cash Grant,525421.0,2024-08-20,Disbursed,2025-12-06 15:51:42
+SUB000052,FMR000479,PRG-668,Fertilizer Access Initiative,Fertilizer,71228.0,2024-03-23,Received,2025-12-06 15:51:42
+SUB000053,FMR000301,PRG-756,Fertilizer Access Initiative,Fertilizer,174907.0,2024-11-18,Disbursed,2025-12-06 15:51:42
+SUB000054,FMR000356,PRG-635,NAADS Agricultural Input Support,Seeds,216927.0,2023-12-31,Received,2025-12-06 15:51:42
+SUB000055,FMR001047,PRG-615,Small-Scale Irrigation Program,Irrigation Equipment,1451496.0,2024-02-28,Disbursed,2025-12-06 15:51:42
+SUB000056,FMR001817,PRG-183,Fertilizer Access Initiative,Fertilizer,189381.0,2025-09-11,Pending,2025-12-06 15:51:42
+SUB000057,FMR000061,PRG-783,NAADS Agricultural Input Support,Seeds,183212.0,2025-07-03,Verified,2025-12-06 15:51:42
+SUB000058,FMR000515,PRG-820,Fertilizer Access Initiative,Fertilizer,55089.0,2025-04-10,Pending,2025-12-06 15:51:42
+SUB000059,FMR000732,PRG-360,NAADS Agricultural Input Support,Saplings,323574.0,2024-08-15,Verified,2025-12-06 15:51:42
+SUB000060,FMR000633,PRG-690,Fertilizer Access Initiative,Fertilizer,183176.0,2024-09-02,Verified,2025-12-06 15:51:42
+SUB000061,FMR001999,PRG-160,Small-Scale Irrigation Program,Irrigation Equipment,2196576.0,2025-01-31,Disbursed,2025-12-06 15:51:42
+SUB000062,FMR001893,PRG-100,Operation Wealth Creation (OWC),Coffee Seedlings,496554.0,2024-07-11,Verified,2025-12-06 15:51:42
+SUB000063,FMR001064,PRG-966,Parish Development Model (PDM),Cash Grant,664626.0,2024-10-02,Verified,2025-12-06 15:51:42
+SUB000064,FMR001198,PRG-482,Fertilizer Access Initiative,Fertilizer,172041.0,2025-10-10,Verified,2025-12-06 15:51:42
+SUB000065,FMR000775,PRG-734,Operation Wealth Creation (OWC),Livestock,433228.0,2024-11-17,Disbursed,2025-12-06 15:51:42
+SUB000066,FMR000759,PRG-197,NAADS Agricultural Input Support,Saplings,239327.0,2025-09-15,Disbursed,2025-12-06 15:51:42
+SUB000067,FMR001076,PRG-438,Small-Scale Irrigation Program,Irrigation Equipment,1003874.0,2025-08-24,Received,2025-12-06 15:51:42
+SUB000068,FMR001676,PRG-445,Parish Development Model (PDM),Revolving Fund,860649.0,2025-02-04,Received,2025-12-06 15:51:42
+SUB000069,FMR000302,PRG-992,Operation Wealth Creation (OWC),Coffee Seedlings,397345.0,2024-02-04,Verified,2025-12-06 15:51:42
+SUB000070,FMR001039,PRG-638,Operation Wealth Creation (OWC),Coffee Seedlings,201954.0,2025-09-02,Verified,2025-12-06 15:51:42
+SUB000071,FMR000783,PRG-764,Small-Scale Irrigation Program,Irrigation Equipment,2787175.0,2024-08-15,Verified,2025-12-06 15:51:42
+SUB000072,FMR001555,PRG-489,NAADS Agricultural Input Support,Saplings,313311.0,2025-05-10,Received,2025-12-06 15:51:42
+SUB000073,FMR000701,PRG-295,Small-Scale Irrigation Program,Irrigation Equipment,3690635.0,2024-07-15,Received,2025-12-06 15:51:42
+SUB000074,FMR000432,PRG-184,Fertilizer Access Initiative,Fertilizer,109286.0,2024-06-06,Verified,2025-12-06 15:51:42
+SUB000075,FMR001449,PRG-132,Parish Development Model (PDM),Revolving Fund,521359.0,2024-03-10,Disbursed,2025-12-06 15:51:42
+SUB000076,FMR001223,PRG-884,Fertilizer Access Initiative,Fertilizer,180084.0,2024-08-06,Disbursed,2025-12-06 15:51:42
+SUB000077,FMR001152,PRG-279,Fertilizer Access Initiative,Fertilizer,154434.0,2025-06-19,Disbursed,2025-12-06 15:51:42
+SUB000078,FMR001836,PRG-998,NAADS Agricultural Input Support,Seeds,465433.0,2023-12-19,Verified,2025-12-06 15:51:42
+SUB000079,FMR000951,PRG-884,Small-Scale Irrigation Program,Irrigation Equipment,4799539.0,2025-08-22,Disbursed,2025-12-06 15:51:42
+SUB000080,FMR001960,PRG-360,Small-Scale Irrigation Program,Irrigation Equipment,3412310.0,2025-09-16,Verified,2025-12-06 15:51:42
+SUB000081,FMR000692,PRG-262,Small-Scale Irrigation Program,Irrigation Equipment,3829287.0,2024-09-08,Verified,2025-12-06 15:51:42
+SUB000082,FMR000351,PRG-316,NAADS Agricultural Input Support,Saplings,469145.0,2025-10-30,Verified,2025-12-06 15:51:42
+SUB000083,FMR001645,PRG-425,Parish Development Model (PDM),Revolving Fund,739010.0,2025-02-23,Pending,2025-12-06 15:51:42
+SUB000084,FMR000330,PRG-636,Parish Development Model (PDM),Revolving Fund,632697.0,2024-09-18,Verified,2025-12-06 15:51:42
+SUB000085,FMR001813,PRG-144,Fertilizer Access Initiative,Fertilizer,95154.0,2024-05-17,Verified,2025-12-06 15:51:42
+SUB000086,FMR000736,PRG-911,Parish Development Model (PDM),Revolving Fund,567448.0,2025-06-18,Pending,2025-12-06 15:51:42
+SUB000087,FMR000844,PRG-150,Fertilizer Access Initiative,Fertilizer,107853.0,2025-04-10,Received,2025-12-06 15:51:42
+SUB000088,FMR000925,PRG-782,Parish Development Model (PDM),Cash Grant,942316.0,2024-02-16,Disbursed,2025-12-06 15:51:42
+SUB000089,FMR000257,PRG-305,Operation Wealth Creation (OWC),Coffee Seedlings,315073.0,2024-08-16,Received,2025-12-06 15:51:42
+SUB000090,FMR001541,PRG-474,Parish Development Model (PDM),Cash Grant,810493.0,2024-04-24,Verified,2025-12-06 15:51:42
+SUB000091,FMR001058,PRG-304,NAADS Agricultural Input Support,Saplings,121629.0,2025-01-10,Verified,2025-12-06 15:51:42
+SUB000092,FMR000770,PRG-415,Parish Development Model (PDM),Revolving Fund,733031.0,2025-05-16,Received,2025-12-06 15:51:42
+SUB000093,FMR000013,PRG-876,NAADS Agricultural Input Support,Seeds,396110.0,2024-06-20,Verified,2025-12-06 15:51:42
+SUB000094,FMR001896,PRG-220,Fertilizer Access Initiative,Fertilizer,150926.0,2025-01-23,Disbursed,2025-12-06 15:51:42
+SUB000095,FMR000103,PRG-300,Parish Development Model (PDM),Revolving Fund,695102.0,2025-07-09,Received,2025-12-06 15:51:42
+SUB000096,FMR001231,PRG-316,Fertilizer Access Initiative,Fertilizer,143829.0,2024-03-30,Pending,2025-12-06 15:51:42
+SUB000097,FMR001689,PRG-890,NAADS Agricultural Input Support,Saplings,394392.0,2024-11-19,Verified,2025-12-06 15:51:42
+SUB000098,FMR000472,PRG-964,Operation Wealth Creation (OWC),Livestock,438381.0,2024-10-24,Disbursed,2025-12-06 15:51:42
+SUB000099,FMR000905,PRG-857,Fertilizer Access Initiative,Fertilizer,53649.0,2024-08-09,Pending,2025-12-06 15:51:42
+SUB000100,FMR000767,PRG-215,NAADS Agricultural Input Support,Seeds,363680.0,2024-12-05,Disbursed,2025-12-06 15:51:42
+SUB000101,FMR001000,PRG-172,Parish Development Model (PDM),Cash Grant,929648.0,2024-02-15,Received,2025-12-06 15:51:42
+SUB000102,FMR000950,PRG-649,Fertilizer Access Initiative,Fertilizer,114840.0,2025-08-12,Disbursed,2025-12-06 15:51:42
+SUB000103,FMR000520,PRG-812,NAADS Agricultural Input Support,Seeds,153337.0,2025-03-31,Pending,2025-12-06 15:51:42
+SUB000104,FMR001013,PRG-675,Parish Development Model (PDM),Cash Grant,994383.0,2024-09-17,Verified,2025-12-06 15:51:42
+SUB000105,FMR000747,PRG-863,Parish Development Model (PDM),Cash Grant,667000.0,2024-10-28,Received,2025-12-06 15:51:42
+SUB000106,FMR000011,PRG-537,Small-Scale Irrigation Program,Irrigation Equipment,2760090.0,2024-01-13,Received,2025-12-06 15:51:42
+SUB000107,FMR000001,PRG-882,Small-Scale Irrigation Program,Irrigation Equipment,4069768.0,2025-10-02,Verified,2025-12-06 15:51:42
+SUB000108,FMR001028,PRG-985,Parish Development Model (PDM),Revolving Fund,663877.0,2024-02-11,Received,2025-12-06 15:51:42
+SUB000109,FMR000763,PRG-760,Parish Development Model (PDM),Revolving Fund,563237.0,2025-08-30,Verified,2025-12-06 15:51:42
+SUB000110,FMR000146,PRG-829,Small-Scale Irrigation Program,Irrigation Equipment,4758658.0,2024-03-01,Disbursed,2025-12-06 15:51:42
+SUB000111,FMR001093,PRG-278,Fertilizer Access Initiative,Fertilizer,120538.0,2025-09-08,Verified,2025-12-06 15:51:42
+SUB000112,FMR000668,PRG-425,Parish Development Model (PDM),Revolving Fund,605444.0,2024-01-07,Disbursed,2025-12-06 15:51:42
+SUB000113,FMR001367,PRG-170,Small-Scale Irrigation Program,Irrigation Equipment,1757888.0,2024-05-11,Verified,2025-12-06 15:51:42
+SUB000114,FMR001938,PRG-740,Parish Development Model (PDM),Revolving Fund,973132.0,2025-01-25,Received,2025-12-06 15:51:42
+SUB000115,FMR001797,PRG-355,Small-Scale Irrigation Program,Irrigation Equipment,3499949.0,2025-01-10,Disbursed,2025-12-06 15:51:42
+SUB000116,FMR001871,PRG-846,NAADS Agricultural Input Support,Seeds,356620.0,2023-12-07,Received,2025-12-06 15:51:42
+SUB000117,FMR001435,PRG-933,Operation Wealth Creation (OWC),Coffee Seedlings,282718.0,2025-05-19,Pending,2025-12-06 15:51:42
+SUB000118,FMR001524,PRG-332,Small-Scale Irrigation Program,Irrigation Equipment,3837371.0,2025-02-05,Disbursed,2025-12-06 15:51:42
+SUB000119,FMR000503,PRG-687,Small-Scale Irrigation Program,Irrigation Equipment,4785066.0,2024-10-11,Pending,2025-12-06 15:51:42
+SUB000120,FMR000803,PRG-411,Operation Wealth Creation (OWC),Fruit Trees,215725.0,2025-06-11,Pending,2025-12-06 15:51:42
+SUB000121,FMR000172,PRG-600,Small-Scale Irrigation Program,Irrigation Equipment,3978329.0,2024-07-11,Received,2025-12-06 15:51:42
+SUB000122,FMR001157,PRG-931,NAADS Agricultural Input Support,Saplings,378184.0,2025-03-24,Pending,2025-12-06 15:51:42
+SUB000123,FMR000780,PRG-439,Parish Development Model (PDM),Cash Grant,601069.0,2025-05-03,Disbursed,2025-12-06 15:51:42
+SUB000124,FMR000795,PRG-340,Operation Wealth Creation (OWC),Coffee Seedlings,355884.0,2025-03-12,Pending,2025-12-06 15:51:42
+SUB000125,FMR000662,PRG-219,Small-Scale Irrigation Program,Irrigation Equipment,2109205.0,2024-11-20,Verified,2025-12-06 15:51:42
+SUB000126,FMR001395,PRG-839,Small-Scale Irrigation Program,Irrigation Equipment,3144568.0,2024-08-16,Received,2025-12-06 15:51:42
+SUB000127,FMR000031,PRG-450,Fertilizer Access Initiative,Fertilizer,175172.0,2024-06-13,Received,2025-12-06 15:51:42
+SUB000128,FMR000751,PRG-719,Operation Wealth Creation (OWC),Fruit Trees,495944.0,2025-06-02,Disbursed,2025-12-06 15:51:42
+SUB000129,FMR000261,PRG-550,Fertilizer Access Initiative,Fertilizer,117086.0,2025-09-04,Received,2025-12-06 15:51:42
+SUB000130,FMR000974,PRG-345,Small-Scale Irrigation Program,Irrigation Equipment,4129582.0,2025-10-08,Disbursed,2025-12-06 15:51:42
+SUB000131,FMR001647,PRG-488,Fertilizer Access Initiative,Fertilizer,64298.0,2023-12-19,Received,2025-12-06 15:51:42
+SUB000132,FMR000223,PRG-177,Parish Development Model (PDM),Revolving Fund,686916.0,2024-06-20,Received,2025-12-06 15:51:42
+SUB000133,FMR000441,PRG-636,Small-Scale Irrigation Program,Irrigation Equipment,2311779.0,2024-12-19,Disbursed,2025-12-06 15:51:42
+SUB000134,FMR001275,PRG-118,Operation Wealth Creation (OWC),Coffee Seedlings,380688.0,2025-08-16,Received,2025-12-06 15:51:42
+SUB000135,FMR000531,PRG-856,Operation Wealth Creation (OWC),Livestock,186548.0,2024-07-19,Verified,2025-12-06 15:51:42
+SUB000136,FMR000266,PRG-456,Fertilizer Access Initiative,Fertilizer,80268.0,2025-02-22,Received,2025-12-06 15:51:42
+SUB000137,FMR001424,PRG-461,Small-Scale Irrigation Program,Irrigation Equipment,3887637.0,2025-11-03,Verified,2025-12-06 15:51:42
+SUB000138,FMR000338,PRG-650,Parish Development Model (PDM),Cash Grant,768561.0,2024-02-12,Received,2025-12-06 15:51:42
+SUB000139,FMR001906,PRG-410,Fertilizer Access Initiative,Fertilizer,136704.0,2025-09-15,Received,2025-12-06 15:51:42
+SUB000140,FMR001866,PRG-780,Parish Development Model (PDM),Revolving Fund,820563.0,2024-09-15,Pending,2025-12-06 15:51:42
+SUB000141,FMR000811,PRG-484,Operation Wealth Creation (OWC),Fruit Trees,245649.0,2025-10-07,Received,2025-12-06 15:51:42
+SUB000142,FMR000779,PRG-839,Small-Scale Irrigation Program,Irrigation Equipment,4161203.0,2025-01-10,Verified,2025-12-06 15:51:42
+SUB000143,FMR001876,PRG-889,Parish Development Model (PDM),Revolving Fund,676324.0,2024-04-30,Verified,2025-12-06 15:51:42
+SUB000144,FMR001765,PRG-597,Parish Development Model (PDM),Revolving Fund,987951.0,2024-06-27,Verified,2025-12-06 15:51:42
+SUB000145,FMR001926,PRG-659,Fertilizer Access Initiative,Fertilizer,58619.0,2025-03-01,Disbursed,2025-12-06 15:51:42
+SUB000146,FMR000481,PRG-437,Parish Development Model (PDM),Cash Grant,590279.0,2023-12-28,Received,2025-12-06 15:51:42
+SUB000147,FMR001265,PRG-926,Fertilizer Access Initiative,Fertilizer,193513.0,2023-12-17,Verified,2025-12-06 15:51:42
+SUB000148,FMR001319,PRG-830,Operation Wealth Creation (OWC),Coffee Seedlings,396194.0,2023-12-26,Verified,2025-12-06 15:51:42
+SUB000149,FMR000917,PRG-242,Fertilizer Access Initiative,Fertilizer,102108.0,2025-01-28,Received,2025-12-06 15:51:42
+SUB000150,FMR000250,PRG-648,Fertilizer Access Initiative,Fertilizer,57924.0,2024-05-09,Received,2025-12-06 15:51:42
+SUB000151,FMR000012,PRG-865,Parish Development Model (PDM),Revolving Fund,867713.0,2024-05-18,Received,2025-12-06 15:51:42
+SUB000152,FMR000700,PRG-861,Fertilizer Access Initiative,Fertilizer,146944.0,2024-11-06,Received,2025-12-06 15:51:42
+SUB000153,FMR000988,PRG-933,Parish Development Model (PDM),Cash Grant,679488.0,2024-06-04,Verified,2025-12-06 15:51:42
+SUB000154,FMR000870,PRG-862,Operation Wealth Creation (OWC),Fruit Trees,128280.0,2025-09-10,Disbursed,2025-12-06 15:51:42
+SUB000155,FMR001705,PRG-230,Small-Scale Irrigation Program,Irrigation Equipment,2409415.0,2024-12-17,Verified,2025-12-06 15:51:42
+SUB000156,FMR001394,PRG-742,NAADS Agricultural Input Support,Seeds,364248.0,2025-03-01,Disbursed,2025-12-06 15:51:42
+SUB000157,FMR001810,PRG-693,Small-Scale Irrigation Program,Irrigation Equipment,1732602.0,2025-01-10,Received,2025-12-06 15:51:42
+SUB000158,FMR000977,PRG-552,Operation Wealth Creation (OWC),Livestock,432404.0,2025-03-15,Disbursed,2025-12-06 15:51:42
+SUB000159,FMR000195,PRG-309,Operation Wealth Creation (OWC),Livestock,470426.0,2024-10-16,Disbursed,2025-12-06 15:51:42
+SUB000160,FMR001567,PRG-171,NAADS Agricultural Input Support,Seeds,226165.0,2023-12-11,Verified,2025-12-06 15:51:42
+SUB000161,FMR000786,PRG-147,Fertilizer Access Initiative,Fertilizer,192601.0,2024-05-07,Verified,2025-12-06 15:51:42
+SUB000162,FMR001432,PRG-929,NAADS Agricultural Input Support,Saplings,485127.0,2025-01-21,Disbursed,2025-12-06 15:51:42
+SUB000163,FMR000748,PRG-875,NAADS Agricultural Input Support,Seeds,444612.0,2024-11-03,Received,2025-12-06 15:51:42
+SUB000164,FMR001658,PRG-287,Parish Development Model (PDM),Revolving Fund,797760.0,2025-07-06,Verified,2025-12-06 15:51:42
+SUB000165,FMR000869,PRG-338,Fertilizer Access Initiative,Fertilizer,104656.0,2025-05-19,Disbursed,2025-12-06 15:51:42
+SUB000166,FMR001423,PRG-983,Fertilizer Access Initiative,Fertilizer,58841.0,2024-03-09,Pending,2025-12-06 15:51:42
+SUB000167,FMR001454,PRG-453,Operation Wealth Creation (OWC),Coffee Seedlings,447987.0,2024-07-24,Pending,2025-12-06 15:51:42
+SUB000168,FMR000471,PRG-266,Fertilizer Access Initiative,Fertilizer,98569.0,2024-08-18,Disbursed,2025-12-06 15:51:42
+SUB000169,FMR001599,PRG-555,Fertilizer Access Initiative,Fertilizer,194511.0,2023-12-23,Verified,2025-12-06 15:51:42
+SUB000170,FMR001996,PRG-222,Small-Scale Irrigation Program,Irrigation Equipment,1325257.0,2024-02-12,Disbursed,2025-12-06 15:51:42
+SUB000171,FMR000597,PRG-587,Operation Wealth Creation (OWC),Coffee Seedlings,471314.0,2025-01-11,Verified,2025-12-06 15:51:42
+SUB000172,FMR000880,PRG-649,Small-Scale Irrigation Program,Irrigation Equipment,1495616.0,2024-05-18,Received,2025-12-06 15:51:42
+SUB000173,FMR000672,PRG-278,Small-Scale Irrigation Program,Irrigation Equipment,1961809.0,2024-11-02,Received,2025-12-06 15:51:42
+SUB000174,FMR001457,PRG-912,Parish Development Model (PDM),Cash Grant,835396.0,2024-08-21,Verified,2025-12-06 15:51:42
+SUB000175,FMR001291,PRG-913,NAADS Agricultural Input Support,Seeds,469381.0,2024-05-12,Disbursed,2025-12-06 15:51:42
+SUB000176,FMR000868,PRG-986,Small-Scale Irrigation Program,Irrigation Equipment,2322580.0,2025-05-25,Verified,2025-12-06 15:51:42
+SUB000177,FMR001242,PRG-555,NAADS Agricultural Input Support,Seeds,142134.0,2025-07-23,Verified,2025-12-06 15:51:42
+SUB000178,FMR000929,PRG-607,Small-Scale Irrigation Program,Irrigation Equipment,4224414.0,2025-10-21,Disbursed,2025-12-06 15:51:42
+SUB000179,FMR000215,PRG-758,Small-Scale Irrigation Program,Irrigation Equipment,2220955.0,2025-06-13,Received,2025-12-06 15:51:42
+SUB000180,FMR000538,PRG-438,Parish Development Model (PDM),Cash Grant,754493.0,2024-08-27,Disbursed,2025-12-06 15:51:42
+SUB000181,FMR001228,PRG-862,Small-Scale Irrigation Program,Irrigation Equipment,4336892.0,2025-04-13,Received,2025-12-06 15:51:42
+SUB000182,FMR000227,PRG-412,NAADS Agricultural Input Support,Saplings,193530.0,2025-05-12,Disbursed,2025-12-06 15:51:42
+SUB000183,FMR001418,PRG-678,NAADS Agricultural Input Support,Saplings,235864.0,2024-09-04,Disbursed,2025-12-06 15:51:42
+SUB000184,FMR001628,PRG-337,Small-Scale Irrigation Program,Irrigation Equipment,2580940.0,2024-09-06,Disbursed,2025-12-06 15:51:42
+SUB000185,FMR001163,PRG-543,Operation Wealth Creation (OWC),Coffee Seedlings,400711.0,2024-04-02,Verified,2025-12-06 15:51:42
+SUB000186,FMR000007,PRG-721,NAADS Agricultural Input Support,Saplings,208629.0,2024-04-24,Disbursed,2025-12-06 15:51:42
+SUB000187,FMR001187,PRG-478,Parish Development Model (PDM),Cash Grant,530368.0,2024-01-15,Received,2025-12-06 15:51:42
+SUB000188,FMR001322,PRG-256,Small-Scale Irrigation Program,Irrigation Equipment,3260678.0,2024-10-28,Pending,2025-12-06 15:51:42
+SUB000189,FMR000125,PRG-586,Small-Scale Irrigation Program,Irrigation Equipment,4272733.0,2025-08-27,Verified,2025-12-06 15:51:42
+SUB000190,FMR000035,PRG-168,Parish Development Model (PDM),Revolving Fund,703095.0,2025-04-12,Disbursed,2025-12-06 15:51:42
+SUB000191,FMR001408,PRG-619,Parish Development Model (PDM),Cash Grant,637291.0,2024-04-20,Disbursed,2025-12-06 15:51:42
+SUB000192,FMR000348,PRG-313,Small-Scale Irrigation Program,Irrigation Equipment,3260428.0,2025-03-17,Verified,2025-12-06 15:51:42
+SUB000193,FMR000638,PRG-929,Fertilizer Access Initiative,Fertilizer,136842.0,2025-10-06,Received,2025-12-06 15:51:42
+SUB000194,FMR001961,PRG-702,Parish Development Model (PDM),Cash Grant,998812.0,2025-07-24,Disbursed,2025-12-06 15:51:42
+SUB000195,FMR001272,PRG-806,Fertilizer Access Initiative,Fertilizer,172892.0,2025-04-24,Disbursed,2025-12-06 15:51:42
+SUB000196,FMR001998,PRG-800,Fertilizer Access Initiative,Fertilizer,125220.0,2024-03-02,Received,2025-12-06 15:51:42
+SUB000197,FMR000229,PRG-711,Parish Development Model (PDM),Revolving Fund,986623.0,2025-08-04,Verified,2025-12-06 15:51:42
+SUB000198,FMR001715,PRG-242,Operation Wealth Creation (OWC),Fruit Trees,142960.0,2025-04-24,Received,2025-12-06 15:51:42
+SUB000199,FMR000379,PRG-598,Small-Scale Irrigation Program,Irrigation Equipment,2331247.0,2024-11-17,Received,2025-12-06 15:51:42
+SUB000200,FMR001738,PRG-901,Parish Development Model (PDM),Revolving Fund,855058.0,2025-05-07,Verified,2025-12-06 15:51:42
+SUB000201,FMR001005,PRG-793,Fertilizer Access Initiative,Fertilizer,183438.0,2025-03-09,Pending,2025-12-06 15:51:42
+SUB000202,FMR001734,PRG-804,Small-Scale Irrigation Program,Irrigation Equipment,1093428.0,2024-10-27,Received,2025-12-06 15:51:42
+SUB000203,FMR000484,PRG-166,Fertilizer Access Initiative,Fertilizer,100577.0,2024-08-06,Verified,2025-12-06 15:51:42
+SUB000204,FMR000980,PRG-737,Operation Wealth Creation (OWC),Livestock,209400.0,2024-02-20,Pending,2025-12-06 15:51:42
+SUB000205,FMR001631,PRG-123,NAADS Agricultural Input Support,Seeds,495881.0,2023-12-09,Verified,2025-12-06 15:51:42
+SUB000206,FMR000105,PRG-725,NAADS Agricultural Input Support,Seeds,151815.0,2024-04-29,Disbursed,2025-12-06 15:51:42
+SUB000207,FMR001690,PRG-145,Fertilizer Access Initiative,Fertilizer,136797.0,2024-05-14,Received,2025-12-06 15:51:42
+SUB000208,FMR000047,PRG-196,Parish Development Model (PDM),Revolving Fund,540179.0,2025-01-20,Disbursed,2025-12-06 15:51:43
+SUB000209,FMR000935,PRG-598,NAADS Agricultural Input Support,Saplings,354773.0,2024-10-10,Pending,2025-12-06 15:51:43
+SUB000210,FMR001379,PRG-830,Small-Scale Irrigation Program,Irrigation Equipment,4320978.0,2024-07-19,Received,2025-12-06 15:51:43
+SUB000211,FMR000059,PRG-714,Fertilizer Access Initiative,Fertilizer,188505.0,2024-03-05,Received,2025-12-06 15:51:43
+SUB000212,FMR000131,PRG-197,Operation Wealth Creation (OWC),Fruit Trees,209565.0,2025-04-21,Verified,2025-12-06 15:51:43
+SUB000213,FMR001514,PRG-957,Small-Scale Irrigation Program,Irrigation Equipment,4047638.0,2024-04-03,Verified,2025-12-06 15:51:43
+SUB000214,FMR000904,PRG-849,Fertilizer Access Initiative,Fertilizer,50694.0,2024-02-14,Received,2025-12-06 15:51:43
+SUB000215,FMR001062,PRG-439,Fertilizer Access Initiative,Fertilizer,196447.0,2024-05-07,Received,2025-12-06 15:51:43
+SUB000216,FMR001988,PRG-580,Fertilizer Access Initiative,Fertilizer,176540.0,2024-07-11,Disbursed,2025-12-06 15:51:43
+SUB000217,FMR001929,PRG-588,Fertilizer Access Initiative,Fertilizer,160715.0,2024-05-01,Received,2025-12-06 15:51:43
+SUB000218,FMR001769,PRG-217,NAADS Agricultural Input Support,Saplings,229224.0,2024-11-09,Verified,2025-12-06 15:51:43
+SUB000219,FMR000323,PRG-483,Parish Development Model (PDM),Revolving Fund,586773.0,2024-07-29,Received,2025-12-06 15:51:43
+SUB000220,FMR001763,PRG-503,Operation Wealth Creation (OWC),Livestock,383611.0,2024-06-01,Verified,2025-12-06 15:51:43
+SUB000221,FMR000063,PRG-964,Operation Wealth Creation (OWC),Fruit Trees,461430.0,2024-11-02,Disbursed,2025-12-06 15:51:43
+SUB000222,FMR001877,PRG-788,NAADS Agricultural Input Support,Seeds,364781.0,2024-05-07,Verified,2025-12-06 15:51:43
+SUB000223,FMR000285,PRG-940,Fertilizer Access Initiative,Fertilizer,112023.0,2025-06-04,Received,2025-12-06 15:51:43
+SUB000224,FMR000860,PRG-964,Operation Wealth Creation (OWC),Fruit Trees,303110.0,2024-01-08,Received,2025-12-06 15:51:43
+SUB000225,FMR001234,PRG-383,Fertilizer Access Initiative,Fertilizer,89816.0,2025-05-28,Received,2025-12-06 15:51:43
+SUB000226,FMR000664,PRG-336,Operation Wealth Creation (OWC),Livestock,243882.0,2024-12-04,Received,2025-12-06 15:51:43
+SUB000227,FMR001716,PRG-370,NAADS Agricultural Input Support,Saplings,475257.0,2025-09-04,Disbursed,2025-12-06 15:51:43
+SUB000228,FMR001963,PRG-868,NAADS Agricultural Input Support,Saplings,124550.0,2025-02-07,Received,2025-12-06 15:51:43
+SUB000229,FMR001255,PRG-617,Fertilizer Access Initiative,Fertilizer,159334.0,2024-05-21,Received,2025-12-06 15:51:43
+SUB000230,FMR000518,PRG-792,Small-Scale Irrigation Program,Irrigation Equipment,3549689.0,2024-02-19,Verified,2025-12-06 15:51:43
+SUB000231,FMR000991,PRG-308,Parish Development Model (PDM),Cash Grant,941996.0,2025-06-23,Received,2025-12-06 15:51:43
+SUB000232,FMR001979,PRG-250,NAADS Agricultural Input Support,Seeds,303347.0,2025-03-20,Disbursed,2025-12-06 15:51:43
+SUB000233,FMR001209,PRG-313,Fertilizer Access Initiative,Fertilizer,87654.0,2024-04-28,Pending,2025-12-06 15:51:43
+SUB000234,FMR001848,PRG-480,Small-Scale Irrigation Program,Irrigation Equipment,2741965.0,2024-11-05,Verified,2025-12-06 15:51:43
+SUB000235,FMR000820,PRG-791,Operation Wealth Creation (OWC),Livestock,470054.0,2024-08-07,Verified,2025-12-06 15:51:43
+SUB000236,FMR001301,PRG-820,Fertilizer Access Initiative,Fertilizer,177286.0,2025-10-27,Verified,2025-12-06 15:51:43
+SUB000237,FMR000210,PRG-207,Fertilizer Access Initiative,Fertilizer,152076.0,2025-10-06,Received,2025-12-06 15:51:43
+SUB000238,FMR001170,PRG-185,Operation Wealth Creation (OWC),Livestock,446074.0,2025-03-02,Disbursed,2025-12-06 15:51:43
+SUB000239,FMR001641,PRG-873,Small-Scale Irrigation Program,Irrigation Equipment,3429636.0,2024-10-15,Received,2025-12-06 15:51:43
+SUB000240,FMR000075,PRG-780,Parish Development Model (PDM),Revolving Fund,880390.0,2023-12-08,Disbursed,2025-12-06 15:51:43
+SUB000241,FMR000342,PRG-303,Small-Scale Irrigation Program,Irrigation Equipment,2412425.0,2025-06-12,Verified,2025-12-06 15:51:43
+SUB000242,FMR001466,PRG-596,Fertilizer Access Initiative,Fertilizer,168173.0,2024-12-23,Verified,2025-12-06 15:51:43
+SUB000243,FMR000391,PRG-584,Parish Development Model (PDM),Cash Grant,777115.0,2024-06-16,Disbursed,2025-12-06 15:51:43
+SUB000244,FMR000045,PRG-648,NAADS Agricultural Input Support,Seeds,264203.0,2024-01-02,Disbursed,2025-12-06 15:51:43
+SUB000245,FMR000424,PRG-551,Small-Scale Irrigation Program,Irrigation Equipment,3796616.0,2024-10-28,Disbursed,2025-12-06 15:51:43
+SUB000246,FMR001346,PRG-292,Operation Wealth Creation (OWC),Livestock,411654.0,2025-07-27,Verified,2025-12-06 15:51:43
+SUB000247,FMR001972,PRG-990,NAADS Agricultural Input Support,Seeds,291237.0,2024-11-01,Verified,2025-12-06 15:51:43
+SUB000248,FMR000451,PRG-847,NAADS Agricultural Input Support,Seeds,447784.0,2025-07-31,Verified,2025-12-06 15:51:43
+SUB000249,FMR001509,PRG-425,Small-Scale Irrigation Program,Irrigation Equipment,1764907.0,2024-10-13,Verified,2025-12-06 15:51:43
+SUB000250,FMR000513,PRG-639,Fertilizer Access Initiative,Fertilizer,121344.0,2024-05-11,Received,2025-12-06 15:51:43
+SUB000251,FMR001278,PRG-747,Fertilizer Access Initiative,Fertilizer,95514.0,2024-08-24,Verified,2025-12-06 15:51:43
+SUB000252,FMR000295,PRG-717,Small-Scale Irrigation Program,Irrigation Equipment,1631096.0,2025-02-27,Received,2025-12-06 15:51:43
+SUB000253,FMR001818,PRG-253,Parish Development Model (PDM),Cash Grant,703557.0,2025-08-29,Verified,2025-12-06 15:51:43
+SUB000254,FMR000070,PRG-694,Small-Scale Irrigation Program,Irrigation Equipment,3093559.0,2025-06-03,Disbursed,2025-12-06 15:51:43
+SUB000255,FMR001237,PRG-520,Fertilizer Access Initiative,Fertilizer,112288.0,2025-02-20,Disbursed,2025-12-06 15:51:43
+SUB000256,FMR000560,PRG-794,Fertilizer Access Initiative,Fertilizer,106539.0,2024-12-09,Verified,2025-12-06 15:51:43
+SUB000257,FMR000661,PRG-772,Fertilizer Access Initiative,Fertilizer,104405.0,2025-06-12,Received,2025-12-06 15:51:43
+SUB000258,FMR001511,PRG-489,NAADS Agricultural Input Support,Seeds,102108.0,2024-01-03,Received,2025-12-06 15:51:43
+SUB000259,FMR001542,PRG-521,Operation Wealth Creation (OWC),Livestock,399661.0,2025-03-03,Received,2025-12-06 15:51:43
+SUB000260,FMR001568,PRG-737,Operation Wealth Creation (OWC),Livestock,468336.0,2025-05-07,Pending,2025-12-06 15:51:43
+SUB000261,FMR000268,PRG-208,Fertilizer Access Initiative,Fertilizer,145380.0,2024-07-14,Disbursed,2025-12-06 15:51:43
+SUB000262,FMR000496,PRG-736,Fertilizer Access Initiative,Fertilizer,104296.0,2024-12-25,Disbursed,2025-12-06 15:51:43
+SUB000263,FMR000145,PRG-432,Parish Development Model (PDM),Cash Grant,972322.0,2024-10-24,Disbursed,2025-12-06 15:51:43
+SUB000264,FMR001225,PRG-758,NAADS Agricultural Input Support,Saplings,471343.0,2024-02-13,Received,2025-12-06 15:51:43
+SUB000265,FMR000422,PRG-563,Parish Development Model (PDM),Revolving Fund,766062.0,2025-03-10,Received,2025-12-06 15:51:43
+SUB000266,FMR000816,PRG-816,Parish Development Model (PDM),Revolving Fund,593060.0,2024-11-25,Verified,2025-12-06 15:51:43
+SUB000267,FMR000134,PRG-323,Parish Development Model (PDM),Revolving Fund,621779.0,2025-08-19,Disbursed,2025-12-06 15:51:43
+SUB000268,FMR001147,PRG-410,Small-Scale Irrigation Program,Irrigation Equipment,3066324.0,2025-01-07,Disbursed,2025-12-06 15:51:43
+SUB000269,FMR001496,PRG-122,NAADS Agricultural Input Support,Seeds,300216.0,2025-02-24,Received,2025-12-06 15:51:43
+SUB000270,FMR000034,PRG-316,Operation Wealth Creation (OWC),Coffee Seedlings,235681.0,2025-10-17,Verified,2025-12-06 15:51:43
+SUB000271,FMR001802,PRG-461,Fertilizer Access Initiative,Fertilizer,195653.0,2024-08-22,Verified,2025-12-06 15:51:43
+SUB000272,FMR000395,PRG-705,Operation Wealth Creation (OWC),Livestock,299730.0,2024-03-22,Disbursed,2025-12-06 15:51:43
+SUB000273,FMR000489,PRG-252,Parish Development Model (PDM),Revolving Fund,515979.0,2023-12-26,Received,2025-12-06 15:51:43
+SUB000274,FMR001610,PRG-513,Operation Wealth Creation (OWC),Fruit Trees,220755.0,2024-10-21,Verified,2025-12-06 15:51:43
+SUB000275,FMR000830,PRG-829,Fertilizer Access Initiative,Fertilizer,140389.0,2025-03-05,Verified,2025-12-06 15:51:43
+SUB000276,FMR000582,PRG-137,Small-Scale Irrigation Program,Irrigation Equipment,4761409.0,2025-02-16,Disbursed,2025-12-06 15:51:43
+SUB000277,FMR000044,PRG-676,Operation Wealth Creation (OWC),Livestock,288319.0,2024-08-20,Received,2025-12-06 15:51:43
+SUB000278,FMR001607,PRG-825,Parish Development Model (PDM),Cash Grant,559052.0,2025-10-02,Disbursed,2025-12-06 15:51:43
+SUB000279,FMR000394,PRG-135,Fertilizer Access Initiative,Fertilizer,179248.0,2025-06-21,Received,2025-12-06 15:51:43
+SUB000280,FMR000865,PRG-522,Parish Development Model (PDM),Cash Grant,524350.0,2025-07-18,Received,2025-12-06 15:51:43
+SUB000281,FMR001565,PRG-772,Fertilizer Access Initiative,Fertilizer,66511.0,2024-11-25,Disbursed,2025-12-06 15:51:43
+SUB000282,FMR000258,PRG-768,Fertilizer Access Initiative,Fertilizer,108608.0,2025-08-26,Verified,2025-12-06 15:51:43
+SUB000283,FMR001487,PRG-855,Parish Development Model (PDM),Revolving Fund,511240.0,2024-08-17,Disbursed,2025-12-06 15:51:43
+SUB000284,FMR001953,PRG-733,Small-Scale Irrigation Program,Irrigation Equipment,1443510.0,2024-10-19,Disbursed,2025-12-06 15:51:43
+SUB000285,FMR001227,PRG-672,NAADS Agricultural Input Support,Saplings,302352.0,2024-05-23,Received,2025-12-06 15:51:43
+SUB000286,FMR000152,PRG-140,Parish Development Model (PDM),Cash Grant,832654.0,2025-10-20,Disbursed,2025-12-06 15:51:43
+SUB000287,FMR001412,PRG-765,Fertilizer Access Initiative,Fertilizer,109344.0,2025-01-25,Disbursed,2025-12-06 15:51:43
+SUB000288,FMR001793,PRG-463,Operation Wealth Creation (OWC),Coffee Seedlings,286683.0,2024-05-12,Received,2025-12-06 15:51:43
+SUB000289,FMR000655,PRG-451,Small-Scale Irrigation Program,Irrigation Equipment,3768583.0,2024-09-09,Disbursed,2025-12-06 15:51:43
+SUB000290,FMR001772,PRG-782,Small-Scale Irrigation Program,Irrigation Equipment,4557342.0,2024-06-14,Disbursed,2025-12-06 15:51:43
+SUB000291,FMR001939,PRG-751,Parish Development Model (PDM),Revolving Fund,591752.0,2023-12-08,Verified,2025-12-06 15:51:43
+SUB000292,FMR000978,PRG-840,Small-Scale Irrigation Program,Irrigation Equipment,2742882.0,2025-08-13,Received,2025-12-06 15:51:43
+SUB000293,FMR000277,PRG-459,Fertilizer Access Initiative,Fertilizer,180925.0,2025-10-06,Pending,2025-12-06 15:51:43
+SUB000294,FMR001782,PRG-139,Small-Scale Irrigation Program,Irrigation Equipment,4287474.0,2023-12-19,Verified,2025-12-06 15:51:43
+SUB000295,FMR000612,PRG-426,Fertilizer Access Initiative,Fertilizer,153059.0,2024-04-12,Received,2025-12-06 15:51:43
+SUB000296,FMR001502,PRG-248,Parish Development Model (PDM),Cash Grant,700359.0,2024-08-19,Received,2025-12-06 15:51:43
+SUB000297,FMR001909,PRG-798,Operation Wealth Creation (OWC),Coffee Seedlings,119426.0,2025-08-31,Disbursed,2025-12-06 15:51:43
+SUB000298,FMR000383,PRG-757,Small-Scale Irrigation Program,Irrigation Equipment,3393317.0,2024-05-22,Disbursed,2025-12-06 15:51:43
+SUB000299,FMR000389,PRG-586,Parish Development Model (PDM),Cash Grant,524925.0,2024-06-30,Verified,2025-12-06 15:51:43
+SUB000300,FMR000051,PRG-487,Parish Development Model (PDM),Cash Grant,789839.0,2025-11-05,Received,2025-12-06 15:51:43
+SUB000301,FMR000017,PRG-590,Parish Development Model (PDM),Cash Grant,651733.0,2025-05-25,Verified,2025-12-06 15:51:43
+SUB000302,FMR001126,PRG-482,Fertilizer Access Initiative,Fertilizer,152344.0,2025-08-18,Received,2025-12-06 15:51:43
+SUB000303,FMR000823,PRG-904,Operation Wealth Creation (OWC),Coffee Seedlings,371196.0,2023-12-18,Disbursed,2025-12-06 15:51:43
+SUB000304,FMR001522,PRG-714,NAADS Agricultural Input Support,Saplings,154275.0,2024-06-17,Verified,2025-12-06 15:51:43
+SUB000305,FMR000006,PRG-344,Operation Wealth Creation (OWC),Fruit Trees,200274.0,2024-02-07,Received,2025-12-06 15:51:43
+SUB000306,FMR001584,PRG-920,Parish Development Model (PDM),Revolving Fund,924949.0,2025-09-30,Disbursed,2025-12-06 15:51:43
+SUB000307,FMR000838,PRG-437,Parish Development Model (PDM),Revolving Fund,614637.0,2025-04-17,Verified,2025-12-06 15:51:43
+SUB000308,FMR001729,PRG-418,Fertilizer Access Initiative,Fertilizer,71110.0,2025-07-15,Received,2025-12-06 15:51:43
+SUB000309,FMR000846,PRG-620,Small-Scale Irrigation Program,Irrigation Equipment,3230890.0,2024-11-12,Verified,2025-12-06 15:51:43
+SUB000310,FMR000155,PRG-347,Small-Scale Irrigation Program,Irrigation Equipment,1088268.0,2024-05-06,Verified,2025-12-06 15:51:43
+SUB000311,FMR001031,PRG-203,Small-Scale Irrigation Program,Irrigation Equipment,1183185.0,2024-01-01,Verified,2025-12-06 15:51:43
+SUB000312,FMR000362,PRG-153,NAADS Agricultural Input Support,Saplings,194849.0,2023-12-08,Verified,2025-12-06 15:51:43
+SUB000313,FMR001485,PRG-438,Fertilizer Access Initiative,Fertilizer,127230.0,2024-07-03,Disbursed,2025-12-06 15:51:43
+SUB000314,FMR001623,PRG-140,Fertilizer Access Initiative,Fertilizer,106201.0,2025-05-16,Disbursed,2025-12-06 15:51:43
+SUB000315,FMR001725,PRG-601,NAADS Agricultural Input Support,Saplings,406334.0,2024-12-19,Received,2025-12-06 15:51:43
+SUB000316,FMR000797,PRG-288,NAADS Agricultural Input Support,Saplings,153182.0,2024-11-15,Verified,2025-12-06 15:51:43
+SUB000317,FMR001934,PRG-927,Small-Scale Irrigation Program,Irrigation Equipment,1668218.0,2024-01-10,Received,2025-12-06 15:51:43
+SUB000318,FMR001191,PRG-526,Parish Development Model (PDM),Revolving Fund,879280.0,2023-12-11,Received,2025-12-06 15:51:43
+SUB000319,FMR001915,PRG-328,Operation Wealth Creation (OWC),Coffee Seedlings,121312.0,2024-10-18,Pending,2025-12-06 15:51:43
+SUB000320,FMR001448,PRG-874,NAADS Agricultural Input Support,Saplings,226498.0,2025-04-09,Received,2025-12-06 15:51:43
+SUB000321,FMR000326,PRG-417,Operation Wealth Creation (OWC),Livestock,497470.0,2024-12-18,Received,2025-12-06 15:51:43
+SUB000322,FMR001785,PRG-388,Operation Wealth Creation (OWC),Livestock,401295.0,2024-06-18,Disbursed,2025-12-06 15:51:43
+SUB000323,FMR000727,PRG-741,Fertilizer Access Initiative,Fertilizer,122164.0,2025-08-11,Pending,2025-12-06 15:51:43
+SUB000324,FMR001948,PRG-398,NAADS Agricultural Input Support,Saplings,119476.0,2025-02-12,Received,2025-12-06 15:51:43
+SUB000325,FMR000344,PRG-241,Fertilizer Access Initiative,Fertilizer,55272.0,2024-05-09,Received,2025-12-06 15:51:43
+SUB000326,FMR000099,PRG-417,Operation Wealth Creation (OWC),Livestock,426454.0,2024-07-30,Disbursed,2025-12-06 15:51:43
+SUB000327,FMR000909,PRG-177,Fertilizer Access Initiative,Fertilizer,142699.0,2024-03-29,Received,2025-12-06 15:51:43
+SUB000328,FMR001358,PRG-599,Fertilizer Access Initiative,Fertilizer,172561.0,2024-01-16,Received,2025-12-06 15:51:43
+SUB000329,FMR001192,PRG-953,Small-Scale Irrigation Program,Irrigation Equipment,3389568.0,2024-09-12,Disbursed,2025-12-06 15:51:43
+SUB000330,FMR000219,PRG-953,Operation Wealth Creation (OWC),Livestock,352629.0,2025-05-14,Disbursed,2025-12-06 15:51:43
+SUB000331,FMR001840,PRG-173,Small-Scale Irrigation Program,Irrigation Equipment,4615866.0,2025-03-04,Disbursed,2025-12-06 15:51:43
+SUB000332,FMR001880,PRG-794,Parish Development Model (PDM),Revolving Fund,545745.0,2024-07-29,Pending,2025-12-06 15:51:43
+SUB000333,FMR000939,PRG-416,NAADS Agricultural Input Support,Saplings,438012.0,2024-03-10,Disbursed,2025-12-06 15:51:43
+SUB000334,FMR000620,PRG-275,Parish Development Model (PDM),Cash Grant,598420.0,2025-04-21,Received,2025-12-06 15:51:43
+SUB000335,FMR001620,PRG-367,NAADS Agricultural Input Support,Saplings,177552.0,2024-12-27,Received,2025-12-06 15:51:43
+SUB000336,FMR001682,PRG-982,Parish Development Model (PDM),Cash Grant,794474.0,2024-05-12,Received,2025-12-06 15:51:43
+SUB000337,FMR001749,PRG-368,Small-Scale Irrigation Program,Irrigation Equipment,1561947.0,2025-08-02,Disbursed,2025-12-06 15:51:43
+SUB000338,FMR000053,PRG-671,Fertilizer Access Initiative,Fertilizer,74263.0,2025-07-27,Received,2025-12-06 15:51:43
+SUB000339,FMR000316,PRG-591,NAADS Agricultural Input Support,Saplings,336337.0,2025-07-18,Pending,2025-12-06 15:51:43
+SUB000340,FMR000014,PRG-374,NAADS Agricultural Input Support,Seeds,368029.0,2025-01-06,Verified,2025-12-06 15:51:43
+SUB000341,FMR001441,PRG-943,Operation Wealth Creation (OWC),Coffee Seedlings,461910.0,2025-01-29,Verified,2025-12-06 15:51:43
+SUB000342,FMR000855,PRG-320,Fertilizer Access Initiative,Fertilizer,182540.0,2025-10-28,Verified,2025-12-06 15:51:43
+SUB000343,FMR000116,PRG-206,Fertilizer Access Initiative,Fertilizer,118885.0,2024-11-08,Received,2025-12-06 15:51:43
+SUB000344,FMR001525,PRG-879,Small-Scale Irrigation Program,Irrigation Equipment,1283432.0,2024-04-27,Received,2025-12-06 15:51:43
+SUB000345,FMR000049,PRG-551,Parish Development Model (PDM),Cash Grant,809382.0,2025-03-16,Received,2025-12-06 15:51:43
+SUB000346,FMR001761,PRG-303,NAADS Agricultural Input Support,Seeds,479873.0,2024-12-05,Verified,2025-12-06 15:51:43
+SUB000347,FMR001145,PRG-348,Small-Scale Irrigation Program,Irrigation Equipment,1462100.0,2024-04-26,Pending,2025-12-06 15:51:43
+SUB000348,FMR000314,PRG-479,Parish Development Model (PDM),Revolving Fund,778797.0,2024-02-23,Verified,2025-12-06 15:51:43
+SUB000349,FMR001527,PRG-603,Fertilizer Access Initiative,Fertilizer,102203.0,2024-06-04,Verified,2025-12-06 15:51:43
+SUB000350,FMR000772,PRG-281,NAADS Agricultural Input Support,Saplings,292361.0,2024-12-29,Verified,2025-12-06 15:51:43
+SUB000351,FMR000642,PRG-561,NAADS Agricultural Input Support,Seeds,432499.0,2023-12-31,Disbursed,2025-12-06 15:51:43
+SUB000352,FMR000304,PRG-591,Parish Development Model (PDM),Revolving Fund,852393.0,2024-11-19,Disbursed,2025-12-06 15:51:43
+SUB000353,FMR001249,PRG-742,Parish Development Model (PDM),Cash Grant,819365.0,2025-05-12,Verified,2025-12-06 15:51:43
+SUB000354,FMR000691,PRG-174,Fertilizer Access Initiative,Fertilizer,80543.0,2025-04-21,Disbursed,2025-12-06 15:51:43
+SUB000355,FMR001795,PRG-100,Small-Scale Irrigation Program,Irrigation Equipment,3202960.0,2023-12-08,Verified,2025-12-06 15:51:43
+SUB000356,FMR000276,PRG-183,Fertilizer Access Initiative,Fertilizer,74779.0,2025-10-14,Disbursed,2025-12-06 15:51:43
+SUB000357,FMR001012,PRG-331,Parish Development Model (PDM),Revolving Fund,503270.0,2025-05-23,Disbursed,2025-12-06 15:51:43
+SUB000358,FMR001812,PRG-501,Parish Development Model (PDM),Cash Grant,905081.0,2025-06-30,Received,2025-12-06 15:51:43
+SUB000359,FMR001634,PRG-621,Small-Scale Irrigation Program,Irrigation Equipment,4063119.0,2024-11-08,Disbursed,2025-12-06 15:51:43
+SUB000360,FMR000539,PRG-438,Small-Scale Irrigation Program,Irrigation Equipment,4447092.0,2024-02-26,Verified,2025-12-06 15:51:43
+SUB000361,FMR001253,PRG-704,NAADS Agricultural Input Support,Seeds,315982.0,2024-11-05,Verified,2025-12-06 15:51:43
+SUB000362,FMR001306,PRG-115,Operation Wealth Creation (OWC),Fruit Trees,453562.0,2024-07-17,Received,2025-12-06 15:51:43
+SUB000363,FMR001196,PRG-538,Parish Development Model (PDM),Cash Grant,743350.0,2025-09-28,Disbursed,2025-12-06 15:51:43
+SUB000364,FMR001510,PRG-619,NAADS Agricultural Input Support,Saplings,402111.0,2024-04-18,Verified,2025-12-06 15:51:43
+SUB000365,FMR000333,PRG-203,Operation Wealth Creation (OWC),Fruit Trees,195548.0,2024-03-30,Received,2025-12-06 15:51:43
+SUB000366,FMR000871,PRG-899,Small-Scale Irrigation Program,Irrigation Equipment,3688241.0,2025-10-31,Pending,2025-12-06 15:51:43
+SUB000367,FMR001299,PRG-147,Parish Development Model (PDM),Cash Grant,906601.0,2025-06-26,Disbursed,2025-12-06 15:51:43
+SUB000368,FMR000483,PRG-443,Small-Scale Irrigation Program,Irrigation Equipment,3576424.0,2024-04-25,Pending,2025-12-06 15:51:43
+SUB000369,FMR001888,PRG-631,Parish Development Model (PDM),Cash Grant,824522.0,2025-10-23,Disbursed,2025-12-06 15:51:43
+SUB000370,FMR001385,PRG-425,Operation Wealth Creation (OWC),Coffee Seedlings,223906.0,2025-01-06,Received,2025-12-06 15:51:43
+SUB000371,FMR001693,PRG-607,NAADS Agricultural Input Support,Seeds,234699.0,2024-06-19,Received,2025-12-06 15:51:43
+SUB000372,FMR000971,PRG-560,Small-Scale Irrigation Program,Irrigation Equipment,4551739.0,2024-04-18,Verified,2025-12-06 15:51:43
+SUB000373,FMR000593,PRG-792,Small-Scale Irrigation Program,Irrigation Equipment,4291379.0,2025-02-19,Disbursed,2025-12-06 15:51:43
+SUB000374,FMR000438,PRG-398,NAADS Agricultural Input Support,Saplings,309888.0,2024-05-05,Received,2025-12-06 15:51:43
+SUB000375,FMR001274,PRG-393,Parish Development Model (PDM),Revolving Fund,629805.0,2024-11-08,Disbursed,2025-12-06 15:51:43
+SUB000376,FMR001660,PRG-626,NAADS Agricultural Input Support,Saplings,120571.0,2024-09-27,Pending,2025-12-06 15:51:43
+SUB000377,FMR001202,PRG-704,Fertilizer Access Initiative,Fertilizer,128421.0,2024-05-15,Verified,2025-12-06 15:51:43
+SUB000378,FMR000824,PRG-327,Small-Scale Irrigation Program,Irrigation Equipment,1629331.0,2025-07-10,Verified,2025-12-06 15:51:43
+SUB000379,FMR000793,PRG-105,Parish Development Model (PDM),Cash Grant,928772.0,2025-03-21,Verified,2025-12-06 15:51:43
+SUB000380,FMR001046,PRG-200,Fertilizer Access Initiative,Fertilizer,139950.0,2025-10-05,Disbursed,2025-12-06 15:51:43
+SUB000381,FMR000418,PRG-624,Operation Wealth Creation (OWC),Coffee Seedlings,385824.0,2024-11-30,Received,2025-12-06 15:51:43
+SUB000382,FMR000511,PRG-230,Small-Scale Irrigation Program,Irrigation Equipment,4640722.0,2024-09-25,Verified,2025-12-06 15:51:43
+SUB000383,FMR001158,PRG-564,NAADS Agricultural Input Support,Seeds,119427.0,2024-01-18,Verified,2025-12-06 15:51:43
+SUB000384,FMR000725,PRG-694,Parish Development Model (PDM),Cash Grant,504002.0,2024-09-28,Disbursed,2025-12-06 15:51:43
+SUB000385,FMR000877,PRG-312,Small-Scale Irrigation Program,Irrigation Equipment,2562637.0,2024-02-03,Verified,2025-12-06 15:51:43
+SUB000386,FMR000818,PRG-108,Fertilizer Access Initiative,Fertilizer,124290.0,2025-07-15,Received,2025-12-06 15:51:43
+SUB000387,FMR001114,PRG-429,Fertilizer Access Initiative,Fertilizer,168291.0,2025-10-04,Received,2025-12-06 15:51:43
+SUB000388,FMR001477,PRG-750,Operation Wealth Creation (OWC),Livestock,238064.0,2025-04-15,Pending,2025-12-06 15:51:43
+SUB000389,FMR001136,PRG-370,Fertilizer Access Initiative,Fertilizer,127609.0,2025-04-08,Received,2025-12-06 15:51:43
+SUB000390,FMR001805,PRG-396,Parish Development Model (PDM),Revolving Fund,509646.0,2024-04-15,Verified,2025-12-06 15:51:43
+SUB000391,FMR001409,PRG-864,Fertilizer Access Initiative,Fertilizer,85796.0,2025-06-06,Received,2025-12-06 15:51:43
+SUB000392,FMR001089,PRG-515,Small-Scale Irrigation Program,Irrigation Equipment,3925739.0,2025-07-06,Pending,2025-12-06 15:51:43
+SUB000393,FMR000571,PRG-302,NAADS Agricultural Input Support,Seeds,205822.0,2025-07-17,Disbursed,2025-12-06 15:51:43
+SUB000394,FMR001410,PRG-843,Fertilizer Access Initiative,Fertilizer,138708.0,2024-05-28,Received,2025-12-06 15:51:43
+SUB000395,FMR000886,PRG-743,Parish Development Model (PDM),Cash Grant,606054.0,2025-10-02,Received,2025-12-06 15:51:43
+SUB000396,FMR000576,PRG-866,Small-Scale Irrigation Program,Irrigation Equipment,4193507.0,2025-05-31,Verified,2025-12-06 15:51:43
+SUB000397,FMR000080,PRG-909,Fertilizer Access Initiative,Fertilizer,97792.0,2024-05-30,Received,2025-12-06 15:51:43
+SUB000398,FMR001713,PRG-908,Fertilizer Access Initiative,Fertilizer,53208.0,2024-01-14,Pending,2025-12-06 15:51:43
+SUB000399,FMR001363,PRG-376,NAADS Agricultural Input Support,Saplings,122291.0,2025-02-23,Disbursed,2025-12-06 15:51:43
+SUB000400,FMR000621,PRG-121,Operation Wealth Creation (OWC),Livestock,212302.0,2024-11-11,Received,2025-12-06 15:51:43
+SUB000401,FMR000911,PRG-202,Fertilizer Access Initiative,Fertilizer,143202.0,2024-05-08,Disbursed,2025-12-06 15:51:43
+SUB000402,FMR001649,PRG-586,Parish Development Model (PDM),Cash Grant,880913.0,2024-09-13,Received,2025-12-06 15:51:43
+SUB000403,FMR001989,PRG-372,Small-Scale Irrigation Program,Irrigation Equipment,3217790.0,2024-01-31,Received,2025-12-06 15:51:43
+SUB000404,FMR001621,PRG-281,Fertilizer Access Initiative,Fertilizer,163720.0,2024-03-21,Verified,2025-12-06 15:51:43
+SUB000405,FMR001900,PRG-794,Operation Wealth Creation (OWC),Livestock,359670.0,2024-02-23,Received,2025-12-06 15:51:43
+SUB000406,FMR001420,PRG-510,Operation Wealth Creation (OWC),Coffee Seedlings,266401.0,2025-03-22,Received,2025-12-06 15:51:43
+SUB000407,FMR001531,PRG-305,Fertilizer Access Initiative,Fertilizer,94717.0,2025-05-06,Received,2025-12-06 15:51:43
+SUB000408,FMR001781,PRG-630,Small-Scale Irrigation Program,Irrigation Equipment,4484394.0,2024-01-10,Disbursed,2025-12-06 15:51:43
+SUB000409,FMR001447,PRG-822,Small-Scale Irrigation Program,Irrigation Equipment,3754367.0,2024-11-13,Received,2025-12-06 15:51:43
+SUB000410,FMR001600,PRG-596,Small-Scale Irrigation Program,Irrigation Equipment,3729176.0,2025-05-19,Verified,2025-12-06 15:51:43
+SUB000411,FMR000375,PRG-669,Parish Development Model (PDM),Cash Grant,946141.0,2024-05-23,Received,2025-12-06 15:51:43
+SUB000412,FMR001605,PRG-987,Small-Scale Irrigation Program,Irrigation Equipment,3304059.0,2024-02-14,Disbursed,2025-12-06 15:51:43
+SUB000413,FMR000508,PRG-904,Parish Development Model (PDM),Cash Grant,652864.0,2024-01-11,Verified,2025-12-06 15:51:43
+SUB000414,FMR000230,PRG-592,Fertilizer Access Initiative,Fertilizer,146103.0,2024-05-16,Received,2025-12-06 15:51:43
+SUB000415,FMR000781,PRG-126,Parish Development Model (PDM),Revolving Fund,949474.0,2025-09-28,Pending,2025-12-06 15:51:43
+SUB000416,FMR001241,PRG-664,NAADS Agricultural Input Support,Saplings,246241.0,2025-03-30,Verified,2025-12-06 15:51:43
+SUB000417,FMR001156,PRG-593,Fertilizer Access Initiative,Fertilizer,72443.0,2025-05-16,Verified,2025-12-06 15:51:43
+SUB000418,FMR001164,PRG-778,Parish Development Model (PDM),Cash Grant,837375.0,2024-10-05,Received,2025-12-06 15:51:43
+SUB000419,FMR001388,PRG-910,Operation Wealth Creation (OWC),Livestock,464816.0,2025-07-22,Pending,2025-12-06 15:51:43
+SUB000420,FMR001038,PRG-703,Small-Scale Irrigation Program,Irrigation Equipment,3481962.0,2025-09-17,Disbursed,2025-12-06 15:51:43
+SUB000421,FMR000119,PRG-588,Operation Wealth Creation (OWC),Fruit Trees,464168.0,2025-06-06,Verified,2025-12-06 15:51:43
+SUB000422,FMR000488,PRG-267,Parish Development Model (PDM),Revolving Fund,600685.0,2024-03-31,Received,2025-12-06 15:51:43
+SUB000423,FMR001311,PRG-460,Small-Scale Irrigation Program,Irrigation Equipment,2764724.0,2025-09-24,Received,2025-12-06 15:51:43
+SUB000424,FMR001775,PRG-455,NAADS Agricultural Input Support,Saplings,470931.0,2024-10-09,Received,2025-12-06 15:51:43
+SUB000425,FMR001380,PRG-139,Operation Wealth Creation (OWC),Coffee Seedlings,490681.0,2025-05-11,Pending,2025-12-06 15:51:43
+SUB000426,FMR001371,PRG-318,Operation Wealth Creation (OWC),Livestock,208748.0,2023-12-28,Received,2025-12-06 15:51:43
+SUB000427,FMR001252,PRG-329,NAADS Agricultural Input Support,Seeds,466128.0,2024-06-11,Disbursed,2025-12-06 15:51:43
+SUB000428,FMR000802,PRG-930,NAADS Agricultural Input Support,Seeds,467578.0,2025-06-14,Verified,2025-12-06 15:51:43
+SUB000429,FMR001864,PRG-195,Fertilizer Access Initiative,Fertilizer,108220.0,2024-12-23,Received,2025-12-06 15:51:43
+SUB000430,FMR000532,PRG-492,Parish Development Model (PDM),Revolving Fund,846613.0,2024-05-08,Received,2025-12-06 15:51:43
+SUB000431,FMR001851,PRG-294,Fertilizer Access Initiative,Fertilizer,189024.0,2025-07-20,Disbursed,2025-12-06 15:51:43
+SUB000432,FMR001286,PRG-387,Small-Scale Irrigation Program,Irrigation Equipment,2914013.0,2024-10-20,Pending,2025-12-06 15:51:43
+SUB000433,FMR000509,PRG-469,NAADS Agricultural Input Support,Saplings,286320.0,2024-12-26,Disbursed,2025-12-06 15:51:43
+SUB000434,FMR001912,PRG-501,Fertilizer Access Initiative,Fertilizer,104057.0,2025-10-03,Disbursed,2025-12-06 15:51:43
+SUB000435,FMR000390,PRG-758,Small-Scale Irrigation Program,Irrigation Equipment,3888923.0,2024-05-27,Disbursed,2025-12-06 15:51:43
+SUB000436,FMR000528,PRG-565,Fertilizer Access Initiative,Fertilizer,139425.0,2024-03-25,Disbursed,2025-12-06 15:51:43
+SUB000437,FMR001486,PRG-627,Operation Wealth Creation (OWC),Coffee Seedlings,190280.0,2025-09-16,Verified,2025-12-06 15:51:43
+SUB000438,FMR000067,PRG-411,Operation Wealth Creation (OWC),Livestock,344992.0,2024-09-19,Received,2025-12-06 15:51:43
+SUB000439,FMR000514,PRG-132,Parish Development Model (PDM),Revolving Fund,984263.0,2024-12-07,Verified,2025-12-06 15:51:43
+SUB000440,FMR001081,PRG-398,Operation Wealth Creation (OWC),Fruit Trees,190909.0,2025-07-13,Pending,2025-12-06 15:51:43
+SUB000441,FMR001869,PRG-246,NAADS Agricultural Input Support,Seeds,422740.0,2024-04-21,Received,2025-12-06 15:51:43
+SUB000442,FMR000464,PRG-721,Operation Wealth Creation (OWC),Fruit Trees,376483.0,2023-12-09,Disbursed,2025-12-06 15:51:43
+SUB000443,FMR000963,PRG-879,Operation Wealth Creation (OWC),Fruit Trees,138149.0,2024-07-21,Received,2025-12-06 15:51:43
+SUB000444,FMR001077,PRG-445,NAADS Agricultural Input Support,Saplings,400085.0,2025-10-18,Disbursed,2025-12-06 15:51:43
+SUB000445,FMR000111,PRG-189,Operation Wealth Creation (OWC),Fruit Trees,275353.0,2025-07-18,Verified,2025-12-06 15:51:43
+SUB000446,FMR000039,PRG-699,Small-Scale Irrigation Program,Irrigation Equipment,2362243.0,2025-02-02,Verified,2025-12-06 15:51:43
+SUB000447,FMR000337,PRG-985,Fertilizer Access Initiative,Fertilizer,138363.0,2024-09-25,Verified,2025-12-06 15:51:43
+SUB000448,FMR001327,PRG-344,Parish Development Model (PDM),Revolving Fund,758659.0,2024-02-14,Verified,2025-12-06 15:51:43
+SUB000449,FMR001603,PRG-579,NAADS Agricultural Input Support,Seeds,364427.0,2024-10-17,Received,2025-12-06 15:51:43
+SUB000450,FMR001307,PRG-167,Parish Development Model (PDM),Cash Grant,815281.0,2024-03-08,Received,2025-12-06 15:51:43
+SUB000451,FMR001429,PRG-105,NAADS Agricultural Input Support,Seeds,456940.0,2024-05-06,Verified,2025-12-06 15:51:43
+SUB000452,FMR001945,PRG-329,Small-Scale Irrigation Program,Irrigation Equipment,4645651.0,2024-11-20,Received,2025-12-06 15:51:43
+SUB000453,FMR001074,PRG-770,Parish Development Model (PDM),Cash Grant,562095.0,2024-10-26,Verified,2025-12-06 15:51:43
+SUB000454,FMR000104,PRG-664,NAADS Agricultural Input Support,Saplings,180313.0,2023-12-26,Received,2025-12-06 15:51:43
+SUB000455,FMR000791,PRG-644,Fertilizer Access Initiative,Fertilizer,119363.0,2024-05-14,Verified,2025-12-06 15:51:43
+SUB000456,FMR001063,PRG-629,Fertilizer Access Initiative,Fertilizer,136410.0,2024-10-07,Verified,2025-12-06 15:51:43
+SUB000457,FMR000385,PRG-859,Small-Scale Irrigation Program,Irrigation Equipment,4326357.0,2025-01-04,Received,2025-12-06 15:51:43
+SUB000458,FMR000923,PRG-101,Operation Wealth Creation (OWC),Coffee Seedlings,153653.0,2025-10-09,Disbursed,2025-12-06 15:51:43
+SUB000459,FMR000416,PRG-630,Parish Development Model (PDM),Cash Grant,586106.0,2025-10-24,Disbursed,2025-12-06 15:51:43
+SUB000460,FMR001822,PRG-143,Fertilizer Access Initiative,Fertilizer,104357.0,2025-09-17,Verified,2025-12-06 15:51:43
+SUB000461,FMR000476,PRG-929,Fertilizer Access Initiative,Fertilizer,52130.0,2025-01-24,Received,2025-12-06 15:51:43
+SUB000462,FMR001478,PRG-785,Fertilizer Access Initiative,Fertilizer,53165.0,2024-12-25,Verified,2025-12-06 15:51:43
+SUB000463,FMR000222,PRG-426,Operation Wealth Creation (OWC),Livestock,387711.0,2024-11-07,Received,2025-12-06 15:51:43
+SUB000464,FMR001764,PRG-363,Operation Wealth Creation (OWC),Livestock,177321.0,2024-10-28,Pending,2025-12-06 15:51:43
+SUB000465,FMR001630,PRG-462,Small-Scale Irrigation Program,Irrigation Equipment,1433980.0,2025-02-24,Verified,2025-12-06 15:51:43
+SUB000466,FMR001480,PRG-506,Operation Wealth Creation (OWC),Fruit Trees,232567.0,2025-07-15,Verified,2025-12-06 15:51:43
+SUB000467,FMR000863,PRG-626,Parish Development Model (PDM),Revolving Fund,990206.0,2024-01-09,Verified,2025-12-06 15:51:43
+SUB000468,FMR000630,PRG-646,Fertilizer Access Initiative,Fertilizer,103918.0,2025-03-04,Verified,2025-12-06 15:51:43
+SUB000469,FMR000167,PRG-252,Parish Development Model (PDM),Revolving Fund,650717.0,2025-06-19,Verified,2025-12-06 15:51:43
+SUB000470,FMR001949,PRG-182,NAADS Agricultural Input Support,Saplings,437923.0,2024-10-07,Disbursed,2025-12-06 15:51:43
+SUB000471,FMR001625,PRG-446,NAADS Agricultural Input Support,Seeds,235754.0,2025-08-07,Received,2025-12-06 15:51:43
+SUB000472,FMR001914,PRG-677,NAADS Agricultural Input Support,Seeds,148022.0,2025-10-21,Disbursed,2025-12-06 15:51:43
+SUB000473,FMR001332,PRG-230,NAADS Agricultural Input Support,Seeds,362526.0,2024-08-30,Disbursed,2025-12-06 15:51:43
+SUB000474,FMR000711,PRG-298,Fertilizer Access Initiative,Fertilizer,57301.0,2024-02-18,Verified,2025-12-06 15:51:43
+SUB000475,FMR001043,PRG-112,Parish Development Model (PDM),Cash Grant,729725.0,2024-09-21,Received,2025-12-06 15:51:43
+SUB000476,FMR000369,PRG-506,Parish Development Model (PDM),Revolving Fund,583236.0,2024-03-06,Received,2025-12-06 15:51:43
+SUB000477,FMR001497,PRG-901,Operation Wealth Creation (OWC),Coffee Seedlings,188380.0,2025-10-05,Verified,2025-12-06 15:51:43
+SUB000478,FMR000889,PRG-820,Operation Wealth Creation (OWC),Coffee Seedlings,227480.0,2024-11-03,Disbursed,2025-12-06 15:51:43
+SUB000479,FMR001434,PRG-307,Operation Wealth Creation (OWC),Fruit Trees,232326.0,2024-04-12,Disbursed,2025-12-06 15:51:43
+SUB000480,FMR000310,PRG-643,Operation Wealth Creation (OWC),Coffee Seedlings,241211.0,2024-10-06,Disbursed,2025-12-06 15:51:43
+SUB000481,FMR000609,PRG-466,Small-Scale Irrigation Program,Irrigation Equipment,2522880.0,2024-09-10,Disbursed,2025-12-06 15:51:43
+SUB000482,FMR001681,PRG-655,Fertilizer Access Initiative,Fertilizer,68199.0,2024-12-05,Received,2025-12-06 15:51:43
+SUB000483,FMR001149,PRG-332,Operation Wealth Creation (OWC),Fruit Trees,109441.0,2025-05-30,Pending,2025-12-06 15:51:43
+SUB000484,FMR001703,PRG-884,Operation Wealth Creation (OWC),Livestock,232155.0,2024-12-22,Verified,2025-12-06 15:51:43
+SUB000485,FMR000194,PRG-197,Small-Scale Irrigation Program,Irrigation Equipment,3797916.0,2025-04-13,Disbursed,2025-12-06 15:51:43
+SUB000486,FMR001055,PRG-891,Parish Development Model (PDM),Revolving Fund,603934.0,2025-05-18,Disbursed,2025-12-06 15:51:43
+SUB000487,FMR001260,PRG-477,Small-Scale Irrigation Program,Irrigation Equipment,4157839.0,2024-09-18,Received,2025-12-06 15:51:43
+SUB000488,FMR001362,PRG-296,Fertilizer Access Initiative,Fertilizer,146967.0,2024-01-20,Verified,2025-12-06 15:51:43
+SUB000489,FMR000331,PRG-753,Parish Development Model (PDM),Revolving Fund,514647.0,2024-08-10,Pending,2025-12-06 15:51:43
+SUB000490,FMR001708,PRG-306,NAADS Agricultural Input Support,Saplings,456693.0,2024-03-27,Pending,2025-12-06 15:51:43
+SUB000491,FMR000799,PRG-508,Small-Scale Irrigation Program,Irrigation Equipment,1122158.0,2025-05-20,Received,2025-12-06 15:51:43
+SUB000492,FMR001566,PRG-948,NAADS Agricultural Input Support,Saplings,338715.0,2025-10-24,Verified,2025-12-06 15:51:43
+SUB000493,FMR000183,PRG-802,Parish Development Model (PDM),Cash Grant,630706.0,2024-11-02,Received,2025-12-06 15:51:43
+SUB000494,FMR000287,PRG-240,Parish Development Model (PDM),Revolving Fund,814661.0,2024-04-02,Verified,2025-12-06 15:51:43
+SUB000495,FMR001088,PRG-970,Small-Scale Irrigation Program,Irrigation Equipment,4324333.0,2025-06-06,Received,2025-12-06 15:51:43
+SUB000496,FMR000117,PRG-482,Fertilizer Access Initiative,Fertilizer,145843.0,2024-01-08,Received,2025-12-06 15:51:43
+SUB000497,FMR001282,PRG-625,NAADS Agricultural Input Support,Seeds,132459.0,2025-06-08,Verified,2025-12-06 15:51:43
+SUB000498,FMR000102,PRG-487,NAADS Agricultural Input Support,Seeds,182511.0,2025-01-24,Disbursed,2025-12-06 15:51:43
+SUB000499,FMR001516,PRG-834,Small-Scale Irrigation Program,Irrigation Equipment,4284530.0,2025-06-25,Verified,2025-12-06 15:51:43
+SUB000500,FMR001913,PRG-720,Small-Scale Irrigation Program,Irrigation Equipment,2396433.0,2024-12-22,Verified,2025-12-06 15:51:43
+SUB000501,FMR000663,PRG-734,Small-Scale Irrigation Program,Irrigation Equipment,1708933.0,2024-06-21,Disbursed,2025-12-06 15:51:43
+SUB000502,FMR000410,PRG-968,Fertilizer Access Initiative,Fertilizer,91963.0,2024-01-24,Received,2025-12-06 15:51:43
+SUB000503,FMR000837,PRG-389,Operation Wealth Creation (OWC),Fruit Trees,225680.0,2024-09-25,Received,2025-12-06 15:51:43
+SUB000504,FMR000353,PRG-463,Small-Scale Irrigation Program,Irrigation Equipment,3772500.0,2025-07-16,Disbursed,2025-12-06 15:51:43
+SUB000505,FMR001057,PRG-405,Fertilizer Access Initiative,Fertilizer,55534.0,2025-04-30,Received,2025-12-06 15:51:43
+SUB000506,FMR001347,PRG-802,Operation Wealth Creation (OWC),Livestock,212293.0,2024-02-10,Received,2025-12-06 15:51:43
+SUB000507,FMR000707,PRG-545,Small-Scale Irrigation Program,Irrigation Equipment,4496124.0,2025-04-05,Received,2025-12-06 15:51:43
+SUB000508,FMR001151,PRG-617,NAADS Agricultural Input Support,Seeds,367631.0,2024-03-15,Received,2025-12-06 15:51:43
+SUB000509,FMR000937,PRG-948,Parish Development Model (PDM),Revolving Fund,846851.0,2024-04-03,Received,2025-12-06 15:51:43
+SUB000510,FMR000298,PRG-877,Small-Scale Irrigation Program,Irrigation Equipment,2348677.0,2024-01-31,Received,2025-12-06 15:51:43
+SUB000511,FMR000721,PRG-441,NAADS Agricultural Input Support,Saplings,323327.0,2025-01-21,Disbursed,2025-12-06 15:51:43
+SUB000512,FMR000523,PRG-711,NAADS Agricultural Input Support,Saplings,371543.0,2025-03-12,Received,2025-12-06 15:51:43
+SUB000513,FMR001579,PRG-817,Parish Development Model (PDM),Revolving Fund,937500.0,2024-10-08,Verified,2025-12-06 15:51:43
+SUB000514,FMR000628,PRG-139,Fertilizer Access Initiative,Fertilizer,98240.0,2025-10-12,Verified,2025-12-06 15:51:43
+SUB000515,FMR001229,PRG-140,Small-Scale Irrigation Program,Irrigation Equipment,1539664.0,2024-04-08,Received,2025-12-06 15:51:43
+SUB000516,FMR000294,PRG-678,Operation Wealth Creation (OWC),Coffee Seedlings,422491.0,2025-05-27,Verified,2025-12-06 15:51:43
+SUB000517,FMR000370,PRG-524,Operation Wealth Creation (OWC),Livestock,251475.0,2025-04-28,Received,2025-12-06 15:51:43
+SUB000518,FMR000746,PRG-315,NAADS Agricultural Input Support,Seeds,475606.0,2025-07-19,Received,2025-12-06 15:51:43
+SUB000519,FMR000168,PRG-852,Operation Wealth Creation (OWC),Fruit Trees,426880.0,2024-03-17,Disbursed,2025-12-06 15:51:43
+SUB000520,FMR000060,PRG-350,Fertilizer Access Initiative,Fertilizer,164459.0,2024-04-13,Received,2025-12-06 15:51:43
+SUB000521,FMR000282,PRG-759,Operation Wealth Creation (OWC),Livestock,239177.0,2025-04-22,Disbursed,2025-12-06 15:51:43
+SUB000522,FMR001551,PRG-322,NAADS Agricultural Input Support,Seeds,126532.0,2025-09-26,Received,2025-12-06 15:51:43
+SUB000523,FMR000507,PRG-833,NAADS Agricultural Input Support,Seeds,117164.0,2024-05-13,Disbursed,2025-12-06 15:51:43
+SUB000524,FMR001859,PRG-306,Parish Development Model (PDM),Cash Grant,936943.0,2024-01-01,Verified,2025-12-06 15:51:43
+SUB000525,FMR000161,PRG-257,Small-Scale Irrigation Program,Irrigation Equipment,1149604.0,2024-11-20,Verified,2025-12-06 15:51:43
+SUB000526,FMR001297,PRG-318,Parish Development Model (PDM),Revolving Fund,597356.0,2025-10-24,Disbursed,2025-12-06 15:51:43
+SUB000527,FMR001845,PRG-357,Small-Scale Irrigation Program,Irrigation Equipment,4210638.0,2025-02-25,Verified,2025-12-06 15:51:43
+SUB000528,FMR001727,PRG-129,Small-Scale Irrigation Program,Irrigation Equipment,2132527.0,2024-11-08,Verified,2025-12-06 15:51:43
+SUB000529,FMR000857,PRG-111,Small-Scale Irrigation Program,Irrigation Equipment,3624045.0,2025-08-17,Received,2025-12-06 15:51:43
+SUB000530,FMR001437,PRG-596,Small-Scale Irrigation Program,Irrigation Equipment,3652631.0,2024-07-07,Disbursed,2025-12-06 15:51:43
+SUB000531,FMR000737,PRG-966,Small-Scale Irrigation Program,Irrigation Equipment,3282748.0,2024-10-15,Verified,2025-12-06 15:51:43
+SUB000532,FMR001419,PRG-138,NAADS Agricultural Input Support,Seeds,190335.0,2024-12-13,Disbursed,2025-12-06 15:51:43
+SUB000533,FMR001692,PRG-683,Parish Development Model (PDM),Cash Grant,680114.0,2025-07-29,Disbursed,2025-12-06 15:51:43
+SUB000534,FMR001471,PRG-928,Small-Scale Irrigation Program,Irrigation Equipment,4489444.0,2024-01-31,Verified,2025-12-06 15:51:43
+SUB000535,FMR000082,PRG-684,NAADS Agricultural Input Support,Seeds,407353.0,2024-08-21,Verified,2025-12-06 15:51:43
+SUB000536,FMR000537,PRG-681,Small-Scale Irrigation Program,Irrigation Equipment,3530960.0,2025-04-23,Verified,2025-12-06 15:51:43
+SUB000537,FMR001159,PRG-234,Parish Development Model (PDM),Cash Grant,530712.0,2025-02-14,Received,2025-12-06 15:51:43
+SUB000538,FMR000774,PRG-720,Parish Development Model (PDM),Revolving Fund,733458.0,2024-12-22,Disbursed,2025-12-06 15:51:43
+SUB000539,FMR000773,PRG-527,NAADS Agricultural Input Support,Saplings,447680.0,2024-03-30,Disbursed,2025-12-06 15:51:43
+SUB000540,FMR001455,PRG-486,NAADS Agricultural Input Support,Seeds,260968.0,2025-02-16,Pending,2025-12-06 15:51:43
+SUB000541,FMR001604,PRG-657,Fertilizer Access Initiative,Fertilizer,72713.0,2024-01-01,Received,2025-12-06 15:51:43
+SUB000542,FMR000954,PRG-452,NAADS Agricultural Input Support,Saplings,227933.0,2025-11-06,Verified,2025-12-06 15:51:43
+SUB000543,FMR001783,PRG-651,Parish Development Model (PDM),Cash Grant,708336.0,2024-11-09,Pending,2025-12-06 15:51:43
+SUB000544,FMR000654,PRG-740,NAADS Agricultural Input Support,Seeds,244122.0,2024-05-24,Verified,2025-12-06 15:51:43
+SUB000545,FMR000340,PRG-900,Small-Scale Irrigation Program,Irrigation Equipment,4473179.0,2024-02-29,Received,2025-12-06 15:51:43
+SUB000546,FMR001186,PRG-747,Parish Development Model (PDM),Revolving Fund,879684.0,2024-04-13,Disbursed,2025-12-06 15:51:43
+SUB000547,FMR000009,PRG-162,Operation Wealth Creation (OWC),Fruit Trees,190695.0,2024-07-23,Verified,2025-12-06 15:51:43
+SUB000548,FMR001368,PRG-202,Small-Scale Irrigation Program,Irrigation Equipment,4356282.0,2025-04-12,Verified,2025-12-06 15:51:43
+SUB000549,FMR000678,PRG-717,Small-Scale Irrigation Program,Irrigation Equipment,1219116.0,2025-08-03,Verified,2025-12-06 15:51:43
+SUB000550,FMR000659,PRG-271,Fertilizer Access Initiative,Fertilizer,141260.0,2024-12-06,Verified,2025-12-06 15:51:43
+SUB000551,FMR000143,PRG-127,Parish Development Model (PDM),Revolving Fund,781823.0,2024-07-29,Disbursed,2025-12-06 15:51:43
+SUB000552,FMR000718,PRG-908,Fertilizer Access Initiative,Fertilizer,110330.0,2024-06-08,Disbursed,2025-12-06 15:51:43
+SUB000553,FMR001205,PRG-372,NAADS Agricultural Input Support,Seeds,197636.0,2025-04-25,Received,2025-12-06 15:51:43
+SUB000554,FMR000713,PRG-338,Fertilizer Access Initiative,Fertilizer,122480.0,2025-05-29,Verified,2025-12-06 15:51:43
+SUB000555,FMR001870,PRG-270,NAADS Agricultural Input Support,Seeds,355865.0,2025-11-03,Received,2025-12-06 15:51:43
+SUB000556,FMR001222,PRG-209,Fertilizer Access Initiative,Fertilizer,195439.0,2023-12-27,Received,2025-12-06 15:51:43
+SUB000557,FMR001364,PRG-236,Operation Wealth Creation (OWC),Livestock,274533.0,2025-09-02,Disbursed,2025-12-06 15:51:43
+SUB000558,FMR001483,PRG-375,NAADS Agricultural Input Support,Saplings,349958.0,2024-02-20,Pending,2025-12-06 15:51:43
+SUB000559,FMR001583,PRG-519,NAADS Agricultural Input Support,Saplings,209289.0,2024-10-21,Disbursed,2025-12-06 15:51:43
+SUB000560,FMR000190,PRG-374,Fertilizer Access Initiative,Fertilizer,53758.0,2024-03-31,Disbursed,2025-12-06 15:51:43
+SUB000561,FMR001034,PRG-305,Small-Scale Irrigation Program,Irrigation Equipment,3753037.0,2024-12-26,Disbursed,2025-12-06 15:51:43
+SUB000562,FMR000940,PRG-957,Operation Wealth Creation (OWC),Coffee Seedlings,224848.0,2025-09-09,Disbursed,2025-12-06 15:51:43
+SUB000563,FMR000517,PRG-721,NAADS Agricultural Input Support,Seeds,171609.0,2024-08-31,Verified,2025-12-06 15:51:43
+SUB000564,FMR000343,PRG-744,NAADS Agricultural Input Support,Saplings,220192.0,2024-06-10,Received,2025-12-06 15:51:43
+SUB000565,FMR000550,PRG-973,Operation Wealth Creation (OWC),Coffee Seedlings,148122.0,2025-02-11,Disbursed,2025-12-06 15:51:43
+SUB000566,FMR001930,PRG-547,Operation Wealth Creation (OWC),Coffee Seedlings,114672.0,2024-04-24,Verified,2025-12-06 15:51:43
+SUB000567,FMR000684,PRG-503,Parish Development Model (PDM),Revolving Fund,533216.0,2024-11-26,Verified,2025-12-06 15:51:43
+SUB000568,FMR001473,PRG-219,Operation Wealth Creation (OWC),Coffee Seedlings,184169.0,2024-01-24,Verified,2025-12-06 15:51:43
+SUB000569,FMR001667,PRG-636,Parish Development Model (PDM),Revolving Fund,789186.0,2024-11-15,Verified,2025-12-06 15:51:43
+SUB000570,FMR000397,PRG-211,NAADS Agricultural Input Support,Saplings,498837.0,2024-06-13,Received,2025-12-06 15:51:43
+SUB000571,FMR001271,PRG-362,Operation Wealth Creation (OWC),Fruit Trees,465494.0,2025-11-03,Verified,2025-12-06 15:51:43
+SUB000572,FMR000033,PRG-678,NAADS Agricultural Input Support,Saplings,309287.0,2025-01-05,Verified,2025-12-06 15:51:43
+SUB000573,FMR001143,PRG-197,Small-Scale Irrigation Program,Irrigation Equipment,2796330.0,2024-02-16,Disbursed,2025-12-06 15:51:43
+SUB000574,FMR000831,PRG-142,Fertilizer Access Initiative,Fertilizer,111270.0,2024-10-30,Disbursed,2025-12-06 15:51:43
+SUB000575,FMR000196,PRG-140,Operation Wealth Creation (OWC),Fruit Trees,446419.0,2024-12-20,Verified,2025-12-06 15:51:43
+SUB000576,FMR000738,PRG-993,NAADS Agricultural Input Support,Saplings,175199.0,2025-05-14,Disbursed,2025-12-06 15:51:43
+SUB000577,FMR001768,PRG-117,Small-Scale Irrigation Program,Irrigation Equipment,3085780.0,2025-05-21,Disbursed,2025-12-06 15:51:43
+SUB000578,FMR001320,PRG-960,Operation Wealth Creation (OWC),Fruit Trees,336410.0,2024-09-07,Verified,2025-12-06 15:51:43
+SUB000579,FMR000136,PRG-661,Fertilizer Access Initiative,Fertilizer,108669.0,2025-06-11,Disbursed,2025-12-06 15:51:43
+SUB000580,FMR000113,PRG-563,Fertilizer Access Initiative,Fertilizer,127244.0,2024-12-04,Disbursed,2025-12-06 15:51:43
+SUB000581,FMR000946,PRG-121,Parish Development Model (PDM),Revolving Fund,527923.0,2024-11-08,Disbursed,2025-12-06 15:51:43
+SUB000582,FMR000473,PRG-455,Parish Development Model (PDM),Revolving Fund,703797.0,2025-03-02,Disbursed,2025-12-06 15:51:43
+SUB000583,FMR001121,PRG-705,NAADS Agricultural Input Support,Saplings,315922.0,2024-07-30,Disbursed,2025-12-06 15:51:43
+SUB000584,FMR001993,PRG-714,NAADS Agricultural Input Support,Saplings,186367.0,2024-11-06,Received,2025-12-06 15:51:43
+SUB000585,FMR000658,PRG-808,Small-Scale Irrigation Program,Irrigation Equipment,2833401.0,2025-09-24,Pending,2025-12-06 15:51:43
+SUB000586,FMR000434,PRG-649,Fertilizer Access Initiative,Fertilizer,181280.0,2024-06-30,Disbursed,2025-12-06 15:51:43
+SUB000587,FMR000741,PRG-430,Small-Scale Irrigation Program,Irrigation Equipment,1059207.0,2024-05-19,Disbursed,2025-12-06 15:51:43
+SUB000588,FMR001925,PRG-859,Operation Wealth Creation (OWC),Coffee Seedlings,428141.0,2025-05-14,Verified,2025-12-06 15:51:43
+SUB000589,FMR001615,PRG-179,Parish Development Model (PDM),Revolving Fund,797453.0,2024-04-02,Received,2025-12-06 15:51:43
+SUB000590,FMR001479,PRG-817,Parish Development Model (PDM),Cash Grant,733598.0,2024-01-30,Received,2025-12-06 15:51:43
+SUB000591,FMR001823,PRG-576,Parish Development Model (PDM),Revolving Fund,860775.0,2024-10-16,Received,2025-12-06 15:51:43
+SUB000592,FMR000989,PRG-773,Operation Wealth Creation (OWC),Coffee Seedlings,441901.0,2024-12-16,Disbursed,2025-12-06 15:51:43
+SUB000593,FMR001545,PRG-539,Parish Development Model (PDM),Cash Grant,768484.0,2025-03-25,Pending,2025-12-06 15:51:43
+SUB000594,FMR001534,PRG-920,Operation Wealth Creation (OWC),Livestock,187959.0,2025-03-26,Disbursed,2025-12-06 15:51:43
+SUB000595,FMR001402,PRG-597,Small-Scale Irrigation Program,Irrigation Equipment,3815725.0,2024-03-07,Received,2025-12-06 15:51:43
+SUB000596,FMR000475,PRG-609,Small-Scale Irrigation Program,Irrigation Equipment,3955461.0,2023-12-17,Received,2025-12-06 15:51:43
+SUB000597,FMR000239,PRG-921,NAADS Agricultural Input Support,Seeds,411690.0,2024-06-20,Verified,2025-12-06 15:51:43
+SUB000598,FMR001883,PRG-196,Operation Wealth Creation (OWC),Coffee Seedlings,264506.0,2024-05-18,Disbursed,2025-12-06 15:51:43
+SUB000599,FMR000128,PRG-456,Operation Wealth Creation (OWC),Coffee Seedlings,225979.0,2024-04-28,Received,2025-12-06 15:51:43
+SUB000600,FMR001208,PRG-849,Operation Wealth Creation (OWC),Fruit Trees,258321.0,2024-03-28,Disbursed,2025-12-06 15:51:43
