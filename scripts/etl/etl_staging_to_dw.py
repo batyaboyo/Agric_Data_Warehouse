@@ -18,19 +18,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class ETLPipeline:
-    def __init__(self, config_path='etl_config.yaml'):
-        """Initialize ETL pipeline with configuration"""
-        self.config = self.load_config(config_path)
-        self.conn = None
-        self.execution_id = None
-        
-    def load_config(self, config_path):
-        """Load configuration from YAML file"""
-        with open(config_path, 'r') as f:
-            return yaml.safe_load(f)
-    
-    def connect_db(self):
-        """Connect to PostgreSQL database"""
         try:
             self.conn = psycopg2.connect(
                 host=self.config['database']['host'],
@@ -185,6 +172,10 @@ class ETLPipeline:
                 END as farm_size_category,
                 s.primary_crop,
                 s.cooperative_id,
+                CASE 
+                    WHEN s.cooperative_id IS NOT NULL THEN 'Cooperative ' || s.cooperative_id 
+                    ELSE 'Independent' 
+                END as cooperative_name,
                 s.blockchain_wallet,
                 s.registration_date::DATE,
                 CURRENT_DATE as effective_date,

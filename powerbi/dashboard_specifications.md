@@ -210,14 +210,14 @@ Product performance, pricing trends, and market dynamics.
 - **Visual Type**: Treemap
 - **Category (Group)**: `dw.dim_product[category]`
 - **Details**: `dw.dim_product[product_name]`
-- **Values**: `[Total Revenue]` (DAX Measure)
-- **Color Saturation**: `[Profit Margin %]` (if available) or `[Total Revenue]`
+- **Values**: `Sum of dw.fact_transaction[total_amount]`
+- **Color Saturation**: `Sum of dw.fact_transaction[total_amount]`
 - **Tooltips**:
   - `dw.dim_product[category]`
   - `dw.dim_product[product_name]`
-  - `[Total Revenue]`
-  - `[Total Transactions]`
-  - `[Average Price per kg]`
+  - `Sum of dw.fact_transaction[total_amount]`
+  - `Count of dw.fact_transaction[transaction_id]`
+  - `Average of dw.fact_transaction[unit_price]` (if available)
 - **Source Tables**: `dw.fact_transaction`, `dw.dim_product`
 
 #### 4.2 Price Trends (Line Chart with Forecast)
@@ -239,28 +239,28 @@ Product performance, pricing trends, and market dynamics.
 
 - **Visual Type**: Stacked Column Chart
 - **X-Axis (Categories)**: `dw.dim_market[market_type]`
-- **Y-Axis (Values)**: `[Total Quantity (kg)]` (DAX Measure: `SUM(dw.fact_transaction[quantity_kg])`)
+- **Y-Axis (Values)**: `Sum of dw.fact_transaction[quantity_kg]`
 - **Legend**: `dw.dim_product[category]`
 - **Tooltips**:
   - `dw.dim_market[market_type]`
   - `dw.dim_product[category]`
-  - `[Total Quantity (kg)]`
-  - `[Total Revenue]`
-  - `[Total Transactions]`
+  - `Sum of dw.fact_transaction[quantity_kg]`
+  - `Sum of dw.fact_transaction[total_amount]`
+  - `Count of dw.fact_transaction[transaction_id]`
 - **Source Tables**: `dw.fact_transaction`, `dw.dim_market`, `dw.dim_product`
 
 #### 4.4 Quality Grade Analysis (Clustered Column Chart)
 
 - **Visual Type**: Clustered Column Chart
 - **X-Axis (Categories)**: `dw.dim_product[category]`
-- **Y-Axis (Values)**: `[Total Quantity (kg)]`
+- **Y-Axis (Values)**: `Sum of dw.fact_transaction[quantity_kg]`
 - **Legend**: `dw.dim_quality[quality_grade]` (A, B, C)
 - **Data Labels**: Percentage of total per category
 - **Tooltips**:
   - `dw.dim_product[category]`
   - `dw.dim_quality[quality_grade]`
   - `dw.dim_quality[quality_description]`
-  - `[Total Quantity (kg)]`
+  - `Sum of dw.fact_transaction[quantity_kg]`
   - Percentage of Total
 - **Source Tables**: `dw.fact_transaction`, `dw.dim_product`, `dw.dim_quality`
 
@@ -339,18 +339,16 @@ Blockchain-verified transactions and traceability metrics.
 #### 6.1 Blockchain Verification Rate (Gauge)
 
 - **Visual Type**: Gauge
-- **Value**: `[Blockchain Verification Rate %]` (DAX Measure)
-- **Target**: 95%
-- **Minimum**: 0%
-- **Maximum**: 100%
+- **Value**: `Count of dw.fact_transaction[transaction_id]` (Filtered by `blockchain_hash` is not null)
+- **Target**: `Count of dw.fact_transaction[transaction_id]` (Total)
+- **Minimum**: 0
+- **Maximum**: `Count of dw.fact_transaction[transaction_id]`
 - **Color Coding**: 
-  - Red: < 80%
-  - Yellow: 80-95%
-  - Green: > 95%
+  - Red: Low verification count
+  - Green: High verification count
 - **Tooltips**:
-  - `[Blockchain Verification Rate %]`
-  - `[Verified Transactions]`
-  - `[Total Transactions]`
+  - `Count of verified transactions`
+  - `Count of total transactions`
 - **Source Tables**: `dw.fact_transaction`
 
 #### 6.2 Transaction Verification Table
@@ -364,7 +362,6 @@ Blockchain-verified transactions and traceability metrics.
   5. `dw.fact_transaction[quantity_kg]`
   6. `dw.fact_transaction[total_amount]`
   7. `dw.fact_transaction[blockchain_hash]` (Truncated to first 16 characters)
-  8. Verification Status (Calculated: "Verified" if hash exists)
 - **Filters**: 
   - `dw.fact_transaction[blockchain_hash]` is not blank
   - Date range slicer
@@ -379,12 +376,12 @@ Blockchain-verified transactions and traceability metrics.
 - **Destination 1**: `dw.dim_product[product_name]`
 - **Destination 2**: `dw.dim_market[market_name]`
 - **Destination 3**: `dw.dim_buyer[buyer_name]`
-- **Weight (Flow Width)**: `[Total Quantity (kg)]`
+- **Weight (Flow Width)**: `Sum of dw.fact_transaction[quantity_kg]`
 - **Color**: `dw.dim_product[category]`
 - **Tooltips**:
   - Source → Destination path
-  - `[Total Quantity (kg)]`
-  - `[Total Revenue]`
+  - `Sum of dw.fact_transaction[quantity_kg]`
+  - `Sum of dw.fact_transaction[total_amount]`
 - **Source Tables**: `dw.fact_transaction`, `dw.dim_farmer`, `dw.dim_product`, `dw.dim_market`, `dw.dim_buyer`
 
 ---
