@@ -874,21 +874,33 @@ python etl_staging_to_dw.py
 
 **Expected output**:
 ```
-2025-12-04 21:00:00 - INFO - Database connection established
-2025-12-04 21:00:01 - INFO - Started ETL job: Full ETL Pipeline (ID: 1)
-2025-12-04 21:00:02 - INFO - Loading dim_date...
-2025-12-04 21:00:03 - INFO - Loaded 4018 rows into dim_date
-2025-12-04 21:00:04 - INFO - Loading dim_farmer...
-2025-12-04 21:00:05 - INFO - Inserted 2000 new farmers into dim_farmer
-2025-12-04 21:00:06 - INFO - Loading dim_product...
-2025-12-04 21:00:07 - INFO - Inserted 100 products into dim_product
-2025-12-04 21:00:08 - INFO - Loading dim_market...
-2025-12-04 21:00:09 - INFO - Inserted 200 markets into dim_market
-2025-12-04 21:00:10 - INFO - Loading fact_transaction...
-2025-12-04 21:00:15 - INFO - Inserted 10000 transactions into fact_transaction
-2025-12-04 21:00:16 - INFO - ETL job completed with status: Success
-2025-12-04 21:00:16 - INFO - ETL pipeline completed successfully. Total rows inserted: 12300
-2025-12-04 21:00:16 - INFO - Database connection closed
+2025-12-06 16:42:01 - INFO - Database connection established
+2025-12-06 16:42:01 - INFO - Started ETL job: Full ETL Pipeline (ID: 10)
+2025-12-06 16:42:01 - INFO - Loading dim_date...
+2025-12-06 16:42:01 - INFO - dim_date already loaded, skipping
+2025-12-06 16:42:01 - INFO - Loading dim_farmer...
+2025-12-06 16:42:02 - INFO - Inserted 2000 new farmers into dim_farmer
+2025-12-06 16:42:02 - INFO - Loading dim_product...
+2025-12-06 16:42:02 - INFO - Inserted 100 products into dim_product
+2025-12-06 16:42:02 - INFO - Loading dim_market...
+2025-12-06 16:42:03 - INFO - Inserted 200 markets into dim_market
+2025-12-06 16:42:03 - INFO - Loading dim_buyer...
+2025-12-06 16:42:03 - INFO - Inserted 500 buyers into dim_buyer
+2025-12-06 16:42:03 - INFO - Loading dim_location...
+2025-12-06 16:42:03 - INFO - Inserted 175 locations into dim_location
+2025-12-06 16:42:03 - INFO - Loading fact_transaction...
+2025-12-06 16:42:03 - INFO - Inserted 15000 transactions into fact_transaction
+2025-12-06 16:42:04 - INFO - Loading fact_harvest...
+2025-12-06 16:42:04 - INFO - Inserted 6000 harvests into fact_harvest
+2025-12-06 16:42:04 - INFO - Loading fact_pricing...
+2025-12-06 16:42:04 - INFO - Inserted 12000 pricing records into fact_pricing
+2025-12-06 16:42:04 - INFO - Loading fact_weather...
+2025-12-06 16:42:04 - INFO - Inserted 5840 weather records into fact_weather
+2025-12-06 16:42:04 - INFO - Loading fact_subsidy...
+2025-12-06 16:42:04 - INFO - Inserted 1000 subsidy records into fact_subsidy
+2025-12-06 16:42:04 - INFO - ETL job completed with status: Success
+2025-12-06 16:42:04 - INFO - ETL pipeline completed successfully. Total rows inserted: 42815
+2025-12-06 16:42:04 - INFO - Database connection closed
 ```
 
 **Time**: 15-30 seconds
@@ -900,25 +912,29 @@ python etl_staging_to_dw.py
 **Check dimension row counts**:
 
 ```powershell
-psql -U postgres -d agri_dw
-```
-
-```sql
-SELECT 'DimDate' as dimension, COUNT(*) FROM dw.dim_date
-UNION ALL SELECT 'DimFarmer', COUNT(*) FROM dw.dim_farmer WHERE is_current = TRUE
-UNION ALL SELECT 'DimProduct', COUNT(*) FROM dw.dim_product WHERE is_current = TRUE
-UNION ALL SELECT 'DimMarket', COUNT(*) FROM dw.dim_market WHERE is_current = TRUE
-UNION ALL SELECT 'FactTransaction', COUNT(*) FROM dw.fact_transaction;
+# We have a script for this!
+cd c:\Users\batzt\Desktop\agric_dw\scripts\etl
+python verify_dw_counts.py
 ```
 
 **Expected result**:
-| dimension       | count |
-|-----------------|-------|
-| DimDate         | 4018  |
-| DimFarmer       | 2000  |
-| DimProduct      | 100   |
-| DimMarket       | 200   |
-| FactTransaction | 10000 |
+```
+DW Row Counts:
+====================
+dim_buyer: 500
+dim_date: 4018
+dim_farmer: 2000
+dim_location: 175
+dim_market: 200
+dim_payment_method: 5
+dim_product: 100
+dim_quality: 3
+fact_harvest: 6000
+fact_pricing: 12000
+fact_subsidy: 1000
+fact_transaction: 15000
+fact_weather: 5840
+```
 
 **Check ETL audit log**:
 ```sql
