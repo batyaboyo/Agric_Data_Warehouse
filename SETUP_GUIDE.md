@@ -323,59 +323,92 @@ You should now see:
 
 ---
 
-### 3.2 Create the Database
+### 3.2 Create the Database Using pgAdmin
 
-**Option 1: Using SQL Script (Recommended)**
+**Step 1: Create Empty Database**
 
-1. **Open PowerShell** (doesn't need to be Administrator):
-   ```powershell
-   cd c:\Users\batzt\Desktop\agric_dw
-   ```
+1. In pgAdmin, in the left sidebar, expand **"Servers"** → **"PostgreSQL 15"** (or your version)
+2. Right-click **"Databases"**
+3. Select **"Create"** → **"Database..."**
+4. In the dialog:
+   - **Database name**: `agri_dw`
+   - **Owner**: `postgres` (should be default)
+   - Leave other settings as default
+5. Click **"Save"**
 
-2. **Run database creation script**:
-   ```powershell
-   psql -U postgres -f sql/ddl/01_create_database.sql
-   ```
+You should now see `agri_dw` in the databases list.
 
-3. **Enter password** when prompted (the postgres password you set)
+**Step 2: Run Database Setup Script**
 
-4. **Expected output**:
-   ```
-   CREATE DATABASE
-   CREATE SCHEMA
-   CREATE SCHEMA
-   CREATE SCHEMA
-   CREATE EXTENSION
-   CREATE EXTENSION
-   CREATE TABLE
-   CREATE TABLE
-   ========================================
-   Database 'agri_dw' created successfully!
-   ========================================
-   ```
+1. Right-click the new **`agri_dw`** database
+2. Select **"Query Tool"**
+3. In the Query Tool window:
+   - Click the **folder icon** (📁 "Open File") in the toolbar
+   - Navigate to: `c:\Users\batzt\Desktop\agric_dw\sql\ddl\`
+   - Select: **`01_create_database.sql`**
+   - Click **"Open"**
+4. The SQL script will load in the editor
+5. Click the **"Execute/Refresh"** button (▶️ icon) or press **F5**
 
-**Option 2: Using pgAdmin (If psql command doesn't work)**
+**Expected Output** (in the "Messages" tab at bottom):
+```
+CREATE SCHEMA
+CREATE SCHEMA
+CREATE SCHEMA
+CREATE EXTENSION
+CREATE EXTENSION
+CREATE TABLE
+CREATE TABLE
+CREATE INDEX
+CREATE INDEX
+GRANT
+GRANT
+NOTICE:  ========================================
+NOTICE:  Database agri_dw created successfully!
+NOTICE:  Schemas created: staging, dw, audit
+NOTICE:  Extensions enabled: uuid-ossp, pgcrypto
+NOTICE:  ========================================
 
-1. In pgAdmin, right-click "Databases"
-2. Select "Create" → "Database"
-3. Name: `agri_dw`
-4. Click "Save"
-5. Right-click the new `agri_dw` database
-6. Select "Query Tool"
-7. Open file: `sql/ddl/01_create_database.sql`
-8. Click the "Execute" button (▶️ icon)
+Query returned successfully in XXX msec.
+```
+
+**Verify**:
+1. In left sidebar, expand **`agri_dw`** database
+2. Expand **"Schemas"**
+3. You should see:
+   - `audit`
+   - `dw`
+   - `public`
+   - `staging`
+
+---
+
+**Alternative: Using Command Line (Advanced Users)**
+
+If you prefer command line:
+
+```powershell
+cd c:\Users\batzt\Desktop\agric_dw
+psql -U postgres -f sql/ddl/01_create_database.sql
+```
+
+**Note**: This won't work as-is because the script contains `\c` command. Use pgAdmin method above instead.
 
 ---
 
 ### 3.3 Create Staging Tables
 
-**Run the staging tables script**:
+**Using pgAdmin Query Tool**:
 
-```powershell
-psql -U postgres -d agri_dw -f sql/ddl/02_staging_tables.sql
-```
+1. In the Query Tool (should still be open from previous step)
+   - If closed: Right-click **`agri_dw`** database → Select **"Query Tool"**
+2. Click the **folder icon** (📁 "Open File")
+3. Navigate to: `c:\Users\batzt\Desktop\agric_dw\sql\ddl\`
+4. Select: **`02_staging_tables.sql`**
+5. Click **"Open"**
+6. Click the **"Execute/Refresh"** button (▶️ icon) or press **F5**
 
-**Expected output**:
+**Expected Output**:
 ```
 CREATE TABLE
 CREATE TABLE
@@ -383,102 +416,128 @@ CREATE TABLE
 CREATE INDEX
 CREATE INDEX
 ... (multiple indexes)
-========================================
-Staging tables created successfully!
-Tables: farmers, products, markets, buyers, transactions, harvests, pricing, weather, subsidies
-========================================
+NOTICE:  ========================================
+NOTICE:  Staging tables created successfully!
+NOTICE:  Tables: farmers, products, markets, buyers, transactions, harvests, pricing, weather, subsidies
+NOTICE:  ========================================
+
+Query returned successfully in XXX msec.
 ```
 
 **Verify in pgAdmin**:
-1. In pgAdmin, expand `agri_dw` database
-2. Expand "Schemas"
-3. Expand "staging"
-4. Expand "Tables"
+1. In left sidebar, expand **`agri_dw`** database
+2. Expand **"Schemas"**
+3. Expand **"staging"**
+4. Expand **"Tables"**
 5. You should see 9 tables:
-   - stg_farmers
-   - stg_products
-   - stg_markets
-   - stg_buyers
-   - stg_transactions
-   - stg_harvests
-   - stg_pricing
-   - stg_weather
-   - stg_subsidies
+   - `stg_farmers`
+   - `stg_products`
+   - `stg_markets`
+   - `stg_buyers`
+   - `stg_transactions`
+   - `stg_harvests`
+   - `stg_pricing`
+   - `stg_weather`
+   - `stg_subsidies`
+
+**Alternative (Command Line)**:
+```powershell
+psql -U postgres -d agri_dw -f sql/ddl/02_staging_tables.sql
+```
 
 ---
 
 ### 3.4 Create Dimension Tables
 
-**Run the dimension tables script**:
+**Using pgAdmin Query Tool**:
 
-```powershell
-psql -U postgres -d agri_dw -f sql/ddl/03_dimension_tables.sql
-```
+1. In the Query Tool, click the **folder icon** (📁 "Open File")
+2. Navigate to: `c:\Users\batzt\Desktop\agric_dw\sql\ddl\`
+3. Select: **`03_dimension_tables.sql`**
+4. Click **"Open"**
+5. Click the **"Execute/Refresh"** button (▶️ icon) or press **F5**
 
-**Expected output**:
+**Expected Output**:
 ```
 CREATE TABLE
 ... (8 times for 8 dimension tables)
 INSERT 0 5  (payment methods)
 INSERT 0 3  (quality grades)
-========================================
-Dimension tables created successfully!
-Tables: dim_date, dim_farmer, dim_product, dim_market, dim_buyer, dim_location, dim_payment_method, dim_quality
-SCD Type 2 implemented for: farmer, product, market, buyer
-========================================
+NOTICE:  ========================================
+NOTICE:  Dimension tables created successfully!
+NOTICE:  Tables: dim_date, dim_farmer, dim_product, dim_market, dim_buyer, dim_location, dim_payment_method, dim_quality
+NOTICE:  SCD Type 2 implemented for: farmer, product, market, buyer
+NOTICE:  ========================================
+
+Query returned successfully in XXX msec.
 ```
 
 **Verify in pgAdmin**:
-1. Expand "dw" schema
-2. Expand "Tables"
-3. You should see 8 tables starting with `dim_`
+1. In left sidebar, expand **"dw"** schema
+2. Expand **"Tables"**
+3. You should see 8 tables starting with `dim_`:
+   - `dim_buyer`
+   - `dim_date`
+   - `dim_farmer`
+   - `dim_location`
+   - `dim_market`
+   - `dim_payment_method`
+   - `dim_product`
+   - `dim_quality`
+
+**Alternative (Command Line)**:
+```powershell
+psql -U postgres -d agri_dw -f sql/ddl/03_dimension_tables.sql
+```
 
 ---
 
 ### 3.5 Create Fact Tables
 
-**Run the fact tables script**:
+**Using pgAdmin Query Tool**:
 
-```powershell
-psql -U postgres -d agri_dw -f sql/ddl/04_fact_tables.sql
-```
+1. In the Query Tool, click the **folder icon** (📁 "Open File")
+2. Navigate to: `c:\Users\batzt\Desktop\agric_dw\sql\ddl\`
+3. Select: **`04_fact_tables.sql`**
+4. Click **"Open"**
+5. Click the **"Execute/Refresh"** button (▶️ icon) or press **F5**
 
-**Expected output**:
+**Expected Output**:
 ```
 CREATE TABLE
 ... (4 times for 4 fact tables + 1 summary)
-========================================
-Fact tables created successfully!
-Tables: fact_transaction, fact_harvest, fact_pricing, fact_subsidy
-Summary table: fact_transaction_daily_summary
-========================================
+NOTICE:  ========================================
+NOTICE:  Fact tables created successfully!
+NOTICE:  Tables: fact_transaction, fact_harvest, fact_pricing, fact_subsidy
+NOTICE:  Summary table: fact_transaction_daily_summary
+NOTICE:  ========================================
+
+Query returned successfully in XXX msec.
 ```
 
 **Verify in pgAdmin**:
-1. In "dw" schema → "Tables"
-2. You should see 4 tables starting with `fact_`
+1. In **"dw"** schema → **"Tables"**
+2. You should see 5 tables starting with `fact_`:
+   - `fact_harvest`
+   - `fact_pricing`
+   - `fact_subsidy`
+   - `fact_transaction`
+   - `fact_transaction_daily_summary`
+
+**Alternative (Command Line)**:
+```powershell
+psql -U postgres -d agri_dw -f sql/ddl/04_fact_tables.sql
+```
 
 ---
 
 ### 3.6 Verify Complete Database Structure
 
-**Check all tables exist**:
+**Using pgAdmin Query Tool**:
 
-```powershell
-psql -U postgres -d agri_dw -c "\dt staging.*"
-psql -U postgres -d agri_dw -c "\dt dw.*"
-psql -U postgres -d agri_dw -c "\dt audit.*"
-```
-
-**Expected counts**:
-- Staging: 9 tables
-- DW: 12 tables (8 dimensions + 4 facts)
-- Audit: 2 tables
-
-**In pgAdmin**:
-1. Right-click `agri_dw` database
-2. Select "Query Tool"
-3. Run this query:
+1. In the Query Tool (should still be open)
+2. **Clear the editor** (Ctrl+A, then Delete)
+3. **Copy and paste** this verification query:
    ```sql
    SELECT 
        schemaname,
@@ -488,13 +547,31 @@ psql -U postgres -d agri_dw -c "\dt audit.*"
    GROUP BY schemaname
    ORDER BY schemaname;
    ```
+4. Click the **"Execute/Refresh"** button (▶️ icon) or press **F5**
 
-Expected result:
+**Expected Result** (in the "Data Output" tab):
 | schemaname | table_count |
 |------------|-------------|
 | audit      | 2           |
-| dw         | 12          |
+| dw         | 13          |
 | staging    | 9           |
+
+**Total: 24 tables created!**
+
+**Visual Verification in pgAdmin**:
+1. In left sidebar, right-click **`agri_dw`** database
+2. Select **"Refresh"**
+3. Expand each schema and count tables:
+   - **staging**: 9 tables (stg_*)
+   - **dw**: 13 tables (8 dim_* + 5 fact_*)
+   - **audit**: 2 tables (etl_execution_log, data_quality_log)
+
+---
+
+**Alternative (Command Line)**:
+```powershell
+psql -U postgres -d agri_dw -c "SELECT schemaname, COUNT(*) as table_count FROM pg_tables WHERE schemaname IN ('staging', 'dw', 'audit') GROUP BY schemaname ORDER BY schemaname;"
+```
 
 ---
 
