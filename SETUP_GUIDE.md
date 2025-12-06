@@ -679,57 +679,116 @@ Or open in Excel/VS Code to inspect.
 
 ### 4.4 Load Data into Staging Tables
 
-**Option 1: Using COPY Command (Fastest)**
+**Using pgAdmin Import/Export Tool (Recommended for GUI users)**
+
+pgAdmin has a built-in Import/Export tool that makes loading CSV files easy:
+
+**Step 1: Load Farmers Data**
+
+1. In pgAdmin, expand **`agri_dw`** → **Schemas** → **staging** → **Tables**
+2. Right-click on **`stg_farmers`** table
+3. Select **"Import/Export Data..."**
+4. In the dialog:
+   - **Import/Export**: Select **"Import"**
+   - **Filename**: Click the folder icon and browse to:
+     `c:\Users\batzt\Desktop\agric_dw\data\farmers.csv`
+   - **Format**: Select **"csv"**
+   - **Header**: Toggle **ON** (✅)
+   - **Delimiter**: `,` (comma)
+   - **Quote**: `"` (double quote)
+   - **Escape**: `"` (double quote)
+5. Click **"OK"**
+6. Wait for import to complete (should show "2000 rows imported")
+
+**Step 2: Load Products Data**
+
+1. Right-click **`stg_products`** table
+2. Select **"Import/Export Data..."**
+3. Configure:
+   - **Import/Export**: **"Import"**
+   - **Filename**: `c:\Users\batzt\Desktop\agric_dw\data\products.csv`
+   - **Format**: **"csv"**
+   - **Header**: **ON** (✅)
+4. Click **"OK"**
+5. Should import 100 rows
+
+**Step 3: Load Markets Data**
+
+1. Right-click **`stg_markets`** table
+2. Select **"Import/Export Data..."**
+3. Configure:
+   - **Import/Export**: **"Import"**
+   - **Filename**: `c:\Users\batzt\Desktop\agric_dw\data\markets.csv`
+   - **Format**: **"csv"**
+   - **Header**: **ON** (✅)
+4. Click **"OK"**
+5. Should import 200 rows
+
+**Step 4: Load Transactions Data**
+
+1. Right-click **`stg_transactions`** table
+2. Select **"Import/Export Data..."**
+3. Configure:
+   - **Import/Export**: **"Import"**
+   - **Filename**: `c:\Users\batzt\Desktop\agric_dw\data\transactions.csv`
+   - **Format**: **"csv"**
+   - **Header**: **ON** (✅)
+4. Click **"OK"**
+5. Should import 10,000 rows (may take 10-20 seconds)
+
+**Step 5: Load Pricing Data**
+
+1. Right-click **`stg_pricing`** table
+2. Select **"Import/Export Data..."**
+3. Configure:
+   - **Import/Export**: **"Import"**
+   - **Filename**: `c:\Users\batzt\Desktop\agric_dw\data\pricing.csv`
+   - **Format**: **"csv"**
+   - **Header**: **ON** (✅)
+4. Click **"OK"**
+5. Should import 18,250 rows (may take 20-30 seconds)
+
+**Expected Results:**
+- ✅ Farmers: 2,000 rows
+- ✅ Products: 100 rows
+- ✅ Markets: 200 rows
+- ✅ Transactions: 10,000 rows
+- ✅ Pricing: 18,250 rows
+- **Total: 30,550 rows loaded!**
+
+---
+
+**Alternative: Using Command Line (Advanced Users)**
+
+If you prefer command line or the GUI import fails:
+
+**Option A: Using psql with \copy command**
 
 ```powershell
-# Navigate back to project root
-cd c:\Users\batzt\Desktop\agric_dw
-
 # Open psql
 psql -U postgres -d agri_dw
 ```
 
 In the psql prompt, run:
 ```sql
--- Load farmers
 \copy staging.stg_farmers FROM 'c:/Users/batzt/Desktop/agric_dw/data/farmers.csv' WITH CSV HEADER;
-
--- Load products
 \copy staging.stg_products FROM 'c:/Users/batzt/Desktop/agric_dw/data/products.csv' WITH CSV HEADER;
-
--- Load markets
 \copy staging.stg_markets FROM 'c:/Users/batzt/Desktop/agric_dw/data/markets.csv' WITH CSV HEADER;
-
--- Load transactions
 \copy staging.stg_transactions FROM 'c:/Users/batzt/Desktop/agric_dw/data/transactions.csv' WITH CSV HEADER;
-
--- Load pricing
 \copy staging.stg_pricing FROM 'c:/Users/batzt/Desktop/agric_dw/data/pricing.csv' WITH CSV HEADER;
-
--- Exit psql
 \q
 ```
 
-**Expected output for each COPY**:
-```
-COPY 2000  (for farmers)
-COPY 100   (for products)
-COPY 200   (for markets)
-COPY 10000 (for transactions)
-COPY 18250 (for pricing)
-```
-
-**Option 2: Using SQL INSERT Files**
+**Option B: Using SQL INSERT files (slowest but most compatible)**
 
 ```powershell
+cd c:\Users\batzt\Desktop\agric_dw
 psql -U postgres -d agri_dw -f data/farmers_insert.sql
 psql -U postgres -d agri_dw -f data/products_insert.sql
 psql -U postgres -d agri_dw -f data/markets_insert.sql
 psql -U postgres -d agri_dw -f data/transactions_insert.sql
 psql -U postgres -d agri_dw -f data/pricing_insert.sql
 ```
-
-**Note**: This is slower than COPY but works if COPY has issues.
 
 ---
 
