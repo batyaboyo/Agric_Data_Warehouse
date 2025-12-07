@@ -245,20 +245,19 @@ SPEAKER NOTES:
 
 **"The Trust Layer"**
 
--   **Feature**: **Sankey Diagram** (Farm → Product → Market → Buyer).
+-   **Adoption Trend**: Area chart showing the steady increase in verifyied transactions over time.
+-   **Regional Map**: Geographic heatmap showing which districts have the highest blockchain adoption.
+-   **Verification by Product**: Identifying which crops (e.g., Coffee) are leading the transparency drive.
 -   **Metric**: **92%** Blockchain Verification Rate.
--   **Function**: 
-    -   Click a transaction to see its Hash.
-    -   Verify the path of the product through the supply chain.
 
-**Innovation**: Custom SQL View created to support the complex flow visualization.
+**Insight**: Provenance tracking is highest in high-value export crops like Coffee and Vanilla.
 
 <!--
 SPEAKER NOTES:
 - This is unique to our project.
-- The Sankey diagram visually flows the product from left to right.
-- You can literally see the supply chain.
-- The 92% verification rate is a key KPI for trust.
+- We track adoption trends to see if farmers are actually using the blockchain features.
+- The map shows us where trust is established.
+- The 92% verification rate is a key KPI.
 -->
 
 ---
