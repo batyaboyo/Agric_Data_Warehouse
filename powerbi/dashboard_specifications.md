@@ -336,22 +336,56 @@ Blockchain-verified transactions and traceability metrics.
 
 ### Visualizations
 
-#### 6.1 Blockchain Verification Rate (Gauge)
+#### 6.1 Trust & Traceability KPIs (Multi-Row Card)
 
-- **Visual Type**: Gauge
-- **Value**: `Count of dw.fact_transaction[transaction_id]` (Filtered by `blockchain_hash` is not null)
-- **Target**: `Count of dw.fact_transaction[transaction_id]` (Total)
-- **Minimum**: 0
-- **Maximum**: `Count of dw.fact_transaction[transaction_id]`
-- **Color Coding**: 
-  - Red: Low verification count
-  - Green: High verification count
+- **Visual Type**: Multi-Row Card
+- **Fields**:
+  - `[Blockchain Verification Rate %]`
+  - `[Verified Transactions]`
+  - `[Active Farmers]` (with Blockchain Wallets)
+  - `[Total Revenue]` (Verified only)
+- **Styling**: Large font, clean layout, "Verified" badge styling.
+- **Source Tables**: `dw.fact_transaction`, `dw.dim_farmer`
+
+#### 6.2 Blockchain Adoption Trend (Area Chart)
+
+- **Visual Type**: Stacked Area Chart
+- **X-Axis**: `dw.dim_date[month]` and `dw.dim_date[year]`
+- **Y-Axis**: `[Total Transactions]`
+- **Legend**: `dw.fact_transaction[blockchain_hash]` (Grouped as "Verified" vs "Unverified")
+  - *Note*: Create a calculated column `Verification Status = IF(ISBLANK(blockchain_hash), "Unverified", "Verified")`
 - **Tooltips**:
-  - `Count of verified transactions`
-  - `Count of total transactions`
-- **Source Tables**: `dw.fact_transaction`
+  - `dw.dim_date[full_date]`
+  - `[Verification Rate %]`
+  - `[Verified Transactions]`
+- **Source Tables**: `dw.fact_transaction`, `dw.dim_date`
 
-#### 6.2 Transaction Verification Table
+#### 6.3 Verification by Product Category (Clustered Bar Chart)
+
+- **Visual Type**: Clustered Bar Chart
+- **Y-Axis (Categories)**: `dw.dim_product[category]`
+- **X-Axis (Values)**: `[Testing/Verification Rate %]` (or simply count of verified)
+- **Legend**: `Verification Status`
+- **Data Labels**: On
+- **Tooltips**:
+  - `dw.dim_product[category]`
+  - `[Total Transactions]`
+  - `[Verified Transactions]`
+- **Source Tables**: `dw.fact_transaction`, `dw.dim_product`
+
+#### 6.4 Provenance Map (Map)
+
+- **Visual Type**: Map
+- **Location**: `dw.dim_market[district]`
+- **Bubble Size**: `[Verified Transactions]`
+- **Bubble Color**: Green (High verification), Red (Low verification) - using Rule-based formatting on Rate %.
+- **Tooltips**:
+  - District Name
+  - Verification Rate %
+  - Top Verified Product
+- **Source Tables**: `dw.fact_transaction`, `dw.dim_market`
+
+#### 6.5 Live Transaction Ledger (Table)
 
 - **Visual Type**: Table
 - **Columns**:
@@ -359,31 +393,10 @@ Blockchain-verified transactions and traceability metrics.
   2. `dw.dim_date[full_date]`
   3. `dw.dim_farmer[full_name]`
   4. `dw.dim_product[product_name]`
-  5. `dw.fact_transaction[quantity_kg]`
-  6. `dw.fact_transaction[total_amount]`
-  7. `dw.fact_transaction[blockchain_hash]` (Truncated to first 16 characters)
-- **Filters**: 
-  - `dw.fact_transaction[blockchain_hash]` is not blank
-  - Date range slicer
-  - Product filter
-  - Farmer filter
-- **Source Tables**: `dw.fact_transaction`, `dw.dim_date`, `dw.dim_farmer`, `dw.dim_product`
-
-#### 6.3 Farm-to-Market Journey (Sankey Diagram)
-
-- **Visual Type**: Sankey Diagram (Custom Visual)
-- **Data Source**: `dw.view_supply_chain_sankey` (New SQL View)
-- **Source**: `source_node`
-- **Destination**: `target_node`
-- **Weight**: `total_quantity`
-- **Tooltips**:
-  - `flow_stage`
-  - `total_quantity`
-  - `total_value`
-  - `transaction_count`
-- **Notes**: 
-  - This visual relies on a dedicated view to structure the data into source-target pairs.
-  - Limits data to blockchain-verified transactions only.
+  5. `Verification Status` (Icon/Indicator)
+  6. `dw.fact_transaction[blockchain_hash]`
+- **Filters**: Sort by Date Descending
+- **Source Tables**: `dw.fact_transaction`, `dw.dim_date`, `dw.dim_farmer`
 
 ---
 
