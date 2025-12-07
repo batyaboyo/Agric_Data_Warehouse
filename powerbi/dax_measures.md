@@ -1,15 +1,11 @@
--- ============================================================
--- DAX Measures for Power BI
--- Agricultural Supply Chain Data Warehouse
--- ============================================================
--- Copy these measures into Power BI Desktop individually
--- using the "New Measure" button.
--- ============================================================
+# DAX Measures for Power BI
+## Agricultural Supply Chain Data Warehouse
 
--- ============================================================
--- REVENUE METRICS
--- ============================================================
+Copy these measures into Power BI Desktop individually using the "New Measure" button.
 
+### Revenue Metrics
+
+```dax
 Total Revenue = SUM('dw.fact_transaction'[total_amount])
 
 Total Revenue YTD = 
@@ -49,11 +45,11 @@ DIVIDE(
 
 Average Transaction Value = 
 AVERAGE('dw.fact_transaction'[total_amount])
+```
 
--- ============================================================
--- VOLUME METRICS
--- ============================================================
+### Volume Metrics
 
+```dax
 Total Quantity (kg) = SUM('dw.fact_transaction'[quantity_kg])
 
 Total Transactions = COUNT('dw.fact_transaction'[transaction_id])
@@ -67,11 +63,11 @@ DIVIDE(
 
 Average Quantity per Transaction = 
 AVERAGE('dw.fact_transaction'[quantity_kg])
+```
 
--- ============================================================
--- FARMER METRICS
--- ============================================================
+### Farmer Metrics
 
+```dax
 Active Farmers = 
 DISTINCTCOUNT('dw.fact_transaction'[farmer_key])
 
@@ -107,11 +103,11 @@ DIVIDE(
     [Active Farmers],
     0
 )
+```
 
--- ============================================================
--- MARKET METRICS
--- ============================================================
+### Market Metrics
 
+```dax
 Active Markets = 
 DISTINCTCOUNT('dw.fact_transaction'[market_key])
 
@@ -135,11 +131,11 @@ FIRSTNONBLANK(
     ),
     1
 )
+```
 
--- ============================================================
--- PRODUCT METRICS
--- ============================================================
+### Product Metrics
 
+```dax
 Active Products = 
 DISTINCTCOUNT('dw.fact_transaction'[product_key])
 
@@ -162,11 +158,11 @@ RANKX(
     DESC,
     DENSE
 )
+```
 
--- ============================================================
--- QUALITY METRICS
--- ============================================================
+### Quality Metrics
 
+```dax
 Premium Quality % = 
 DIVIDE(
     CALCULATE(
@@ -202,11 +198,11 @@ AVERAGEX(
     'dw.fact_transaction',
     RELATED('dw.dim_quality'[quality_score])
 )
+```
 
--- ============================================================
--- PAYMENT METRICS
--- ============================================================
+### Payment Metrics
 
+```dax
 Mobile Money Revenue = 
 CALCULATE(
     [Total Revenue],
@@ -245,11 +241,11 @@ DIVIDE(
     [Total Transactions],
     0
 ) * 100
+```
 
--- ============================================================
--- BLOCKCHAIN METRICS
--- ============================================================
+### Blockchain Metrics
 
+```dax
 Blockchain Verification Rate % = 
 DIVIDE(
     CALCULATE(
@@ -271,11 +267,11 @@ CALCULATE(
     [Total Transactions],
     ISBLANK('dw.fact_transaction'[blockchain_hash])
 )
+```
 
--- ============================================================
--- REGIONAL METRICS
--- ============================================================
+### Regional Metrics
 
+```dax
 Central Region Revenue = 
 CALCULATE(
     [Total Revenue],
@@ -299,11 +295,11 @@ CALCULATE(
     [Total Revenue],
     'dw.dim_farmer'[region] = "Western"
 )
+```
 
--- ============================================================
--- COMPARATIVE METRICS
--- ============================================================
+### Comparative Metrics
 
+```dax
 Revenue vs Target = 
 VAR TargetRevenue = 1000000000  -- 1 Billion UGX target
 RETURN
@@ -321,11 +317,11 @@ DIVIDE(
     Budget,
     0
 ) * 100
+```
 
--- ============================================================
--- TREND INDICATORS
--- ============================================================
+### Trend Indicators
 
+```dax
 Revenue Trend Indicator = 
 IF(
     [Revenue MoM Growth %] > 0,
@@ -336,21 +332,20 @@ IF(
         "■ Stable"
     )
 )
+```
 
--- ============================================================
--- CALCULATED COLUMNS (Use sparingly - prefer measures)
--- ============================================================
+### Calculated Columns (Reference)
 
--- These should be created in Power BI on the respective tables
+*Create these in Power BI on the respective tables*
 
--- On fact_transaction table:
--- Transaction Month = FORMAT(fact_transaction[transaction_timestamp], "YYYY-MM")
--- Transaction Year = YEAR(fact_transaction[transaction_timestamp])
--- Transaction Quarter = "Q" & QUARTER(fact_transaction[transaction_timestamp])
+**On fact_transaction table:**
+```dax
+Transaction Month = FORMAT('dw.fact_transaction'[transaction_timestamp], "YYYY-MM")
+Transaction Year = YEAR('dw.fact_transaction'[transaction_timestamp])
+Transaction Quarter = "Q" & QUARTER('dw.fact_transaction'[transaction_timestamp])
+```
 
--- On dim_farmer table:
--- Farmer Age = DATEDIFF(dim_farmer[date_of_birth], TODAY(), YEAR)
-
--- ============================================================
--- END OF DAX MEASURES
--- ============================================================
+**On dim_farmer table:**
+```dax
+Farmer Age = DATEDIFF('dw.dim_farmer'[date_of_birth], TODAY(), YEAR)
+```
