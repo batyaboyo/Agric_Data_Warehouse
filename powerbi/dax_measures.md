@@ -3,11 +3,19 @@
 
 Copy these measures into Power BI Desktop individually using the "New Measure" button.
 
-### Revenue Metrics
+### Base Metrics (Create These First)
 
 ```dax
 Total Revenue = SUM('dw.fact_transaction'[total_amount])
 
+Transaction Count = SUM('dw.fact_transaction'[transaction_count])
+
+Total Quantity (kg) = SUM('dw.fact_transaction'[quantity_kg])
+```
+
+### Revenue Metrics
+
+```dax
 Total Revenue YTD = 
 TOTALYTD([Total Revenue], 'dw.dim_date'[full_date])
 
@@ -50,10 +58,6 @@ AVERAGE('dw.fact_transaction'[total_amount])
 ### Volume Metrics
 
 ```dax
-Total Quantity (kg) = SUM('dw.fact_transaction'[quantity_kg])
-
-Total Transactions = COUNT('dw.fact_transaction'[transaction_id])
-
 Average Price per kg = 
 DIVIDE(
     [Total Revenue],
@@ -99,7 +103,7 @@ DIVIDE(
 
 Average Transactions per Farmer = 
 DIVIDE(
-    [Total Transactions],
+    [Transaction Count],
     [Active Farmers],
     0
 )
@@ -235,10 +239,10 @@ DIVIDE(
 Payment Success Rate % = 
 DIVIDE(
     CALCULATE(
-        [Total Transactions],
+        [Transaction Count],
         'dw.fact_transaction'[payment_status] = "Paid"
     ),
-    [Total Transactions],
+    [Transaction Count],
     0
 ) * 100
 ```
@@ -249,22 +253,22 @@ DIVIDE(
 Blockchain Verification Rate % = 
 DIVIDE(
     CALCULATE(
-        [Total Transactions],
+        [Transaction Count],
         NOT(ISBLANK('dw.fact_transaction'[blockchain_hash]))
     ),
-    [Total Transactions],
+    [Transaction Count],
     0
 ) * 100
 
 Verified Transactions = 
 CALCULATE(
-    [Total Transactions],
+    [Transaction Count],
     NOT(ISBLANK('dw.fact_transaction'[blockchain_hash]))
 )
 
 Unverified Transactions = 
 CALCULATE(
-    [Total Transactions],
+    [Transaction Count],
     ISBLANK('dw.fact_transaction'[blockchain_hash])
 )
 ```
