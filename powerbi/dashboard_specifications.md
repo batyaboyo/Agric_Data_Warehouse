@@ -335,10 +335,12 @@ Financial metrics, payment methods, and revenue analysis.
 Blockchain-verified transactions and traceability metrics using standard visuals (No DAX required).
 
 ### Prerequisite: Calculated Column
-Create this **Calculated Column** on the `dw.fact_transaction` table to enable grouping:
+Create this **Calculated Column** on the `fact_transaction` table (check your exact table name in the Fields pane):
+
 ```dax
-Verification Status = IF(ISBLANK('dw.fact_transaction'[blockchain_hash]), "Unverified", "Verified")
+Verification Status = IF(ISBLANK('fact_transaction'[blockchain_hash]), "Unverified", "Verified")
 ```
+*Note: If your table is named `dw.fact_transaction`, use `'dw.fact_transaction'[blockchain_hash]`.*
 
 ### Visualizations
 
@@ -380,6 +382,8 @@ Verification Status = IF(ISBLANK('dw.fact_transaction'[blockchain_hash]), "Unver
 
 - **Visual Type**: Map (or Filled Map)
 - **Location**: `dw.dim_market[district]`
+- **Latitude**: `dw.dim_market[gps_latitude]`
+- **Longitude**: `dw.dim_market[gps_longitude]`
 - **Bubble Size**: `dw.fact_transaction[transaction_id]` (Count)
 - **Filter (On Visual)**: `dw.fact_transaction[blockchain_hash]` is **Not Blank**
 - **Tooltip**: Count of Verified Transactions
