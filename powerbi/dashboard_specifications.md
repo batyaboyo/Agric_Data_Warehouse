@@ -327,6 +327,84 @@ Financial metrics, payment methods, and revenue analysis.
   - Conversion Rate (%)
 - **Source Tables**: `dw.fact_transaction`
 
+---
 
-**Last Updated**: 2025-12-06  
-**Version**: 2.0
+## 6. Dashboard 5: Supply Chain Traceability
+
+### Purpose
+Blockchain-verified transactions and traceability metrics using standard visuals (No DAX required).
+
+### Prerequisite: Calculated Column
+Create this **Calculated Column** on the `dw.fact_transaction` table to enable grouping:
+```dax
+Verification Status = IF(ISBLANK('dw.fact_transaction'[blockchain_hash]), "Unverified", "Verified")
+```
+
+### Visualizations
+
+#### 6.1 Verified Transactions Card
+
+- **Visual Type**: Card
+- **Field**: `dw.fact_transaction[transaction_id]`
+- **Aggregation**: Count
+- **Filter (On Visual)**: `dw.fact_transaction[blockchain_hash]` is **Not Blank**
+- **Label**: "Verified Transactions"
+
+#### 6.2 Verification Rate (Donut Chart)
+
+- **Visual Type**: Donut Chart
+- **Legend**: `dw.fact_transaction[Verification Status]` (The Calculated Column)
+- **Values**: `dw.fact_transaction[transaction_id]` (Count)
+- **Tooltips**:
+  - Verification Status
+  - Count of transaction_id
+  - % of Total
+
+#### 6.3 Adoption Trend (Stacked Area Chart)
+
+- **Visual Type**: Stacked Area Chart
+- **X-Axis**: `dw.dim_date[month]` and `dw.dim_date[year]`
+- **Y-Axis**: `dw.fact_transaction[transaction_id]` (Count)
+- **Legend**: `dw.fact_transaction[Verification Status]`
+- **Colors**: Green for Verified, Grey for Unverified.
+
+#### 6.4 Top Verified Products (Clustered Bar Chart)
+
+- **Visual Type**: Clustered Bar Chart
+- **Y-Axis**: `dw.dim_product[category]`
+- **X-Axis**: `dw.fact_transaction[transaction_id]` (Count)
+- **Filter (On Visual)**: `dw.fact_transaction[blockchain_hash]` is **Not Blank**
+- **Title**: "Verified Volume by Category"
+
+#### 6.5 Regional Verification Map
+
+- **Visual Type**: Map (or Filled Map)
+- **Location**: `dw.dim_market[district]`
+- **Bubble Size**: `dw.fact_transaction[transaction_id]` (Count)
+- **Filter (On Visual)**: `dw.fact_transaction[blockchain_hash]` is **Not Blank**
+- **Tooltip**: Count of Verified Transactions
+
+#### 6.6 Live Transaction Ledger
+
+- **Visual Type**: Table
+- **Columns**:
+  1. `dw.dim_date[full_date]`
+  2. `dw.dim_farmer[full_name]`
+  3. `dw.dim_product[product_name]`
+  4. `dw.fact_transaction[blockchain_hash]`
+- **Filter (On Visual)**: `dw.fact_transaction[blockchain_hash]` is **Not Blank**
+- **Sort**: Date Descending
+
+---
+
+## 7. Performance Optimization
+
+1. **Referential Integrity**: Ensure all Foreign Keys in `dw.fact_transaction` map successfully to Dimensions to avoid "(Blank)" members.
+2. **Aggregations**: Utilize `dw.fact_transaction_daily_summary` for high-level date/product/market analysis if detail-level performance lags.
+3. **Relationships**: Star schema with single-direction filters from Dimension to Fact.
+4. **Data Types**: Optimize (INTEGER for keys, DECIMAL for measures).
+
+---
+
+**Last Updated**: 2025-12-07  
+**Version**: 2.1
