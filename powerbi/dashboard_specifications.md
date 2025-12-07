@@ -372,17 +372,18 @@ Blockchain-verified transactions and traceability metrics.
 #### 6.3 Farm-to-Market Journey (Sankey Diagram)
 
 - **Visual Type**: Sankey Diagram (Custom Visual)
-- **Source**: `dw.dim_farmer[full_name]`
-- **Destination 1**: `dw.dim_product[product_name]`
-- **Destination 2**: `dw.dim_market[market_name]`
-- **Destination 3**: `dw.dim_buyer[buyer_name]`
-- **Weight (Flow Width)**: `Sum of dw.fact_transaction[quantity_kg]`
-- **Color**: `dw.dim_product[category]`
+- **Data Source**: `dw.view_supply_chain_sankey` (New SQL View)
+- **Source**: `source_node`
+- **Destination**: `target_node`
+- **Weight**: `total_quantity`
 - **Tooltips**:
-  - Source → Destination path
-  - `Sum of dw.fact_transaction[quantity_kg]`
-  - `Sum of dw.fact_transaction[total_amount]`
-- **Source Tables**: `dw.fact_transaction`, `dw.dim_farmer`, `dw.dim_product`, `dw.dim_market`, `dw.dim_buyer`
+  - `flow_stage`
+  - `total_quantity`
+  - `total_value`
+  - `transaction_count`
+- **Notes**: 
+  - This visual relies on a dedicated view to structure the data into source-target pairs.
+  - Limits data to blockchain-verified transactions only.
 
 ---
 
