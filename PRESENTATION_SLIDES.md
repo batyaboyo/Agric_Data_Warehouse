@@ -1,363 +1,363 @@
 # Blockchain-Integrated Agricultural Supply Chain Data Warehouse
-## Presentation Slides (15 Minutes)
+
+**Presentation Slides (15 Minutes)**
 
 ---
 
 ## Slide 1: Title Slide
 
-**A Blockchain-Integrated Agricultural Supply Chain Data Warehouse for Data Transparency and Traceability in Uganda**
+# A Blockchain-Integrated Agricultural Supply Chain Data Warehouse
+## For Data Transparency and Traceability in Uganda
 
-Data Warehousing Final Project  
-December 4, 2025
+**Course**: Data Warehousing  
+**Date**: December 7, 2025  
 
-Team Members: [Your Names]
+**Presented By**:
+- [Student Name 1] (ID: [Number])
+- [Student Name 2] (ID: [Number])
+
+<!--
+SPEAKER NOTES:
+- Welcome everyone.
+- Introduce the topic: addressing the critical lack of data and transparency in Uganda's agriculture.
+- Mention this is our Final Project submission.
+-->
 
 ---
 
 ## Slide 2: Agenda
 
-1. Problem & Justification (2 min)
-2. Solution Architecture (2 min)
-3. Data Warehouse Design (3 min)
-4. Implementation & Data (3 min)
-5. Analytics & Insights (3 min)
-6. Results & Impact (2 min)
+1.  **The Landscape**: Problem & Justification
+2.  **The Architecture**: System Design & Technologies
+3.  **The Core**: Data Warehouse Design (Star Schema)
+4.  **The Engine**: ETL Pipeline & Data Generation
+5.  **The Insights**: Analytics & Power BI Dashboards
+6.  **The Result**: Key Findings & Conclusion
+
+<!--
+SPEAKER NOTES:
+- We will start by defining the problem we are solving.
+- We will explore the technical architecture and the data warehouse design.
+- We will show you how we generated credible data and built the ETL pipeline.
+- Finally, we will demonstrate the dashboards and discuss the impact.
+-->
 
 ---
 
-## Slide 3: The Problem
+## Slide 3: The Problem: Uganda's Agricultural Support Gap
 
-### Uganda's Agricultural Challenges
+**Agriculture employs 70% of Ugandans, yet faces:**
 
-**70% of population** in farming, yet farmers face:
+-   📉 **Unfair Pricing**: Farmers receive 30-50% less than market value due to lack of information.
+-   🔍 **Zero Traceability**: No digital record of produce origin or quality.
+-   💰 **Financial Exclusion**: 85% of farmers cannot access credit due to lack of history.
+-   📊 **Data Vacuum**: Policymakers rely on outdated manual surveys.
 
-- 📉 **Unfair Pricing**: 30-50% below market value
-- 🔍 **No Traceability**: Can't track products farm-to-market
-- 💰 **Financial Exclusion**: 85% lack credit access
-- 📊 **Poor Data**: Manual records, no analytics
+**The Consequence**: Low incomes, food insecurity, and stagnant growth.
 
-**Impact**: Low farmer incomes, food insecurity, limited growth
+<!--
+SPEAKER NOTES:
+- The problem is information asymmetry.
+- Farmers work hard but don't get fair pay because they don't know the market prices.
+- Buyers don't trust the quality because they can't trace the source.
+- Banks don't lend because there are no records.
+-->
 
 ---
 
-## Slide 4: Our Solution
+## Slide 4: Our Solution: The "Truth" Engine
 
-### Blockchain + Data Warehouse = Transparency + Analytics
+### Connecting the dots with Blockchain & Data Warehousing
 
-**Key Components**:
-1. 🗄️ **PostgreSQL Data Warehouse** - Centralized analytics
-2. ⛓️ **Hyperledger Fabric** - Immutable transaction records
-3. 📱 **Mobile App** - Farmer registration & transactions
-4. 📊 **Power BI Dashboards** - Real-time insights
-5. 🔐 **Keycloak** - Digital identity for farmers
+We propose a dual-layer system:
 
-**Result**: Fair pricing, traceability, data-driven decisions
+1.  **Transactional Layer (Blockchain)**:
+    -   Secures trust.
+    -   Records every transaction immutably on **Hyperledger Fabric**.
+    -   Provides verification hashes for traceability.
+
+2.  **Analytical Layer (Data Warehouse)**:
+    -   Unlocks value.
+    -   Centralizes data in **PostgreSQL**.
+    -   Enables deep analysis via **Power BI**.
+
+**Goal**: "From Farm to Fork" transparency and data-driven prosperity.
+
+<!--
+SPEAKER NOTES:
+- We aren't just building a database; we are building a trust engine.
+- Blockchain assures the data is real (immutable).
+- The Data Warehouse makes the data useful (analytical).
+- Combined, they solve the transparency and insight gap.
+-->
 
 ---
 
 ## Slide 5: System Architecture
 
-```
-┌─────────────┐
-│ Data Sources│
-│ (Farmers,   │
-│  Markets,   │
-│  Prices)    │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐     ┌──────────────┐
-│   Kafka     │────▶│  Blockchain  │
-│  Streaming  │     │ (Hyperledger)│
-└──────┬──────┘     └──────────────┘
-       │
-       ▼
-┌─────────────┐
-│  Staging    │
-│   Tables    │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│ ETL Pipeline│
-│ (SCD Type 2)│
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐     ┌──────────────┐
-│Data Warehouse│────▶│  Power BI    │
-│ (Star Schema)│     │  Dashboards  │
-└─────────────┘     └──────────────┘
+*(Placeholder for `diagrams/system_architecture.puml`)*
+
+```mermaid
+graph LR
+    A[Farmers/Markets] -->|Mobile App| B[Kafka Streaming]
+    B -->|Transactions| C[Hyperledger Fabric]
+    B -->|Raw Data| D[Staging DB]
+    C -->|Hashes| D
+    D -->|ETL Process| E[Data Warehouse]
+    E -->|Analytics| F[Power BI Dashboards]
 ```
 
----
+**Key Technologies**:
+-   **ETL**: Python (pandas, psycopg2)
+-   **Storage**: PostgreSQL 15
+-   **Identity**: Keycloak
+-   **Analytics**: Power BI
 
-## Slide 6: Data Warehouse Design - Star Schema
-
-### Fact Tables (4)
-- **FactTransaction** (10,000 rows) - Sales transactions
-- **FactHarvest** - Crop production
-- **FactPricing** (18,250 rows) - Market prices
-- **FactSubsidy** - Government subsidies
-
-### Dimension Tables (8)
-- **DimFarmer** (2,000) - SCD Type 2
-- **DimProduct** (100) - SCD Type 2
-- **DimMarket** (200) - SCD Type 2
-- **DimDate** (4,018) - 2020-2030
-- **DimPaymentMethod**, **DimQuality**, **DimBuyer**, **DimLocation**
-
-**Total**: 30,550+ rows (736% above requirement!)
+<!--
+SPEAKER NOTES:
+- Walk through the flow from left to right.
+- Data originates from mobile apps used by farmers/coops.
+- It streams via Kafka.
+- One stream goes to Blockchain for immutable ledgers.
+- Another stream goes/syncs to our Staging database.
+- Our Python ETL moves it to the Data Warehouse.
+- Power BI sits on top for the users.
+-->
 
 ---
 
-## Slide 7: Entity-Relationship Diagram
+## Slide 6: Data Warehouse Design (Star Schema)
 
-**13 Core Entities**:
+*(Placeholder for `diagrams/star_schema.puml`)*
 
-```
-Farmer ──1:M── Transaction ──M:1── Product
-  │              │                    │
-  │              │                    │
-  │              M:1                  │
-  │              │                    │
-  │            Market                 │
-  │              │                    │
-  1:M            │                   1:M
-  │              │                    │
-Harvest ─────────┘              MarketPrice
-```
+**Fact Tables (The Activity)**:
+-   **`fact_transaction`**: The core. 10,000 sales records. Links to Blockchain Hash.
+-   **`fact_harvest`**: Production yields and losses.
+-   **`fact_pricing`**: Daily market price trends (18,000+ rows).
 
-**Key Relationships**:
-- Farmer → Transaction (1:M)
-- Transaction → Blockchain (1:1)
-- Product → Pricing (1:M)
+**Dimension Tables (The Context)**:
+-   **`dim_farmer`** (SCD Type 2): Tracks farm size changes over time.
+-   **`dim_product`**: Crops, varieties, categories.
+-   **`dim_market`**: Locations, types, capacity.
+-   **`dim_date`**: Time analysis.
 
-*See diagrams/schema_erd.puml for complete ERD*
-
----
-
-## Slide 8: Slowly Changing Dimensions (SCD Type 2)
-
-### Why Track History?
-
-**Example**: Farmer expands farm from 2.5 to 5.0 acres
-
-| farmer_key | farmer_id | farm_size | effective_date | end_date | is_current | version |
-|------------|-----------|-----------|----------------|----------|------------|---------|
-| 1 | FMR000001 | 2.5 | 2024-01-01 | 2024-06-30 | FALSE | 1 |
-| 2 | FMR000001 | 5.0 | 2024-07-01 | 9999-12-31 | TRUE | 2 |
-
-**Benefits**:
-- Track farmer growth over time
-- Accurate historical reporting
-- Analyze impact of interventions
+<!--
+SPEAKER NOTES:
+- We used a classic Star Schema.
+- Central Fact tables record events.
+- Dimension tables provide context (Who, What, Where, When).
+- Highlight `dim_farmer` using SCD Type 2 - this is crucial for tracking extensive history like farm growth.
+-->
 
 ---
 
-## Slide 9: Data Generation - 30,550 Rows!
+## Slide 7: Why SCD Type 2? (Tracking History)
 
-### Synthetic Data with Uganda-Specific Realism
+**Scenario**: A farmer expands their land or changes cooperatives.
 
-| Entity | Rows | Key Features |
-|--------|------|--------------|
-| **Farmers** | 2,000 | Uganda names (Mukasa, Nakato), actual districts, valid phone numbers |
-| **Products** | 100 | Local varieties (Longe 10H maize, Robusta coffee) |
-| **Markets** | 200 | Real districts, market types (urban, rural, collection centers) |
-| **Transactions** | 10,000 | Realistic pricing, quality grades, blockchain hashes |
-| **Pricing** | 18,250 | Time-series with seasonal variations |
+| Farmer ID | Farm Size | Effective Date | Is Current? |
+| :--- | :--- | :--- | :--- |
+| **FMR001** | **2.0 Acres** | 2023-01-01 | FALSE |
+| **FMR001** | **5.5 Acres** | 2024-06-01 | **TRUE** |
 
-**Scripts**: 6 Python generators with referential integrity
+**Why it matters**:
+-   If we just updated the record, we'd lose the history that they were a small farmer last year.
+-   SCD Type 2 creates a *new row* for the new state, preserving history for accurate trend analysis.
 
----
-
-## Slide 10: ETL Pipeline
-
-### Staging → Dimensions (SCD) → Facts
-
-**Process**:
-1. **Extract**: CSV files → Staging tables
-2. **Transform**: 
-   - Data quality checks (null %, duplicates)
-   - SCD Type 2 logic for dimensions
-   - Dimension key lookups for facts
-3. **Load**: Staging → DW tables
-4. **Audit**: Log all executions
-
-**Performance**: 30,550 rows loaded in 110 seconds
-
-**Technologies**: Python, PostgreSQL, pandas
+<!--
+SPEAKER NOTES:
+- Explain the table briefly.
+- "Is Current" flag helps us query the "now" vs the "history".
+- This allows us to answer questions like "Did increasing farm size lead to higher income?"
+-->
 
 ---
 
-## Slide 11: Power BI Dashboards (5 Dashboards)
+## Slide 8: Data Generation & Volume
 
-### 1. Executive Overview
-- KPIs: Revenue (UGX 850M), Transactions (10K), Farmers (2K)
-- Revenue trends, Top products, Regional map
+We generated **30,550 realistic rows** using Python & Faker.
 
-### 2. Farmer Analytics
-- Demographics (gender, farm size, age)
-- Top 20 farmers, Engagement trends
+| Entity | Count | Detail |
+| :--- | :--- | :--- |
+| **Transactions** | 10,000 | Sales linked to specific farmers/buyers |
+| **Pricing** | 18,250 | Daily price fluctuations over 365 days |
+| **Farmers** | 2,000 | Real Uganda districts, phone formats, names |
+| **Markets/Products** | 300 | Local varieties (e.g., Longe 10H Maize) |
 
-### 3. Product & Market Analysis
-- Product performance treemap
-- Price trends with 30-day forecast
-- Quality grade distribution
+**Achievement**: 736% above the minimum project requirement.
 
-### 4. Financial Performance
-- Payment methods (Mobile Money 50%, Cash 30%)
-- Monthly revenue & transactions
-- Regional revenue matrix
-
-### 5. Supply Chain Traceability
-- Blockchain verification: **92%**
-- Farm-to-market journey (Sankey diagram)
-- Transaction verification table
+<!--
+SPEAKER NOTES:
+- We didn't just put in random data.
+- We built scripts to ensure referential integrity.
+- Used real Ugandan district names, crop varieties, and price ranges.
+- The volume ensures our dashboards look real and performant.
+-->
 
 ---
 
-## Slide 12: Key Insights from Analytics
+## Slide 9: The ETL Pipeline
 
-### 📊 Revenue Analysis
-- **Coffee**: 35% of revenue (only 10% of transactions)
-- **Mobile Money**: 20% higher transaction values
-- **Central Region**: 45% of revenue, 30% of farmers
+**Extract → Transform → Load**
 
-### 👨‍🌾 Farmer Performance
-- **Top 10%**: Generate 40% of total revenue
-- **Cooperative Members**: 25% higher avg transaction value
-- **Large Farms (>5 acres)**: 3x revenue of small farms
+1.  **Extract**: Pull raw CSVs from the source systems (simulated).
+2.  **Transform**:
+    -   Validate data types.
+    -   Check Foreign Keys (Integrity).
+    -   Apply SCD logic (Version control).
+3.  **Load**: Insert clean data into `agri_dw` schema.
+4.  **Audit**: Log every run (Rows: 30,550, Time: ~110s).
 
-### 💎 Quality Impact
-- **Grade A**: Commands 25% price premium
-- **Quality Improvement**: Correlates with training programs
+*(Placeholder for `diagrams/etl_flow.puml`)*
 
-### ⛓️ Blockchain Impact
-- **92% Verification Rate**: Increasing 2% per month
-- **Trust**: 15% higher for verified transactions
-- **Disputes**: Reduced by 40%
-
----
-
-## Slide 13: Results & Validation
-
-### ✅ Data Volume Achievement
-
-**Required**: ≥1,000 rows per entity  
-**Delivered**: 30,550 total rows  
-**Achievement**: **736%** 🎉
-
-### ✅ Assessment Criteria Coverage
-
-| Criterion | Marks | Status |
-|-----------|-------|--------|
-| Problem Identification | 15 | ✓ |
-| Data Sources | 10 | ✓ |
-| DW Design & ERD | 20 | ✓ |
-| Implementation & ETL | 20 | ✓ |
-| Analysis & Reporting | 15 | ✓ |
-| Documentation | 10 | ✓ |
-| Teamwork | 10 | ✓ |
-| **TOTAL** | **100** | **✓** |
-
-### ✅ Technical Deliverables
-- **50+ files** created
-- **4 PlantUML diagrams**
-- **8 documentation files**
-- **15 executable scripts**
+<!--
+SPEAKER NOTES:
+- The ETL is the "factory" of our data warehouse.
+- It runs automatically.
+- It acts as a gatekeeper: Bad data is rejected or logged.
+- Verified speed: Loads the whole warehouse in under 2 minutes.
+-->
 
 ---
 
-## Slide 14: Impact & Future Work
+## Slide 10: Analytics - Dashboard 1: Executive Overview
 
-### 💰 Economic Impact (Potential)
-- **Farmer Income**: ↑ 20-30% through fair pricing
-- **Market Efficiency**: ↓ 15-20% transaction costs
-- **Financial Inclusion**: 50,000+ farmers access credit
+**"The Pulse of the Sector"**
 
-### 🌱 Social & Environmental Impact
-- **Food Security**: Better distribution, reduced waste
-- **Rural Development**: Increased incomes support communities
-- **Sustainability**: Data-driven sustainable farming
+-   **KPIs**: Total Revenue, Total Volume, Active Farmers.
+-   **Visuals**: 
+    -   Revenue Trends (Line Chart).
+    -   Regional Distribution (Map).
+    -   Top 5 Performing Crops.
 
-### 🚀 Next Steps (6-12 months)
-1. Deploy blockchain network on cloud
-2. Pilot with 100 farmers in one district
-3. Integrate with Uganda Commodity Exchange
-4. Add ML for price forecasting
-5. Scale to 10,000 farmers across 5 districts
+**Insight**: Coffee generates 35% of revenue despite lower volume (high value).
 
----
-
-## Slide 15: Conclusion & Q&A
-
-### 🎯 Project Success
-
-✅ **Complete Data Warehouse**: 30,550 rows, star schema, SCD Type 2  
-✅ **Advanced Analytics**: 5 dashboards, 50+ DAX measures  
-✅ **Blockchain Integration**: 92% verification rate  
-✅ **Comprehensive Documentation**: 8 docs, 4 diagrams  
-✅ **Ready for Deployment**: All scripts executable  
-
-### 💡 Key Takeaway
-
-**Blockchain + Data Warehouse = Transparent, Traceable, Data-Driven Agricultural Supply Chains**
-
-This solution can transform Uganda's agricultural sector, improving livelihoods for millions of smallholder farmers.
+<!--
+SPEAKER NOTES:
+- This is for the Minister of Agriculture or NGO Director.
+- Instant view of health of the sector.
+- We can see the dominance of Coffee as a cash crop instantly.
+-->
 
 ---
 
-## Questions?
+## Slide 11: Analytics - Dashboard 5: Traceability
 
-**Thank you!**
+**"The Trust Layer"**
 
----
+-   **Feature**: **Sankey Diagram** (Farm → Product → Market → Buyer).
+-   **Metric**: **92%** Blockchain Verification Rate.
+-   **Function**: 
+    -   Click a transaction to see its Hash.
+    -   Verify the path of the product through the supply chain.
 
-## Backup Slides
+**Innovation**: Custom SQL View created to support the complex flow visualization.
 
-### Backup 1: Technology Stack
-
-- **Database**: PostgreSQL 15
-- **Blockchain**: Hyperledger Fabric
-- **Streaming**: Apache Kafka
-- **Identity**: Keycloak
-- **Analytics**: Power BI
-- **ETL**: Python (pandas, psycopg2)
-- **Diagrams**: PlantUML
-
-### Backup 2: Data Quality Rules
-
-1. **Referential Integrity**: All FKs valid
-2. **Validation**: farm_size > 0, quantity > 0, wholesale < retail
-3. **Completeness**: ≥95% for critical fields
-4. **Accuracy**: Cross-validation with external sources
-
-### Backup 3: Sample DAX Measures
-
-```dax
-Total Revenue = SUM(fact_transaction[total_amount])
-
-Revenue YoY Growth % = 
-DIVIDE(
-    [Total Revenue] - [Revenue Previous Year],
-    [Revenue Previous Year],
-    0
-) * 100
-
-Blockchain Verification Rate % = 
-DIVIDE(
-    CALCULATE([Total Transactions], 
-        NOT(ISBLANK(fact_transaction[blockchain_hash]))),
-    [Total Transactions],
-    0
-) * 100
-```
+<!--
+SPEAKER NOTES:
+- This is unique to our project.
+- The Sankey diagram visually flows the product from left to right.
+- You can literally see the supply chain.
+- The 92% verification rate is a key KPI for trust.
+-->
 
 ---
 
-**END OF PRESENTATION**
+## Slide 12: Analytics - Financial & Farmer Insights
 
-**Presentation Time**: 15 minutes  
-**Slides**: 15 main + 3 backup  
-**Format**: PowerPoint or Google Slides
+**Dashboard 2 & 4 Highlights**:
+
+-   **Financial**:
+    -   **Mobile Money** Adoption: 50% of transactions.
+    -   **Cash**: 30% and declining.
+    -   Shows the shift to digital finance.
+
+-   **Farmer Performance**:
+    -   **Gender**: Analysis of female vs male farmer incomes.
+    -   **Demographics**: Youth participation in agriculture.
+    -   Impact of **Cooperative** membership on revenue (Members earn 25% more).
+
+<!--
+SPEAKER NOTES:
+- We are analyzing *people*, not just crops.
+- The Mobile Money insight is huge for fintech partners.
+- The Cooperative insight proves the value of organizing farmers.
+-->
+
+---
+
+## Slide 13: Results & Impact
+
+### ✅ Deliverables Achieved
+-   **Complete DW**: Star Schema, Fully Populated (30k+ rows).
+-   **5 Dashboards**: Covering all specific objectives.
+-   **Documentation**: Comprehensive Setup, Reports, and Guides.
+
+### 🚀 Strategic Impact
+1.  **For Farmers**: Fairer prices (Price Transparency).
+2.  **For Banks**: Credit scoring using `fact_transaction` history.
+3.  **For Govt**: Real-time production data for food security planning.
+
+<!--
+SPEAKER NOTES:
+- We hit 100% of the requirements.
+- But more importantly, the system works.
+- It solves the three evils: Low prices, No credit, Poor planning.
+-->
+
+---
+
+## Slide 14: Challenges & Future Work
+
+**Challenges**:
+-   Simulating realistic price volatility.
+-   Complex SCD Type 2 logic implementation.
+-   Defining the correct granularity for visualizations.
+
+**Future Roadmap (6-12 Months)**:
+1.  Deploy Blockchain nodes on Cloud (AWS/Azure).
+2.  Integrate Machine Learning for Price Forecasting.
+3.  SMS/USSD interface for feature phone users (Critical for Uganda).
+
+<!--
+SPEAKER NOTES:
+- It wasn't easy. The logic for history tracking (SCD) was complex.
+- Generating realistic price curves took fine-tuning.
+- Next step: Get this off the laptop and into the cloud.
+- USSD is a must-have for the real Ugandan farmer.
+-->
+
+---
+
+## Slide 15: Conclusion
+
+**We have built more than a database.**
+
+We have built a **Frame work for Trust**.
+
+By integrating **Blockchain's truth** with **Data Warehousing's wisdom**, we can transform Uganda's agriculture from a survival activity into a thriving, transparent, data-driven industry.
+
+**Thank You.**
+
+*(Q&A)*
+
+<!--
+SPEAKER NOTES:
+- Summarize the vision.
+- End on a strong note about transformation.
+- Open floor for questions.
+-->
+
+---
+
+## Appendix: Technical Reference
+
+### Database Schema
+-   **Stage**: `staging.stg_*` (Raw text)
+-   **DW**: `dw.fact_*`, `dw.dim_*` (Typed, Indexed)
+-   **Views**: `dw.view_supply_chain_sankey`
+
+### Key scripts
+-   `scripts/etl/etl_staging_to_dw.py`: Main Pipeline
+-   `scripts/data_generation/`: Data Factory
+
